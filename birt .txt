@@ -1,0 +1,2 @@
+getgenv().Key = "STX3UX2VKBSCCGOK"
+loadstring(game:HttpGet("https://dirtgui.xyz/Paid.lua",true))()

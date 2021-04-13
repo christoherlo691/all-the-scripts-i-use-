@@ -1,0 +1,2 @@
+--sub for more showcasing 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KibbeWater/RBX-Luas/main/KibbeWater-LaundrySim.lua"))()

